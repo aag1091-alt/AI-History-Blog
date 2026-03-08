@@ -1,0 +1,50 @@
+---
+layout: default
+title: AI History Timeline
+subtitle: Every milestone, chronologically
+---
+
+<div class="timeline-page">
+  <div class="timeline-header">
+    <h1>AI History Timeline</h1>
+    <p>Every milestone — fiction, research, breakthroughs, and cultural moments — in chronological order.</p>
+  </div>
+
+  {% assign posts_by_era = site.posts | group_by: "era" | sort: "name" %}
+  {% assign sorted_posts = site.posts | sort: "event_date" %}
+
+  {% comment %}Group posts by era{% endcomment %}
+  {% assign eras = "" | split: "" %}
+  {% for post in sorted_posts %}
+    {% unless eras contains post.era %}
+      {% assign eras = eras | push: post.era %}
+    {% endunless %}
+  {% endfor %}
+
+  {% for era in eras %}
+  <div class="timeline-era">
+    <p class="timeline-era-title">{% if era %}{{ era }}{% else %}Unknown Era{% endif %}</p>
+    <div class="timeline-list">
+      {% for post in sorted_posts %}
+        {% if post.era == era %}
+        <div class="timeline-item {{ post.category | downcase | replace: ' & ', '-' | replace: ' ', '-' }}">
+          <div class="timeline-date">{{ post.event_date | default: post.date | date: "%b %Y" }}</div>
+          <div class="timeline-content">
+            <p class="timeline-title">
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </p>
+            {% if post.subtitle %}
+            <p class="timeline-desc">{{ post.subtitle }}</p>
+            {% endif %}
+            {% if post.quote %}
+            <p class="timeline-quote">"{{ post.quote | truncate: 100 }}"</p>
+            {% endif %}
+          </div>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+
+</div>

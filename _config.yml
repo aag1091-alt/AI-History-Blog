@@ -1,0 +1,29 @@
+title: "AI History: Milestones That Shaped the Future"
+tagline: "From Frankenstein to ChatGPT — the story of artificial intelligence"
+description: "A chronological journey through the ideas, breakthroughs, movies, and moments that defined artificial intelligence."
+baseurl: ""
+url: "https://aag1091-alt.github.io/AI-History-Blog"
+
+author:
+  name: AI History Project
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+highlighter: rouge
+color_theme: dark
+
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - "*.sh"

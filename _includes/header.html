@@ -1,0 +1,13 @@
+<header class="site-header">
+  <div class="header-inner">
+    <div class="header-left">
+      <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
+      <p class="site-tagline">{{ site.tagline }}</p>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
+        <a href="{{ '/timeline' | relative_url }}" {% if page.url contains 'timeline' %}class="active"{% endif %}>Timeline</a>
+        <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      </nav>
+    </div>
+  </div>
+</header>
