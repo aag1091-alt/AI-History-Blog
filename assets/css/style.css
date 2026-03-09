@@ -1,7 +1,7 @@
 /* AI History Blog — Ice cream theme */
 
 :root,
-body.theme-dark {
+body.theme-light {
   --bg: #fdf6ee;
   --surface: #fff9f4;
   --surface2: #f5ece0;
@@ -16,6 +16,19 @@ body.theme-dark {
   --font-mono: "JetBrains Mono", "Fira Code", ui-monospace, monospace;
   --max-width: 44rem;
   --radius: 10px;
+}
+
+body.theme-dark {
+  --bg: #12100e;
+  --surface: #1c1814;
+  --surface2: #252018;
+  --text: #ede0d4;
+  --text-muted: #8a7565;
+  --accent: #7fa4f8;
+  --accent-soft: rgba(127, 164, 248, 0.12);
+  --accent-warm: #f5a066;
+  --accent-green: #4ecba0;
+  --border: #2e2620;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -46,7 +59,30 @@ a:hover { text-decoration: underline; }
   z-index: 100;
 }
 
-.header-inner { max-width: 64rem; margin: 0 auto; }
+.header-inner {
+  max-width: 64rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.header-left { flex: 1; }
+
+.theme-toggle {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.35rem 0.6rem;
+  font-size: 1rem;
+  cursor: pointer;
+  line-height: 1;
+  transition: border-color 0.15s;
+  flex-shrink: 0;
+}
+
+.theme-toggle:hover { border-color: var(--accent); }
 
 .site-title {
   font-size: 1rem;
