@@ -31,12 +31,21 @@ subtitle: Every milestone, chronologically
 
   {% for era in eras %}
   <div class="timeline-era">
-    <p class="timeline-era-title">{% if era %}{{ era }}{% else %}Unknown Era{% endif %}</p>
+    <button class="timeline-era-title" aria-expanded="true">
+      <span>{% if era %}{{ era }}{% else %}Unknown Era{% endif %}</span>
+      <span class="era-toggle-icon">▾</span>
+    </button>
     <div class="timeline-list">
       {% for post in sorted_posts %}
         {% if post.era == era %}
         <div class="timeline-item {{ post.category | downcase | replace: ' & ', '-' | replace: ' ', '-' }}" data-category="{{ post.category }}">
+          {% if post.image %}
+          <a href="{{ post.url | relative_url }}" class="timeline-thumb">
+            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+          </a>
+          {% else %}
           <div class="timeline-date">{{ post.event_date | default: post.date | date: "%b %Y" }}</div>
+          {% endif %}
           <div class="timeline-content">
             <p class="timeline-title">
               <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -77,6 +86,16 @@ pills.forEach(pill => {
       const hasVisible = [...era.querySelectorAll('.timeline-item')].some(i => i.style.display !== 'none');
       era.style.display = hasVisible ? '' : 'none';
     });
+  });
+});
+
+// Collapsible eras
+document.querySelectorAll('.timeline-era-title').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const list = btn.nextElementSibling;
+    const expanded = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', !expanded);
+    list.style.display = expanded ? 'none' : '';
   });
 });
 </script>
