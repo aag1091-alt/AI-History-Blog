@@ -26,16 +26,27 @@ title: Home
 
 <ul class="post-list">
   {% for post in site.posts limit: 20 %}
-  <li class="post-card">
-    <div class="post-card-top">
-      {% if post.era %}<span class="era-badge">{{ post.era }}</span>{% endif %}
-      {% if post.category %}<span class="category-badge {% if post.category == 'Film & Fiction' %}film{% endif %}">{{ post.category }}</span>{% endif %}
+  <li class="post-card" data-category="{{ post.category }}" data-era="{{ post.era }}">
+    {% if post.image %}
+    <a href="{{ post.url | relative_url }}" class="post-card-thumb">
+      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+    </a>
+    {% else %}
+    <div class="post-card-thumb post-card-thumb--empty">
+      <span>{{ post.event_date | date: "%Y" }}</span>
     </div>
-    <div class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></div>
-    {% if post.subtitle %}<p class="post-card-excerpt">{{ post.subtitle }}</p>{% endif %}
-    <div class="post-card-meta">
-      <span class="post-card-date">{{ post.event_date | default: post.date | date: "%Y" }}</span>
-      {% if post.location %}<span>📍 {{ post.location }}</span>{% endif %}
+    {% endif %}
+    <div class="post-card-body">
+      <div class="post-card-top">
+        {% if post.era %}<span class="era-badge">{{ post.era | split: '(' | first | strip }}</span>{% endif %}
+        {% if post.category %}<span class="category-badge cat-{{ post.category | downcase | replace: ' & ', '-' | replace: ' ', '-' }}">{{ post.category }}</span>{% endif %}
+      </div>
+      <div class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></div>
+      {% if post.subtitle %}<p class="post-card-excerpt">{{ post.subtitle }}</p>{% endif %}
+      <div class="post-card-meta">
+        <span class="post-card-date">{{ post.event_date | default: post.date | date: "%Y" }}</span>
+        {% if post.location %}<span>📍 {{ post.location }}</span>{% endif %}
+      </div>
     </div>
   </li>
   {% endfor %}

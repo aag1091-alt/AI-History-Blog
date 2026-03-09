@@ -122,45 +122,85 @@ a:hover { text-decoration: underline; }
 }
 
 /* ─── Post Cards ─── */
-.post-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 1px; }
+.post-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.5rem; }
 
 .post-card {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 1.25rem 1.5rem;
   transition: border-color 0.15s, background 0.15s;
-  margin-bottom: 0.5rem;
+  display: flex;
+  gap: 0;
+  overflow: hidden;
 }
 
 .post-card:hover { border-color: var(--accent); background: var(--surface2); }
 
-.post-card-top { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.4rem; }
+.post-card-thumb {
+  width: 110px;
+  min-width: 110px;
+  overflow: hidden;
+  display: block;
+  background: var(--surface2);
+}
+
+.post-card-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.2s;
+}
+
+.post-card:hover .post-card-thumb img { transform: scale(1.04); }
+
+.post-card-thumb--empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  background: var(--surface2);
+  min-height: 90px;
+}
+
+.post-card-body {
+  padding: 1rem 1.25rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.post-card-top { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.35rem; flex-wrap: wrap; }
 
 .era-badge, .category-badge {
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   font-weight: 600;
-  padding: 0.15rem 0.5rem;
+  padding: 0.12rem 0.45rem;
   border-radius: 100px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  white-space: nowrap;
 }
 
 .era-badge { background: var(--accent-soft); color: var(--accent); }
 .category-badge { background: rgba(255, 166, 87, 0.15); color: var(--accent-warm); }
-.category-badge.film { background: rgba(63, 185, 80, 0.15); color: var(--accent-green); }
+.cat-film---fiction { background: rgba(63, 185, 80, 0.15); color: var(--accent-green); }
+.cat-research { background: var(--accent-soft); color: var(--accent); }
+.cat-policy { background: rgba(167, 139, 250, 0.15); color: #a78bfa; }
+.cat-culture { background: rgba(251, 191, 36, 0.12); color: #d97706; }
 
-.post-card-title { font-size: 1.05rem; font-weight: 600; margin: 0 0 0.3rem; }
+.post-card-title { font-size: 1rem; font-weight: 600; margin: 0 0 0.25rem; }
 .post-card-title a { color: var(--text); }
 .post-card-title a:hover { color: var(--accent); text-decoration: none; }
 
-.post-card-excerpt { font-size: 0.88rem; color: var(--text-muted); margin: 0 0 0.75rem; line-height: 1.55; }
+.post-card-excerpt { font-size: 0.84rem; color: var(--text-muted); margin: 0 0 0.6rem; line-height: 1.5; }
 
 .post-card-meta {
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  font-size: 0.78rem;
+  font-size: 0.75rem;
   color: var(--text-muted);
 }
 
