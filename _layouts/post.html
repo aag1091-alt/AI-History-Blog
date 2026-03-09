@@ -69,6 +69,24 @@ layout: default
   </div>
   {% endif %}
 
+  {% assign related = site.posts | where: "category", page.category | where_exp: "p", "p.id != page.id" | limit: 3 %}
+  {% if related.size > 0 %}
+  <div class="related-posts">
+    <h3 class="related-title">Related Milestones</h3>
+    <ul class="related-list">
+      {% for p in related %}
+      <li class="related-item">
+        {% if p.image %}<a href="{{ p.url | relative_url }}" class="related-thumb"><img src="{{ p.image | relative_url }}" alt="{{ p.title }}" loading="lazy"></a>{% endif %}
+        <div>
+          <a href="{{ p.url | relative_url }}" class="related-post-title">{{ p.title }}</a>
+          <span class="related-post-date">{{ p.event_date | date: "%Y" }}</span>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
   <footer class="post-footer">
     <div class="post-nav">
       {% if page.previous %}
