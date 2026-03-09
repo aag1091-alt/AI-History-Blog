@@ -61,7 +61,26 @@ layout: default
   {% endif %}
 
   <footer class="post-footer">
-    <a href="{{ '/' | relative_url }}" class="back-link">← Back to timeline</a>
-    <a href="{{ '/timeline' | relative_url }}" class="back-link">View full timeline →</a>
+    <div class="post-nav">
+      {% if page.previous %}
+      <a href="{{ page.previous.url | relative_url }}" class="post-nav-link post-nav-prev">
+        <span class="post-nav-dir">← Earlier</span>
+        <span class="post-nav-title">{{ page.previous.title }}</span>
+      </a>
+      {% else %}
+      <span></span>
+      {% endif %}
+
+      {% if page.next %}
+      <a href="{{ page.next.url | relative_url }}" class="post-nav-link post-nav-next">
+        <span class="post-nav-dir">Later →</span>
+        <span class="post-nav-title">{{ page.next.title }}</span>
+      </a>
+      {% endif %}
+    </div>
+    <div class="post-footer-links">
+      <a href="{{ '/' | relative_url }}" class="back-link">↩ Home</a>
+      <a href="{{ '/timeline' | relative_url }}" class="back-link">Full timeline</a>
+    </div>
   </footer>
 </article>
