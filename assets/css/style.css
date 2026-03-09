@@ -175,15 +175,15 @@ a:hover { text-decoration: underline; }
 .post-card-thumb {
   width: 120px;
   min-width: 120px;
-  height: 120px;
   overflow: hidden;
   display: block;
   background: var(--surface2);
+  align-self: stretch;
 }
 
 .post-card-thumb img {
   width: 120px;
-  height: 120px;
+  height: 100%;
   object-fit: cover;
   display: block;
   transition: transform 0.2s;
@@ -194,7 +194,6 @@ a:hover { text-decoration: underline; }
 .post-card-thumb--empty {
   width: 120px;
   min-width: 120px;
-  height: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
