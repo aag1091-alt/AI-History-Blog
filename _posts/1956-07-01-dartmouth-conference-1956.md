@@ -22,7 +22,7 @@ image_source: "https://commons.wikimedia.org/wiki/File%3AMaxAnderson.jpg"
 references:
   - title: "Dartmouth Workshop — Wikipedia"
     url: "https://en.wikipedia.org/wiki/Dartmouth_workshop"
-  - title: ""Medium-n studies" in computing education conferences (arXiv)"
+  - title: '"Medium-n studies" in computing education conferences (arXiv)'
     url: "http://arxiv.org/abs/2311.14679v2"
 ---
 
