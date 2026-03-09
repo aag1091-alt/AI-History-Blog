@@ -27,6 +27,15 @@ title: Home
   <input type="search" id="post-search" class="search-input" placeholder="Search milestones…" aria-label="Search milestones">
 </div>
 
+<div class="filter-pills" id="category-filters">
+  <button class="filter-pill active" data-filter="">All</button>
+  <button class="filter-pill" data-filter="Research">Research</button>
+  <button class="filter-pill" data-filter="Film &amp; Fiction">Film &amp; Fiction</button>
+  <button class="filter-pill" data-filter="Commercial">Commercial</button>
+  <button class="filter-pill" data-filter="Culture">Culture</button>
+  <button class="filter-pill" data-filter="Policy">Policy</button>
+</div>
+
 <p id="no-results" class="no-results" style="display:none">No milestones match your search.</p>
 
 <ul class="post-list" id="post-list">
@@ -62,19 +71,35 @@ title: Home
 </p>
 
 <script>
-const search = document.getElementById('post-search');
-const cards  = document.querySelectorAll('#post-list .post-card');
-const noRes  = document.getElementById('no-results');
+const search  = document.getElementById('post-search');
+const cards   = document.querySelectorAll('#post-list .post-card');
+const noRes   = document.getElementById('no-results');
+const pills   = document.querySelectorAll('#category-filters .filter-pill');
+let activeFilter = '';
 
-search.addEventListener('input', () => {
+function applyFilters() {
   const q = search.value.trim().toLowerCase();
   let visible = 0;
   cards.forEach(card => {
-    const text = card.textContent.toLowerCase();
-    const show = !q || text.includes(q);
+    const text     = card.textContent.toLowerCase();
+    const category = card.dataset.category || '';
+    const matchQ   = !q || text.includes(q);
+    const matchF   = !activeFilter || category === activeFilter;
+    const show     = matchQ && matchF;
     card.style.display = show ? '' : 'none';
     if (show) visible++;
   });
   noRes.style.display = visible === 0 ? '' : 'none';
+}
+
+search.addEventListener('input', applyFilters);
+
+pills.forEach(pill => {
+  pill.addEventListener('click', () => {
+    pills.forEach(p => p.classList.remove('active'));
+    pill.classList.add('active');
+    activeFilter = pill.dataset.filter;
+    applyFilters();
+  });
 });
 </script>

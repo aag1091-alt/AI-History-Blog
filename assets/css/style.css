@@ -234,6 +234,30 @@ a:hover { text-decoration: underline; }
 
 .no-results { color: var(--text-muted); font-size: 0.9rem; margin: 1rem 0; }
 
+/* ─── Filter Pills ─── */
+.filter-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1.25rem;
+}
+
+.filter-pill {
+  padding: 0.3rem 0.8rem;
+  border-radius: 100px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  font-weight: 500;
+  font-family: var(--font-sans);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.filter-pill:hover { border-color: var(--accent); color: var(--accent); }
+.filter-pill.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+
 /* ─── Post ─── */
 .post { max-width: var(--max-width); margin: 0 auto; }
 

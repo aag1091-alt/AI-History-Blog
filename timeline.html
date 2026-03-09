@@ -8,6 +8,14 @@ subtitle: Every milestone, chronologically
   <div class="timeline-header">
     <h1>AI History Timeline</h1>
     <p>Every milestone — fiction, research, breakthroughs, and cultural moments — in chronological order.</p>
+    <div class="filter-pills" id="timeline-filters">
+      <button class="filter-pill active" data-filter="">All</button>
+      <button class="filter-pill" data-filter="Research">Research</button>
+      <button class="filter-pill" data-filter="Film &amp; Fiction">Film &amp; Fiction</button>
+      <button class="filter-pill" data-filter="Commercial">Commercial</button>
+      <button class="filter-pill" data-filter="Culture">Culture</button>
+      <button class="filter-pill" data-filter="Policy">Policy</button>
+    </div>
   </div>
 
   {% assign posts_by_era = site.posts | group_by: "era" | sort: "name" %}
@@ -27,7 +35,7 @@ subtitle: Every milestone, chronologically
     <div class="timeline-list">
       {% for post in sorted_posts %}
         {% if post.era == era %}
-        <div class="timeline-item {{ post.category | downcase | replace: ' & ', '-' | replace: ' ', '-' }}">
+        <div class="timeline-item {{ post.category | downcase | replace: ' & ', '-' | replace: ' ', '-' }}" data-category="{{ post.category }}">
           <div class="timeline-date">{{ post.event_date | default: post.date | date: "%b %Y" }}</div>
           <div class="timeline-content">
             <p class="timeline-title">
@@ -48,3 +56,27 @@ subtitle: Every milestone, chronologically
   {% endfor %}
 
 </div>
+
+<script>
+const pills = document.querySelectorAll('#timeline-filters .filter-pill');
+const items = document.querySelectorAll('.timeline-item');
+const eras  = document.querySelectorAll('.timeline-era');
+
+pills.forEach(pill => {
+  pill.addEventListener('click', () => {
+    pills.forEach(p => p.classList.remove('active'));
+    pill.classList.add('active');
+    const filter = pill.dataset.filter;
+
+    items.forEach(item => {
+      const match = !filter || item.dataset.category === filter;
+      item.style.display = match ? '' : 'none';
+    });
+
+    eras.forEach(era => {
+      const hasVisible = [...era.querySelectorAll('.timeline-item')].some(i => i.style.display !== 'none');
+      era.style.display = hasVisible ? '' : 'none';
+    });
+  });
+});
+</script>
