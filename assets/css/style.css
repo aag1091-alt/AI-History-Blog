@@ -442,15 +442,16 @@ a:hover { text-decoration: underline; }
 
 .related-thumb {
   width: 48px;
-  height: 48px;
   min-width: 48px;
+  height: 48px;
   border-radius: 6px;
   overflow: hidden;
   display: block;
   border: 1px solid var(--border);
+  flex-shrink: 0;
 }
 
-.related-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.related-thumb img { width: 48px; height: 48px; object-fit: cover; display: block; }
 
 .related-post-title {
   font-size: 0.88rem;
