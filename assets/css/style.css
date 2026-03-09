@@ -137,6 +137,19 @@ a:hover { text-decoration: underline; }
 .site-nav a { font-size: 0.85rem; color: var(--text-muted); }
 .site-nav a:hover, .site-nav a.active { color: var(--accent); }
 
+.nav-random {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-family: var(--font-sans);
+  transition: color 0.15s;
+}
+
+.nav-random:hover { color: var(--accent); }
+
 /* ─── Main ─── */
 .main {
   flex: 1;

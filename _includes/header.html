@@ -8,6 +8,7 @@
         <a href="{{ '/timeline' | relative_url }}" {% if page.url contains 'timeline' %}class="active"{% endif %}>Timeline</a>
         <a href="{{ '/eras' | relative_url }}" {% if page.url contains 'eras' %}class="active"{% endif %}>Eras</a>
         <a href="{{ '/people' | relative_url }}" {% if page.url contains 'people' %}class="active"{% endif %}>People</a>
+        <button class="nav-random" id="nav-random" title="Go to a random milestone">⚄ Random</button>
       </nav>
     </div>
     <div class="header-right">
@@ -55,5 +56,13 @@ document.getElementById('theme-toggle').addEventListener('click', function() {
     document.getElementById('read-count').textContent = read.length;
     document.getElementById('read-progress-stat').style.display = '';
   }
+})();
+
+(function() {
+  const posts = [{% for post in site.posts %}{{ post.url | relative_url | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}];
+  document.getElementById('nav-random').addEventListener('click', function() {
+    const url = posts[Math.floor(Math.random() * posts.length)];
+    if (url) window.location.href = url;
+  });
 })();
 </script>
