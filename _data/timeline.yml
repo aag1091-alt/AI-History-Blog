@@ -169,3 +169,12 @@
   category: "Research"
   quote: "It was like playing against an alien."
   quote_author: "Garry Kasparov, after losing to Deep Blue (1997)"
+
+- id: "matrix-1999"
+  title: "The Matrix: Simulated Reality and Machine Dominion"
+  subtitle: "The Wachowskis' The Matrix presents a world where AI has enslaved humanity inside a simulated reality — redefining AI existential risk in popular culture."
+  event_date: "1999-03-31"
+  era: "The Neural Network Renaissance (1989–2011)"
+  category: "Film & Fiction"
+  quote: "What is real? How do you define real?"
+  quote_author: "Morpheus, The Matrix (1999)"
