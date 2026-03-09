@@ -17,15 +17,16 @@ title: People of AI History
     {% assign person_posts = site.posts | where_exp: "post", "post.people contains person.name" %}
     <a href="{{ person.url | relative_url }}" class="person-card-link">
       <div class="person-card">
-        {% if person.image %}
         <div class="person-card-portrait">
+          {% if person.image %}
           <img src="{{ person.image | relative_url }}" alt="{{ person.name }}" loading="lazy">
+          {% else %}
+          <div class="person-card-portrait-placeholder">{{ person.name | slice: 0 }}</div>
+          {% endif %}
         </div>
-        {% endif %}
         <div class="person-card-body">
           <div class="person-name">{{ person.name }}</div>
           {% if person.known_for %}<div class="person-known-for-small">{{ person.known_for }}</div>{% endif %}
-          <div class="person-count">{{ person_posts | size }} milestone{% if person_posts.size != 1 %}s{% endif %}</div>
         </div>
       </div>
     </a>
