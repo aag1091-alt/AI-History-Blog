@@ -14,17 +14,13 @@ title: AI History by Era
     {% for era in all_eras %}
     {% assign era_posts = site.posts | where: "era", era.name %}
     {% assign era_images = era_posts | where_exp: "p", "p.image != nil and p.image != ''" %}
+    {% capture image_json %}[{% for post in era_images %}"{{ post.image | relative_url }}"{% unless forloop.last %},{% endunless %}{% endfor %}]{% endcapture %}
     <a href="{{ era.url | relative_url }}" class="era-index-card">
-      <div class="era-index-images">
-        {% for post in era_images limit: 1 %}
-        <div class="era-index-thumb">
-          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
-        </div>
-        {% endfor %}
-        {% if era_images.size == 0 %}
-        <div class="era-index-thumb era-index-thumb--empty">
-          <span>{{ era.period }}</span>
-        </div>
+      <div class="era-card-carousel" data-images="{{ image_json | escape }}">
+        {% if era_images.size > 0 %}
+        <img src="{{ era_images.first.image | relative_url }}" alt="{{ era.short_name }}">
+        {% else %}
+        <div class="era-index-thumb--empty"><span>{{ era.period }}</span></div>
         {% endif %}
       </div>
       <div class="era-index-body">
@@ -36,3 +32,21 @@ title: AI History by Era
     {% endfor %}
   </div>
 </div>
+
+<script>
+document.querySelectorAll('.era-card-carousel').forEach(function(el) {
+  var images = JSON.parse(el.dataset.images || '[]');
+  if (images.length <= 1) return;
+  var img = el.querySelector('img');
+  if (!img) return;
+  var i = 0;
+  setInterval(function() {
+    img.style.opacity = '0';
+    setTimeout(function() {
+      i = (i + 1) % images.length;
+      img.src = images[i];
+      img.style.opacity = '1';
+    }, 400);
+  }, 2500);
+});
+</script>
