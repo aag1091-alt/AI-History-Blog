@@ -115,3 +115,12 @@
   category: "Research"
   quote: "I had not realized that extremely short exposures to a relatively simple computer program could induce powerful delusional thinking in quite normal people."
   quote_author: "Joseph Weizenbaum"
+
+- id: "hal-9000-2001-1968"
+  title: "HAL 9000: The AI That Refuses to Open the Pod Bay Doors"
+  subtitle: "Stanley Kubrick's 2001: A Space Odyssey introduces HAL 9000 — the defining image of malevolent artificial intelligence."
+  event_date: "1968-04-03"
+  era: "The Birth of AI (1950–1969)"
+  category: "Film & Fiction"
+  quote: "I'm sorry, Dave. I'm afraid I can't do that."
+  quote_author: "HAL 9000, 2001: A Space Odyssey (1968)"
