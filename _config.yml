@@ -21,6 +21,9 @@ collections:
   people:
     output: true
     permalink: /people/:slug/
+  eras:
+    output: true
+    permalink: /eras/:slug/
 
 plugins:
   - jekyll-seo-tag

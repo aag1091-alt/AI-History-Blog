@@ -14,7 +14,7 @@ layout: default
 <article class="post">
   <header class="post-header">
     <div class="post-meta-top">
-      {% if page.era %}<a href="{{ '/eras' | relative_url }}#{{ page.era | slugify }}" class="era-badge">{{ page.era }}</a>{% endif %}
+      {% if page.era %}{% assign era_page = site.eras | where: "name", page.era | first %}{% if era_page %}<a href="{{ era_page.url | relative_url }}" class="era-badge">{{ page.era | split: '(' | first | strip }}</a>{% else %}<span class="era-badge">{{ page.era | split: '(' | first | strip }}</span>{% endif %}{% endif %}
       {% if page.category %}<span class="category-badge">{{ page.category }}</span>{% endif %}
     </div>
     <h1 class="post-title">{{ page.title }}</h1>

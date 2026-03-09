@@ -1,0 +1,77 @@
+---
+layout: default
+---
+
+{% assign era_posts = site.posts | where: "era", page.name | sort: "event_date" %}
+{% assign posts_with_images = era_posts | where_exp: "p", "p.image != nil and p.image != ''" %}
+
+<div class="era-page">
+
+  <div class="era-page-header">
+    <div class="era-page-meta">
+      <span class="era-period-badge">{{ page.period }}</span>
+      <span class="era-post-count">{{ era_posts | size }} milestones</span>
+    </div>
+    <h1 class="era-page-title">{{ page.short_name }}</h1>
+    <p class="era-page-blurb">{{ content }}</p>
+  </div>
+
+  {% if posts_with_images.size > 0 %}
+  <div class="era-carousel-wrap">
+    <div class="era-carousel" id="era-carousel">
+      {% for post in posts_with_images %}{% for i in (1..2) %}
+      <a href="{{ post.url | relative_url }}" class="era-carousel-item" title="{{ post.title }}">
+        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+        <div class="era-carousel-caption">{{ post.title }}</div>
+      </a>
+      {% endfor %}{% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="era-milestones-grid">
+    {% for post in era_posts %}
+    <a href="{{ post.url | relative_url }}" class="era-milestone-box">
+      {% if post.image %}
+      <div class="era-milestone-img">
+        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+      </div>
+      {% else %}
+      <div class="era-milestone-img era-milestone-img--empty">
+        <span>{{ post.event_date | date: "%Y" }}</span>
+      </div>
+      {% endif %}
+      <div class="era-milestone-body">
+        <div class="era-milestone-cat cat-{{ post.category | downcase | replace: ' & ', '-' | replace: ' ', '-' }}">{{ post.category }}</div>
+        <div class="era-milestone-title">{{ post.title }}</div>
+        {% if post.subtitle %}<p class="era-milestone-sub">{{ post.subtitle }}</p>{% endif %}
+        <div class="era-milestone-year">{{ post.event_date | date: "%Y" }}</div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+
+  <div class="era-page-footer">
+    <a href="{{ '/eras' | relative_url }}" class="back-link">← All eras</a>
+  </div>
+</div>
+
+<script>
+(function() {
+  const carousel = document.getElementById('era-carousel');
+  if (!carousel) return;
+  let pos = 0, paused = false;
+  const speed = 0.6;
+  function tick() {
+    if (!paused) {
+      pos += speed;
+      if (pos >= carousel.scrollWidth / 2) pos = 0;
+      carousel.style.transform = 'translateX(-' + pos + 'px)';
+    }
+    requestAnimationFrame(tick);
+  }
+  carousel.addEventListener('mouseenter', () => paused = true);
+  carousel.addEventListener('mouseleave', () => paused = false);
+  requestAnimationFrame(tick);
+})();
+</script>

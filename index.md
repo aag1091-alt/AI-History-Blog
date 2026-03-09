@@ -40,7 +40,7 @@ title: Home
     {% endif %}
     <div class="post-card-body">
       <div class="post-card-top">
-        {% if post.era %}<span class="era-badge">{{ post.era | split: '(' | first | strip }}</span>{% endif %}
+        {% if post.era %}{% assign era_page = site.eras | where: "name", post.era | first %}{% if era_page %}<a href="{{ era_page.url | relative_url }}" class="era-badge">{{ post.era | split: '(' | first | strip }}</a>{% else %}<span class="era-badge">{{ post.era | split: '(' | first | strip }}</span>{% endif %}{% endif %}
         {% if post.category %}<span class="category-badge cat-{{ post.category | downcase | replace: ' & ', '-' | replace: ' ', '-' }}">{{ post.category }}</span>{% endif %}
       </div>
       <div class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></div>
