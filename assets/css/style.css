@@ -470,6 +470,7 @@ a:hover { text-decoration: underline; }
 /* ─── Era Carousel ─── */
 .era-carousel-wrap {
   overflow: hidden;
+  height: 240px;
   margin-bottom: 2rem;
   border-radius: var(--radius);
   border: 1px solid var(--border);
@@ -477,14 +478,17 @@ a:hover { text-decoration: underline; }
 
 .era-carousel {
   display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
   gap: 6px;
   width: max-content;
+  height: 240px;
   will-change: transform;
 }
 
 .era-carousel-item {
-  flex-shrink: 0;
-  width: 300px;
+  flex: 0 0 220px;
+  width: 220px;
   height: 240px;
   overflow: hidden;
   position: relative;
@@ -493,7 +497,7 @@ a:hover { text-decoration: underline; }
   border-radius: 4px;
 }
 
-.era-carousel-item img { width: 300px; height: 240px; object-fit: cover; display: block; }
+.era-carousel-item img { width: 220px; height: 240px; object-fit: cover; display: block; }
 
 .era-carousel-caption {
   position: absolute;
@@ -562,7 +566,8 @@ a:hover { text-decoration: underline; }
 @media (max-width: 640px) {
   .eras-index-grid { grid-template-columns: 1fr; }
   .era-milestones-grid { grid-template-columns: 1fr; }
-  .era-carousel-item { width: 80%; }
+  .era-carousel-item { flex: 0 0 160px; width: 160px; }
+  .era-carousel-item img { width: 160px; }
 }
 
 /* ─── Related Posts ─── */
