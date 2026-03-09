@@ -178,3 +178,12 @@
   category: "Film & Fiction"
   quote: "What is real? How do you define real?"
   quote_author: "Morpheus, The Matrix (1999)"
+
+- id: "watson-jeopardy-2011"
+  title: "Watson Wins Jeopardy: Natural Language Arrives"
+  subtitle: "IBM's Watson defeats Jeopardy champions Ken Jennings and Brad Rutter — demonstrating AI can understand and generate natural language at expert level."
+  event_date: "2011-02-16"
+  era: "The Neural Network Renaissance (1989–2011)"
+  category: "Commercial"
+  quote: "I for one welcome our new computer overlords."
+  quote_author: "Ken Jennings, Final Jeopardy answer (2011)"
