@@ -206,6 +206,34 @@ a:hover { text-decoration: underline; }
 
 .post-card-date { font-family: var(--font-mono); }
 
+/* ─── List Controls (search + filters) ─── */
+.list-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.search-input {
+  padding: 0.45rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+  font-family: var(--font-sans);
+  width: 220px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.search-input:focus { border-color: var(--accent); }
+.search-input::placeholder { color: var(--text-muted); }
+
+.no-results { color: var(--text-muted); font-size: 0.9rem; margin: 1rem 0; }
+
 /* ─── Post ─── */
 .post { max-width: var(--max-width); margin: 0 auto; }
 

@@ -22,9 +22,14 @@ title: Home
   </div>
 </div>
 
-<p class="section-title">Latest Milestones</p>
+<div class="list-controls">
+  <p class="section-title" style="margin:0">Latest Milestones</p>
+  <input type="search" id="post-search" class="search-input" placeholder="Search milestones…" aria-label="Search milestones">
+</div>
 
-<ul class="post-list">
+<p id="no-results" class="no-results" style="display:none">No milestones match your search.</p>
+
+<ul class="post-list" id="post-list">
   {% for post in site.posts limit: 20 %}
   <li class="post-card" data-category="{{ post.category }}" data-era="{{ post.era }}">
     {% if post.image %}
@@ -55,3 +60,21 @@ title: Home
 <p style="margin-top: 1.5rem; font-size: 0.88rem; color: var(--text-muted);">
   <a href="{{ '/timeline' | relative_url }}">View the full timeline →</a>
 </p>
+
+<script>
+const search = document.getElementById('post-search');
+const cards  = document.querySelectorAll('#post-list .post-card');
+const noRes  = document.getElementById('no-results');
+
+search.addEventListener('input', () => {
+  const q = search.value.trim().toLowerCase();
+  let visible = 0;
+  cards.forEach(card => {
+    const text = card.textContent.toLowerCase();
+    const show = !q || text.includes(q);
+    card.style.display = show ? '' : 'none';
+    if (show) visible++;
+  });
+  noRes.style.display = visible === 0 ? '' : 'none';
+});
+</script>
