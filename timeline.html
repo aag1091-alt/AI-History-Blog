@@ -18,10 +18,7 @@ subtitle: Every milestone, chronologically
     </div>
   </div>
 
-  {% assign posts_by_era = site.posts | group_by: "era" | sort: "name" %}
   {% assign sorted_posts = site.posts | sort: "event_date" %}
-
-  {% comment %}Group posts by era{% endcomment %}
   {% assign eras = "" | split: "" %}
   {% for post in sorted_posts %}
     {% unless eras contains post.era %}
@@ -30,36 +27,25 @@ subtitle: Every milestone, chronologically
   {% endfor %}
 
   {% for era in eras %}
+  {% assign era_items = sorted_posts | where: "era", era %}
   <div class="timeline-era">
     <button class="timeline-era-title" aria-expanded="true">
-      <span>{% if era %}{{ era }}{% else %}Unknown Era{% endif %}</span>
-      <span class="era-toggle-icon">▾</span>
+      <span class="timeline-era-name">{% if era %}{{ era }}{% else %}Unknown Era{% endif %}</span>
+      <span class="timeline-era-right">
+        <span class="timeline-era-count">{{ era_items | size }}</span>
+        <span class="era-toggle-icon">▾</span>
+      </span>
     </button>
     <div class="timeline-list">
-      {% for post in sorted_posts %}
-        {% if post.era == era %}
-        <div class="timeline-item {{ post.category | downcase | replace: ' & ', '-' | replace: ' ', '-' }}" data-category="{{ post.category }}">
-          <div class="timeline-year">{{ post.event_date | default: post.date | date: "%Y" }}</div>
-          {% if post.image %}
-          <a href="{{ post.url | relative_url }}" class="timeline-thumb">
-            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
-          </a>
-          {% else %}
-          <div class="timeline-thumb timeline-thumb--empty"></div>
-          {% endif %}
-          <div class="timeline-content">
-            <p class="timeline-title">
-              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-            </p>
-            {% if post.subtitle %}
-            <p class="timeline-desc">{{ post.subtitle }}</p>
-            {% endif %}
-            {% if post.quote %}
-            <p class="timeline-quote">"{{ post.quote | truncate: 100 }}"</p>
-            {% endif %}
-          </div>
+      {% for post in era_items %}
+      <a href="{{ post.url | relative_url }}" class="milestone-row" data-category="{{ post.category }}">
+        <div class="milestone-row-year">{{ post.event_date | default: post.date | date: "%Y" }}</div>
+        <div class="milestone-row-body">
+          <div class="milestone-row-cat cat-{{ post.category | downcase | replace: ' & ', '-' | replace: ' ', '-' }}">{{ post.category }}</div>
+          <div class="milestone-row-title">{{ post.title }}</div>
+          {% if post.subtitle %}<p class="milestone-row-sub">{{ post.subtitle }}</p>{% endif %}
         </div>
-        {% endif %}
+      </a>
       {% endfor %}
     </div>
   </div>
@@ -69,8 +55,7 @@ subtitle: Every milestone, chronologically
 
 <script>
 const pills = document.querySelectorAll('#timeline-filters .filter-pill');
-const items = document.querySelectorAll('.timeline-item');
-const eras  = document.querySelectorAll('.timeline-era');
+const eraBlocks = document.querySelectorAll('.timeline-era');
 
 pills.forEach(pill => {
   pill.addEventListener('click', () => {
@@ -78,24 +63,24 @@ pills.forEach(pill => {
     pill.classList.add('active');
     const filter = pill.dataset.filter;
 
-    items.forEach(item => {
-      const match = !filter || item.dataset.category === filter;
-      item.style.display = match ? '' : 'none';
-    });
-
-    eras.forEach(era => {
-      const hasVisible = [...era.querySelectorAll('.timeline-item')].some(i => i.style.display !== 'none');
+    eraBlocks.forEach(era => {
+      const rows = era.querySelectorAll('.milestone-row');
+      let hasVisible = false;
+      rows.forEach(row => {
+        const match = !filter || row.dataset.category === filter;
+        row.style.display = match ? '' : 'none';
+        if (match) hasVisible = true;
+      });
       era.style.display = hasVisible ? '' : 'none';
     });
   });
 });
 
-// Collapsible eras
 document.querySelectorAll('.timeline-era-title').forEach(btn => {
   btn.addEventListener('click', () => {
     const list = btn.nextElementSibling;
     const expanded = btn.getAttribute('aria-expanded') === 'true';
-    btn.setAttribute('aria-expanded', !expanded);
+    btn.setAttribute('aria-expanded', String(!expanded));
     list.style.display = expanded ? 'none' : '';
   });
 });
