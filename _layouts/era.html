@@ -15,23 +15,14 @@ layout: default
     <p class="era-page-blurb">{{ content }}</p>
   </div>
 
-  <div class="era-milestones-grid">
+  <div class="era-milestones-list">
     {% for post in era_posts %}
-    <a href="{{ post.url | relative_url }}" class="era-milestone-box">
-      {% if post.image %}
-      <div class="era-milestone-img">
-        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
-      </div>
-      {% else %}
-      <div class="era-milestone-img era-milestone-img--empty">
-        <span>{{ post.event_date | date: "%Y" }}</span>
-      </div>
-      {% endif %}
-      <div class="era-milestone-body">
-        <div class="era-milestone-cat cat-{{ post.category | downcase | replace: ' & ', '-' | replace: ' ', '-' }}">{{ post.category }}</div>
-        <div class="era-milestone-title">{{ post.title }}</div>
-        {% if post.subtitle %}<p class="era-milestone-sub">{{ post.subtitle }}</p>{% endif %}
-        <div class="era-milestone-year">{{ post.event_date | date: "%Y" }}</div>
+    <a href="{{ post.url | relative_url }}" class="milestone-row">
+      <div class="milestone-row-year">{{ post.event_date | date: "%Y" }}</div>
+      <div class="milestone-row-body">
+        <div class="milestone-row-cat cat-{{ post.category | downcase | replace: ' & ', '-' | replace: ' ', '-' }}">{{ post.category }}</div>
+        <div class="milestone-row-title">{{ post.title }}</div>
+        {% if post.subtitle %}<p class="milestone-row-sub">{{ post.subtitle }}</p>{% endif %}
       </div>
     </a>
     {% endfor %}

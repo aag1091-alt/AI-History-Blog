@@ -508,58 +508,86 @@ a:hover { text-decoration: underline; }
 }
 
 
-/* ─── Era Milestone Grid ─── */
-.era-milestones-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.85rem;
-  margin-bottom: 2rem;
-}
-
-.era-milestone-box {
+/* ─── Era Milestone List ─── */
+.era-milestones-list {
   display: flex;
   flex-direction: column;
   border: 1px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.milestone-row {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.1rem 1.5rem;
   background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  border-left: 3px solid transparent;
   text-decoration: none;
-  transition: border-color 0.15s;
+  transition: background 0.15s, border-left-color 0.15s;
 }
 
-.era-milestone-box:hover { border-color: var(--accent); text-decoration: none; }
+.milestone-row:last-child { border-bottom: none; }
 
-.era-milestone-img { height: 140px; overflow: hidden; background: var(--surface2); }
-.era-milestone-img img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.2s; }
-.era-milestone-box:hover .era-milestone-img img { transform: scale(1.04); }
-.era-milestone-img--empty {
-  display: flex; align-items: center; justify-content: center;
-  font-family: var(--font-mono); font-size: 1rem; color: var(--border);
+.milestone-row:hover {
+  background: var(--surface2);
+  border-left-color: var(--accent);
+  text-decoration: none;
 }
 
-.era-milestone-body { padding: 0.85rem 1rem; flex: 1; }
+.milestone-row-year {
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--border);
+  min-width: 3rem;
+  line-height: 1;
+  transition: color 0.15s;
+}
 
-.era-milestone-cat {
-  font-size: 0.65rem; font-weight: 600; text-transform: uppercase;
-  letter-spacing: 0.05em; margin-bottom: 0.3rem;
+.milestone-row:hover .milestone-row-year { color: var(--accent-warm); }
+
+.milestone-row-body { flex: 1; min-width: 0; }
+
+.milestone-row-cat {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.2rem;
   color: var(--accent-warm);
 }
-.era-milestone-cat.cat-research { color: var(--accent); }
-.era-milestone-cat.cat-film---fiction { color: var(--accent-green); }
-.era-milestone-cat.cat-policy { color: #a78bfa; }
-.era-milestone-cat.cat-culture { color: #d97706; }
+.milestone-row-cat.cat-research { color: var(--accent); }
+.milestone-row-cat.cat-film---fiction { color: var(--accent-green); }
+.milestone-row-cat.cat-policy { color: #a78bfa; }
+.milestone-row-cat.cat-culture { color: #d97706; }
 
-.era-milestone-title { font-size: 0.9rem; font-weight: 700; color: var(--text); margin-bottom: 0.25rem; line-height: 1.35; }
-.era-milestone-sub { font-size: 0.78rem; color: var(--text-muted); margin: 0 0 0.5rem; line-height: 1.4; }
-.era-milestone-year { font-size: 0.7rem; font-family: var(--font-mono); color: var(--text-muted); }
+.milestone-row-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 0.15rem;
+  line-height: 1.35;
+}
+
+.milestone-row-sub {
+  font-size: 0.81rem;
+  color: var(--text-muted);
+  margin: 0;
+  line-height: 1.45;
+}
 
 .era-page-footer { padding-top: 1.5rem; border-top: 1px solid var(--border); }
 
 @media (max-width: 640px) {
-  .era-milestones-grid { grid-template-columns: 1fr; }
   .era-row { gap: 1rem; padding: 1rem 1.1rem; }
   .era-row-desc { display: none; }
   .era-row-num { font-size: 1.1rem; min-width: 2rem; }
+  .milestone-row { gap: 1rem; padding: 0.9rem 1.1rem; }
+  .milestone-row-sub { display: none; }
 }
 
 /* ─── Related Posts ─── */
