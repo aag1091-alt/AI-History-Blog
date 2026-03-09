@@ -329,6 +329,35 @@ a:hover { text-decoration: underline; }
 .filter-pill:hover { border-color: var(--accent); color: var(--accent); }
 .filter-pill.active { background: var(--accent); border-color: var(--accent); color: #fff; }
 
+/* ─── Era Overview Page ─── */
+.eras-page { max-width: 56rem; margin: 0 auto; }
+
+.era-section { margin-bottom: 3rem; }
+
+.era-section-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--accent-warm);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.era-section-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--accent-warm);
+}
+
+.era-post-count {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+
+.era-post-list { margin-top: 0; }
+
 /* ─── Post ─── */
 .post { max-width: var(--max-width); margin: 0 auto; }
 

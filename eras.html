@@ -1,0 +1,56 @@
+---
+layout: default
+title: AI History by Era
+---
+
+<div class="eras-page">
+  <div class="timeline-header">
+    <h1>AI History by Era</h1>
+    <p>Browse milestones grouped by the period that defined them.</p>
+  </div>
+
+  {% assign sorted_posts = site.posts | sort: "event_date" %}
+  {% assign eras = "" | split: "" %}
+  {% for post in sorted_posts %}
+    {% unless eras contains post.era %}
+      {% assign eras = eras | push: post.era %}
+    {% endunless %}
+  {% endfor %}
+
+  {% for era in eras %}
+  {% assign era_posts = sorted_posts | where: "era", era %}
+  <div class="era-section" id="{{ era | slugify }}">
+    <div class="era-section-header">
+      <h2 class="era-section-title">{{ era }}</h2>
+      <span class="era-post-count">{{ era_posts | size }} milestone{% if era_posts.size != 1 %}s{% endif %}</span>
+    </div>
+
+    <ul class="post-list era-post-list">
+      {% for post in era_posts %}
+      <li class="post-card" data-category="{{ post.category }}">
+        {% if post.image %}
+        <a href="{{ post.url | relative_url }}" class="post-card-thumb">
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+        </a>
+        {% else %}
+        <div class="post-card-thumb post-card-thumb--empty">
+          <span>{{ post.event_date | date: "%Y" }}</span>
+        </div>
+        {% endif %}
+        <div class="post-card-body">
+          <div class="post-card-top">
+            {% if post.category %}<span class="category-badge cat-{{ post.category | downcase | replace: ' & ', '-' | replace: ' ', '-' }}">{{ post.category }}</span>{% endif %}
+          </div>
+          <div class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></div>
+          {% if post.subtitle %}<p class="post-card-excerpt">{{ post.subtitle }}</p>{% endif %}
+          <div class="post-card-meta">
+            <span class="post-card-date">{{ post.event_date | date: "%Y" }}</span>
+            {% if post.location %}<span>📍 {{ post.location }}</span>{% endif %}
+          </div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</div>
