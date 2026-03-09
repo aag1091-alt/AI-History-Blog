@@ -22,7 +22,7 @@ title: Home
 
 <ul class="post-list" id="post-list">
   {% for post in site.posts limit: 20 %}
-  <li class="post-card" data-category="{{ post.category }}" data-era="{{ post.era }}">
+  <li class="post-card" data-category="{{ post.category }}" data-era="{{ post.era }}" data-post-id="{{ post.id }}">
     {% if post.image %}
     <a href="{{ post.url | relative_url }}" class="post-card-thumb">
       <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
@@ -51,6 +51,16 @@ title: Home
 <p style="margin-top: 1.5rem; font-size: 0.88rem; color: var(--text-muted);">
   <a href="{{ '/timeline' | relative_url }}">View the full timeline →</a>
 </p>
+
+<script>
+(function() {
+  const read = JSON.parse(localStorage.getItem('ai-history-read') || '[]');
+  if (!read.length) return;
+  document.querySelectorAll('#post-list .post-card[data-post-id]').forEach(card => {
+    if (read.includes(card.dataset.postId)) card.classList.add('post-card--read');
+  });
+})();
+</script>
 
 <script>
 const search  = document.getElementById('post-search');

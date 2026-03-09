@@ -277,6 +277,14 @@ a:hover { text-decoration: underline; }
 
 .post-card-date { font-family: var(--font-mono); }
 
+.post-card--read { opacity: 0.7; }
+.post-card--read .post-card-title a::after {
+  content: ' ✓';
+  font-size: 0.75rem;
+  color: var(--accent-green);
+  font-weight: 700;
+}
+
 /* ─── List Controls (search + filters) ─── */
 .list-controls {
   display: flex;
