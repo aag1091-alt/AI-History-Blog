@@ -410,13 +410,13 @@ a:hover { text-decoration: underline; }
 .era-index-card:hover { border-color: var(--accent); transform: translateY(-2px); text-decoration: none; }
 
 .era-index-images {
-  height: 160px;
+  height: 200px;
   overflow: hidden;
   background: var(--surface2);
 }
 
 .era-index-thumb { overflow: hidden; }
-.era-index-thumb img { width: 100%; height: 160px; object-fit: cover; display: block; transition: transform 0.3s; }
+.era-index-thumb img { width: 100%; height: 200px; object-fit: cover; display: block; transition: transform 0.3s; }
 .era-index-card:hover .era-index-thumb img { transform: scale(1.05); }
 .era-index-thumb--empty {
   display: flex; align-items: center; justify-content: center;
@@ -424,10 +424,10 @@ a:hover { text-decoration: underline; }
   grid-column: span 2;
 }
 
-.era-index-body { padding: 0.9rem 1rem; }
-.era-index-name { font-size: 1rem; font-weight: 700; color: var(--text); margin-bottom: 0.25rem; line-height: 1.3; }
-.era-index-period { font-size: 0.72rem; font-family: var(--font-mono); color: var(--text-muted); margin-bottom: 0.2rem; }
-.era-index-count { font-size: 0.72rem; color: var(--accent); font-family: var(--font-mono); }
+.era-index-body { padding: 0.5rem 0.75rem; display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap; }
+.era-index-name { font-size: 0.9rem; font-weight: 700; color: var(--text); white-space: nowrap; }
+.era-index-period { font-size: 0.7rem; font-family: var(--font-mono); color: var(--text-muted); white-space: nowrap; }
+.era-index-count { font-size: 0.7rem; color: var(--accent); font-family: var(--font-mono); white-space: nowrap; margin-left: auto; }
 
 /* ─── Era Detail Page ─── */
 .era-page { max-width: 56rem; margin: 0 auto; }
