@@ -4,6 +4,12 @@ title: Home
 ---
 
 
+<div id="this-day" class="this-day-box" style="display:none">
+  <span class="this-day-label">📅 This day in AI history</span>
+  <a id="this-day-link" href="#" class="this-day-title"></a>
+  <span id="this-day-year" class="this-day-year"></span>
+</div>
+
 <div class="list-controls">
   <p class="section-title" style="margin:0">Latest Milestones</p>
   <input type="search" id="post-search" class="search-input" placeholder="Search milestones…" aria-label="Search milestones">
@@ -59,6 +65,21 @@ title: Home
   document.querySelectorAll('#post-list .post-card[data-post-id]').forEach(card => {
     if (read.includes(card.dataset.postId)) card.classList.add('post-card--read');
   });
+})();
+
+// This day in AI history
+(function() {
+  const posts = [{% for post in site.posts %}{"title":{{ post.title | jsonify }},"url":{{ post.url | relative_url | jsonify }},"date":{{ post.event_date | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}];
+  const today = new Date();
+  const mm = String(today.getMonth() + 1).padStart(2, '0');
+  const dd = String(today.getDate()).padStart(2, '0');
+  const match = posts.find(p => p.date && p.date.slice(5, 10) === mm + '-' + dd);
+  if (match) {
+    document.getElementById('this-day-link').textContent = match.title;
+    document.getElementById('this-day-link').href = match.url;
+    document.getElementById('this-day-year').textContent = match.date.slice(0, 4);
+    document.getElementById('this-day').style.display = '';
+  }
 })();
 </script>
 

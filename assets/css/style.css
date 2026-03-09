@@ -285,6 +285,43 @@ a:hover { text-decoration: underline; }
   font-weight: 700;
 }
 
+/* ─── This Day In AI History ─── */
+.this-day-box {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1.1rem;
+  background: var(--accent-soft);
+  border: 1px solid rgba(106, 142, 245, 0.25);
+  border-radius: var(--radius);
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.this-day-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.this-day-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+  flex: 1;
+}
+
+.this-day-title:hover { color: var(--accent); text-decoration: none; }
+
+.this-day-year {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
 /* ─── List Controls (search + filters) ─── */
 .list-controls {
   display: flex;
