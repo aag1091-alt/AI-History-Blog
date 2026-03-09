@@ -70,3 +70,12 @@
   category: "Film & Fiction"
   quote: "Robots of the world! The power of man has fallen! A new world has arisen: the Rule of the Robots!"
   quote_author: "Karel Čapek, R.U.R. (1920)"
+
+- id: "metropolis-1927"
+  title: "Metropolis — The First AI Robot on Screen"
+  subtitle: "Fritz Lang's silent film introduces Maria the Maschinenmensch — cinema's first android and an icon of AI in popular culture."
+  event_date: "1927-01-01"
+  era: "Early 20th Century: Robots Enter the Imagination (1900–1949)"
+  category: "Film & Fiction"
+  quote: "There can be no understanding between the hand and the brain unless the heart acts as mediator."
+  quote_author: "Fritz Lang, Metropolis (1927)"
