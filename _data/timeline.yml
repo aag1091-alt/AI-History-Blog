@@ -52,3 +52,12 @@
   category: "Film & Fiction"
   quote: "A robot may not injure a human being or, through inaction, allow a human being to come to harm."
   quote_author: "Isaac Asimov, First Law of Robotics (1942)"
+
+- id: "turing-test-1950"
+  title: "The Turing Test: Can Machines Think?"
+  subtitle: "Alan Turing publishes 'Computing Machinery and Intelligence' — proposing a test to determine if a machine can exhibit intelligent behavior."
+  event_date: "1950-10-01"
+  era: "The Birth of AI (1950–1969)"
+  category: "Research"
+  quote: "I propose to consider the question, 'Can machines think?'"
+  quote_author: "Alan Turing, Computing Machinery and Intelligence (1950)"
