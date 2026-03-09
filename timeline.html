@@ -39,12 +39,13 @@ subtitle: Every milestone, chronologically
       {% for post in sorted_posts %}
         {% if post.era == era %}
         <div class="timeline-item {{ post.category | downcase | replace: ' & ', '-' | replace: ' ', '-' }}" data-category="{{ post.category }}">
+          <div class="timeline-year">{{ post.event_date | default: post.date | date: "%Y" }}</div>
           {% if post.image %}
           <a href="{{ post.url | relative_url }}" class="timeline-thumb">
             <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
           </a>
           {% else %}
-          <div class="timeline-date">{{ post.event_date | default: post.date | date: "%b %Y" }}</div>
+          <div class="timeline-thumb timeline-thumb--empty"></div>
           {% endif %}
           <div class="timeline-content">
             <p class="timeline-title">
