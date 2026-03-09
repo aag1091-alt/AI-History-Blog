@@ -160,3 +160,12 @@
   category: "Research"
   quote: "You can think of deep learning as a way of automatically discovering the features that work best for a particular task."
   quote_author: "Yann LeCun"
+
+- id: "deep-blue-kasparov-1997"
+  title: "Deep Blue Defeats Garry Kasparov"
+  subtitle: "IBM's Deep Blue becomes the first computer to defeat a reigning world chess champion — a symbolic watershed for machine intelligence."
+  event_date: "1997-05-11"
+  era: "The Neural Network Renaissance (1989–2011)"
+  category: "Research"
+  quote: "It was like playing against an alien."
+  quote_author: "Garry Kasparov, after losing to Deep Blue (1997)"
