@@ -9,46 +9,22 @@ title: AI History by Era
     <p>Eight eras that define the story of artificial intelligence.</p>
   </div>
 
-  <div class="eras-index-grid">
+  <div class="eras-index-list">
     {% assign all_eras = site.eras %}
     {% for era in all_eras %}
     {% assign era_posts = site.posts | where: "era", era.name %}
-    {% assign era_images = era_posts | where_exp: "p", "p.image != nil and p.image != ''" %}
-    {% capture image_json %}[{% for post in era_images %}"{{ post.image | relative_url }}"{% unless forloop.last %},{% endunless %}{% endfor %}]{% endcapture %}
-    <a href="{{ era.url | relative_url }}" class="era-index-card">
-      <div class="era-card-carousel" data-images="{{ image_json | escape }}">
-        {% if era_images.size > 0 %}
-        <img src="{{ era_images.first.image | relative_url }}" alt="{{ era.short_name }}">
-        {% else %}
-        <div class="era-index-thumb--empty"><span>{{ era.period }}</span></div>
-        {% endif %}
+    {% capture era_num %}{{ forloop.index | prepend: "0" | slice: -2, 2 }}{% endcapture %}
+    <a href="{{ era.url | relative_url }}" class="era-row">
+      <div class="era-row-num">{{ era_num }}</div>
+      <div class="era-row-body">
+        <div class="era-row-name">{{ era.short_name }}</div>
+        <p class="era-row-desc">{{ era.content | strip_html | truncatewords: 22 }}</p>
       </div>
-      <div class="era-index-body">
-        <div class="era-index-name">{{ era.short_name }}</div>
-        <div class="era-index-meta">
-          <span class="era-index-period">{{ era.period }}</span>
-          <span class="era-index-count">{{ era_posts | size }} milestones</span>
-        </div>
+      <div class="era-row-aside">
+        <span class="era-row-period">{{ era.period }}</span>
+        <span class="era-row-count">{{ era_posts | size }} milestones</span>
       </div>
     </a>
     {% endfor %}
   </div>
 </div>
-
-<script>
-document.querySelectorAll('.era-card-carousel').forEach(function(el) {
-  var images = JSON.parse(el.dataset.images || '[]');
-  if (images.length <= 1) return;
-  var img = el.querySelector('img');
-  if (!img) return;
-  var i = 0;
-  setInterval(function() {
-    img.style.opacity = '0';
-    setTimeout(function() {
-      i = (i + 1) % images.length;
-      img.src = images[i];
-      img.style.opacity = '1';
-    }, 1200);
-  }, 4000);
-});
-</script>
