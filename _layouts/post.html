@@ -27,7 +27,7 @@ layout: default
       {% if page.people %}
         <div class="post-people">
           <span class="people-label">People involved:</span>
-          {% for person in page.people %}<span class="person-tag">{{ person }}</span>{% endfor %}
+          {% for person in page.people %}<a href="{{ '/people' | relative_url }}#{{ person | slugify }}" class="person-tag">{{ person }}</a>{% endfor %}
         </div>
       {% endif %}
     </div>

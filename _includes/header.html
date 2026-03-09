@@ -7,6 +7,7 @@
         <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
         <a href="{{ '/timeline' | relative_url }}" {% if page.url contains 'timeline' %}class="active"{% endif %}>Timeline</a>
         <a href="{{ '/eras' | relative_url }}" {% if page.url contains 'eras' %}class="active"{% endif %}>Eras</a>
+        <a href="{{ '/people' | relative_url }}" {% if page.url contains 'people' %}class="active"{% endif %}>People</a>
       </nav>
     </div>
     <div class="header-right">

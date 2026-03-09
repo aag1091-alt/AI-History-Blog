@@ -413,6 +413,48 @@ a:hover { text-decoration: underline; }
 .related-post-title:hover { color: var(--accent); text-decoration: none; }
 .related-post-date { font-size: 0.75rem; color: var(--text-muted); font-family: var(--font-mono); }
 
+/* ─── People Page ─── */
+.people-page { max-width: 56rem; margin: 0 auto; }
+
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.person-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+  transition: border-color 0.15s;
+}
+
+.person-card:hover { border-color: var(--accent); }
+
+.person-name {
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-bottom: 0.15rem;
+}
+
+.person-count {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  margin-bottom: 0.75rem;
+}
+
+.person-posts { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.3rem; }
+
+.person-posts li { font-size: 0.82rem; display: flex; justify-content: space-between; align-items: baseline; gap: 0.5rem; }
+.person-posts a { color: var(--text); flex: 1; }
+.person-posts a:hover { color: var(--accent); }
+.person-post-year { font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-muted); flex-shrink: 0; }
+
+.person-tag { text-decoration: none; }
+.person-tag:hover { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+
 /* ─── Post ─── */
 .post { max-width: var(--max-width); margin: 0 auto; }
 

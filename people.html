@@ -1,0 +1,45 @@
+---
+layout: default
+title: People of AI History
+---
+
+<div class="people-page">
+  <div class="timeline-header">
+    <h1>People of AI History</h1>
+    <p>The scientists, writers, engineers, and visionaries who shaped artificial intelligence.</p>
+  </div>
+
+  {% assign sorted_posts = site.posts | sort: "event_date" %}
+
+  {% comment %}Build a unique list of people{% endcomment %}
+  {% assign all_people = "" | split: "" %}
+  {% for post in sorted_posts %}
+    {% for person in post.people %}
+      {% unless all_people contains person %}
+        {% assign all_people = all_people | push: person %}
+      {% endunless %}
+    {% endfor %}
+  {% endfor %}
+  {% assign all_people = all_people | sort %}
+
+  <div class="people-grid">
+    {% for person in all_people %}
+    {% assign person_posts = "" | split: "" %}
+    {% for post in sorted_posts %}
+      {% if post.people contains person %}
+        {% assign person_posts = person_posts | push: post %}
+      {% endif %}
+    {% endfor %}
+
+    <div class="person-card" id="{{ person | slugify }}">
+      <div class="person-name">{{ person }}</div>
+      <div class="person-count">{{ person_posts | size }} milestone{% if person_posts.size != 1 %}s{% endif %}</div>
+      <ul class="person-posts">
+        {% for post in person_posts %}
+        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <span class="person-post-year">{{ post.event_date | date: "%Y" }}</span></li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</div>
