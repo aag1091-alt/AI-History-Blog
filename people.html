@@ -9,37 +9,29 @@ title: People of AI History
     <p>The scientists, writers, engineers, and visionaries who shaped artificial intelligence.</p>
   </div>
 
-  {% assign sorted_posts = site.posts | sort: "event_date" %}
+  {% assign all_people = site.people | sort: "name" %}
 
-  {% comment %}Build a unique list of people{% endcomment %}
-  {% assign all_people = "" | split: "" %}
-  {% for post in sorted_posts %}
-    {% for person in post.people %}
-      {% unless all_people contains person %}
-        {% assign all_people = all_people | push: person %}
-      {% endunless %}
-    {% endfor %}
-  {% endfor %}
-  {% assign all_people = all_people | sort %}
-
+  {% if all_people.size > 0 %}
   <div class="people-grid">
     {% for person in all_people %}
-    {% assign person_posts = "" | split: "" %}
-    {% for post in sorted_posts %}
-      {% if post.people contains person %}
-        {% assign person_posts = person_posts | push: post %}
-      {% endif %}
-    {% endfor %}
-
-    <div class="person-card" id="{{ person | slugify }}">
-      <div class="person-name">{{ person }}</div>
-      <div class="person-count">{{ person_posts | size }} milestone{% if person_posts.size != 1 %}s{% endif %}</div>
-      <ul class="person-posts">
-        {% for post in person_posts %}
-        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <span class="person-post-year">{{ post.event_date | date: "%Y" }}</span></li>
-        {% endfor %}
-      </ul>
-    </div>
+    {% assign person_posts = site.posts | where_exp: "post", "post.people contains person.name" %}
+    <a href="{{ person.url | relative_url }}" class="person-card-link">
+      <div class="person-card">
+        {% if person.image %}
+        <div class="person-card-portrait">
+          <img src="{{ person.image | relative_url }}" alt="{{ person.name }}" loading="lazy">
+        </div>
+        {% endif %}
+        <div class="person-card-body">
+          <div class="person-name">{{ person.name }}</div>
+          {% if person.known_for %}<div class="person-known-for-small">{{ person.known_for }}</div>{% endif %}
+          <div class="person-count">{{ person_posts | size }} milestone{% if person_posts.size != 1 %}s{% endif %}</div>
+        </div>
+      </div>
+    </a>
     {% endfor %}
   </div>
+  {% else %}
+  <p style="color:var(--text-muted)">Person pages are being generated — check back soon.</p>
+  {% endif %}
 </div>

@@ -17,6 +17,11 @@ color_theme: dark
 
 permalink: /:year/:month/:day/:title/
 
+collections:
+  people:
+    output: true
+    permalink: /people/:slug/
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
