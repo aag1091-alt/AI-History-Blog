@@ -410,8 +410,6 @@ a:hover { text-decoration: underline; }
 .era-index-card:hover { border-color: var(--accent); transform: translateY(-2px); text-decoration: none; }
 
 .era-index-images {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   height: 160px;
   overflow: hidden;
   background: var(--surface2);

@@ -16,7 +16,7 @@ title: AI History by Era
     {% assign era_images = era_posts | where_exp: "p", "p.image != nil and p.image != ''" %}
     <a href="{{ era.url | relative_url }}" class="era-index-card">
       <div class="era-index-images">
-        {% for post in era_images limit: 4 %}
+        {% for post in era_images limit: 1 %}
         <div class="era-index-thumb">
           <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
         </div>
