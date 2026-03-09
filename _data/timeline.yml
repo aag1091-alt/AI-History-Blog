@@ -106,3 +106,12 @@
   category: "Research"
   quote: "The Navy revealed the embryo of an electronic computer today that it expects will be able to walk, talk, see, write, reproduce itself and be conscious of its existence."
   quote_author: "New York Times, reporting on the Perceptron (1958)"
+
+- id: "eliza-1966"
+  title: "ELIZA: The First Chatbot"
+  subtitle: "Joseph Weizenbaum creates ELIZA at MIT — a program that mimics a psychotherapist and fools users into thinking they are talking to a human."
+  event_date: "1966-01-01"
+  era: "The Birth of AI (1950–1969)"
+  category: "Research"
+  quote: "I had not realized that extremely short exposures to a relatively simple computer program could induce powerful delusional thinking in quite normal people."
+  quote_author: "Joseph Weizenbaum"
