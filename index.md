@@ -3,24 +3,6 @@ layout: default
 title: Home
 ---
 
-<div class="home-hero">
-  <h1>AI History: Milestones That Shaped the Future</h1>
-  <p>From Mary Shelley's Frankenstein to ChatGPT — every idea, breakthrough, and cultural moment that built the AI world we live in.</p>
-  <div class="home-stats">
-    <div class="stat">
-      <span class="stat-number">{{ site.posts | size }}</span>
-      <span class="stat-label">Milestones</span>
-    </div>
-    <div class="stat">
-      <span class="stat-number">200+</span>
-      <span class="stat-label">Years of history</span>
-    </div>
-    <div class="stat">
-      <span class="stat-number">∞</span>
-      <span class="stat-label">Growing daily</span>
-    </div>
-  </div>
-</div>
 
 <div class="list-controls">
   <p class="section-title" style="margin:0">Latest Milestones</p>

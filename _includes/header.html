@@ -8,7 +8,23 @@
         <a href="{{ '/timeline' | relative_url }}" {% if page.url contains 'timeline' %}class="active"{% endif %}>Timeline</a>
       </nav>
     </div>
-    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">☀️</button>
+    <div class="header-right">
+      <div class="header-stats">
+        <div class="header-stat">
+          <span class="header-stat-number">{{ site.posts | size }}</span>
+          <span class="header-stat-label">Milestones</span>
+        </div>
+        <div class="header-stat">
+          <span class="header-stat-number">200+</span>
+          <span class="header-stat-label">Years of history</span>
+        </div>
+        <div class="header-stat">
+          <span class="header-stat-number">∞</span>
+          <span class="header-stat-label">Growing daily</span>
+        </div>
+      </div>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">☀️</button>
+    </div>
   </div>
 </header>
 
