@@ -25,8 +25,9 @@
     "alphago-lee-sedol-2016",
     "attention-is-all-you-need-2017",
     "gpt-1-openai-2018",
-    "bert-2018"
+    "bert-2018",
+    "gpt-3-2020"
   ],
-  "last_run": "2026-03-09T18:30:21.446820",
+  "last_run": "2026-03-09T18:51:07.602762",
   "total": 37
 }
