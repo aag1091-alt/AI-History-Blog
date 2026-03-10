@@ -277,3 +277,12 @@
   category: "Research"
   quote: "This is a great leap for science — one that will fundamentally change biological research."
   quote_author: "Demis Hassabis, CEO of DeepMind"
+
+- id: "github-copilot-2021"
+  title: "GitHub Copilot: AI Writes Code for You"
+  subtitle: "GitHub and OpenAI launch Copilot — the first AI pair programmer, suggesting code completions in real time inside developers' editors."
+  event_date: "2021-06-29"
+  era: "The Transformer Era (2017–2021)"
+  category: "Commercial"
+  quote: "With GitHub Copilot, I don't have to think about the syntax anymore. I just think about the problem."
+  quote_author: "Early GitHub Copilot user"
