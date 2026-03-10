@@ -304,3 +304,12 @@
   category: "Commercial"
   quote: "ChatGPT is eerily good at this. We are not far from dangerously strong AI."
   quote_author: "Elon Musk, on first using ChatGPT (2022)"
+
+- id: "gpt-4-2023"
+  title: "GPT-4: Multimodal Reasoning at Human Expert Level"
+  subtitle: "OpenAI releases GPT-4 — passing bar exams, medical licensing tests, and GRE scores in the 90th percentile, marking AI's entry into expert-level reasoning."
+  event_date: "2023-03-14"
+  era: "The Generative AI Explosion (2022–Present)"
+  category: "Research"
+  quote: "GPT-4 is the model that made AI researchers stop saying it can't reason."
+  quote_author: "AI researcher consensus, 2023"
