@@ -295,3 +295,12 @@
   category: "Commercial"
   quote: "The question is no longer whether AI can make art. It's whether art made by AI is art."
   quote_author: "Cultural commentary, 2022"
+
+- id: "chatgpt-launch-2022"
+  title: "ChatGPT: The Day AI Went Mainstream"
+  subtitle: "OpenAI launches ChatGPT — it reaches 1 million users in 5 days and 100 million in 2 months, becoming the fastest-growing consumer product in history."
+  event_date: "2022-11-30"
+  era: "The Generative AI Explosion (2022–Present)"
+  category: "Commercial"
+  quote: "ChatGPT is eerily good at this. We are not far from dangerously strong AI."
+  quote_author: "Elon Musk, on first using ChatGPT (2022)"
