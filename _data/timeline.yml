@@ -205,3 +205,12 @@
   category: "Film & Fiction"
   quote: "The heart is not like a box that gets filled up; it expands in size the more you love."
   quote_author: "Samantha (AI), Her (2013)"
+
+- id: "word2vec-2013"
+  title: "Word2Vec: Teaching Machines the Meaning of Words"
+  subtitle: "Google researchers show that word meaning can be encoded as vectors — enabling machines to reason about language mathematically."
+  event_date: "2013-01-16"
+  era: "The Deep Learning Revolution (2012–2016)"
+  category: "Research"
+  quote: "King - Man + Woman ≈ Queen"
+  quote_author: "Word2Vec classic analogy (2013)"
