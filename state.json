@@ -19,8 +19,9 @@
     "matrix-1999",
     "watson-jeopardy-2011",
     "alexnet-2012",
-    "her-2013"
+    "her-2013",
+    "word2vec-2013"
   ],
-  "last_run": "2026-03-09T16:49:15.133694",
+  "last_run": "2026-03-09T17:02:55.139596",
   "total": 37
 }
