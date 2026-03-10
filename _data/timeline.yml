@@ -313,3 +313,12 @@
   category: "Research"
   quote: "GPT-4 is the model that made AI researchers stop saying it can't reason."
   quote_author: "AI researcher consensus, 2023"
+
+- id: "claude-anthropic-2023"
+  title: "Claude: Constitutional AI and Safer Assistants"
+  subtitle: "Anthropic releases Claude — built with Constitutional AI, a novel approach to making language models helpful, harmless, and honest."
+  event_date: "2023-03-14"
+  era: "The Generative AI Explosion (2022–Present)"
+  category: "Research"
+  quote: "We believe that the next few years may be critical for the future of AI and humanity."
+  quote_author: "Anthropic founding team"
