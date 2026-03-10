@@ -31,8 +31,9 @@
     "github-copilot-2021",
     "dall-e-2-stable-diffusion-2022",
     "chatgpt-launch-2022",
-    "gpt-4-2023"
+    "gpt-4-2023",
+    "claude-anthropic-2023"
   ],
-  "last_run": "2026-03-09T19:52:28.619898",
+  "last_run": "2026-03-09T20:07:10.139843",
   "total": 37
 }
