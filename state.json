@@ -27,8 +27,9 @@
     "gpt-1-openai-2018",
     "bert-2018",
     "gpt-3-2020",
-    "alphafold-2020"
+    "alphafold-2020",
+    "github-copilot-2021"
   ],
-  "last_run": "2026-03-09T19:04:16.873055",
+  "last_run": "2026-03-09T19:18:23.827269",
   "total": 37
 }
