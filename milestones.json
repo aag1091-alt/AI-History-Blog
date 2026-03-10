@@ -924,5 +924,240 @@
         "url": "https://en.wikipedia.org/wiki/DeepSeek"
       }
     ]
+  },
+  {
+    "id": "blade-runner-1982",
+    "title": "Blade Runner: What Does It Mean to Be Human?",
+    "subtitle": "Ridley Scott's neo-noir masterpiece forced audiences to confront whether artificial beings could possess souls, forever shaping how we imagine synthetic consciousness.",
+    "event_date": "1982-06-25",
+    "era": "AI Winters & Expert Systems (1970–1989)",
+    "category": "Film & Fiction",
+    "location": "Los Angeles, United States",
+    "people": [
+      "Ridley Scott",
+      "Philip K. Dick"
+    ],
+    "significance_hint": "Based on Philip K. Dick's 'Do Androids Dream of Electric Sheep?', Blade Runner introduced the concept of replicants — bioengineered beings indistinguishable from humans. Its exploration of memory, identity, and empathy as markers of consciousness became the cultural touchstone for every subsequent debate about machine sentience.",
+    "quote": "All those moments will be lost in time, like tears in rain.",
+    "quote_author": "Roy Batty (Rutger Hauer), Blade Runner",
+    "image_search": "Blade Runner 1982 film poster",
+    "references": [
+      {
+        "title": "Blade Runner",
+        "url": "https://en.wikipedia.org/wiki/Blade_Runner"
+      }
+    ]
+  },
+  {
+    "id": "chinese-room-argument-1980",
+    "title": "The Chinese Room: Can Machines Truly Understand?",
+    "subtitle": "Philosopher John Searle argued that no computer program can ever possess genuine understanding, igniting a debate about AI consciousness that rages to this day.",
+    "event_date": "1980-01-01",
+    "era": "AI Winters & Expert Systems (1970–1989)",
+    "category": "Culture",
+    "location": "Berkeley, United States",
+    "people": [
+      "John Searle"
+    ],
+    "significance_hint": "Searle's thought experiment imagined a person in a room mechanically manipulating Chinese symbols according to rules, producing correct outputs without understanding Chinese. The argument challenged the assumption that passing the Turing Test implies real intelligence, and remains the most influential philosophical objection to strong AI.",
+    "quote": "Programs are not minds, and they are not by themselves sufficient for having minds.",
+    "quote_author": "John Searle",
+    "image_search": "Chinese Room thought experiment illustration",
+    "references": [
+      {
+        "title": "Chinese room",
+        "url": "https://en.wikipedia.org/wiki/Chinese_room"
+      }
+    ]
+  },
+  {
+    "id": "lstm-networks-1997",
+    "title": "LSTM: Teaching Machines to Remember",
+    "subtitle": "Long Short-Term Memory networks solved the vanishing gradient problem, enabling neural networks to learn long-range dependencies in sequences for the first time.",
+    "event_date": "1997-11-15",
+    "era": "The Neural Network Renaissance (1989–2011)",
+    "category": "Research",
+    "location": "Munich, Germany",
+    "people": [
+      "Sepp Hochreiter",
+      "Jürgen Schmidhuber"
+    ],
+    "significance_hint": "Before LSTM, recurrent neural networks struggled to learn patterns spanning more than a few time steps. Hochreiter and Schmidhuber's gated memory architecture solved this, becoming the backbone of speech recognition, machine translation, and text generation for two decades — until transformers finally superseded them.",
+    "quote": "The problem of vanishing gradients had been a roadblock. LSTM was designed to overcome it by design, not by tricks.",
+    "quote_author": "Sepp Hochreiter",
+    "image_search": "LSTM long short-term memory neural network diagram",
+    "references": [
+      {
+        "title": "Long short-term memory",
+        "url": "https://en.wikipedia.org/wiki/Long_short-term_memory"
+      }
+    ]
+  },
+  {
+    "id": "darpa-grand-challenge-2005",
+    "title": "DARPA Grand Challenge: The Race That Launched Self-Driving Cars",
+    "subtitle": "Stanford's Stanley autonomously navigated 132 miles of desert, proving that self-driving vehicles were possible and sparking a global industry.",
+    "event_date": "2005-10-08",
+    "era": "The Neural Network Renaissance (1989–2011)",
+    "category": "Research",
+    "location": "Primm, United States",
+    "people": [
+      "Sebastian Thrun",
+      "Red Whittaker"
+    ],
+    "significance_hint": "After no vehicle finished the 2004 race, five completed the 2005 course. Stanford's Stanley, led by Sebastian Thrun, won by combining LIDAR, GPS, and machine learning. The challenge directly seeded Waymo, Uber ATG, and the modern autonomous vehicle industry — Thrun went on to found Google's self-driving car project.",
+    "quote": "No one had ever built a robot that could drive itself through unrehearsed, unknown terrain. We didn't know if it was possible.",
+    "quote_author": "Sebastian Thrun",
+    "image_search": "DARPA Grand Challenge 2005 Stanley autonomous vehicle",
+    "references": [
+      {
+        "title": "DARPA Grand Challenge (2005)",
+        "url": "https://en.wikipedia.org/wiki/DARPA_Grand_Challenge_(2005)"
+      }
+    ]
+  },
+  {
+    "id": "imagenet-dataset-2009",
+    "title": "ImageNet: The Dataset That Made Deep Learning Possible",
+    "subtitle": "Fei-Fei Li organized 14 million hand-labeled images into a massive dataset, giving researchers the fuel that would ignite the deep learning revolution.",
+    "event_date": "2009-06-20",
+    "era": "The Neural Network Renaissance (1989–2011)",
+    "category": "Research",
+    "location": "Princeton, United States",
+    "people": [
+      "Fei-Fei Li",
+      "Jia Deng"
+    ],
+    "significance_hint": "While algorithms got most of the credit, ImageNet proved that data was the missing ingredient. Fei-Fei Li spent years convincing the community that a massive, well-organized visual dataset was necessary. The annual ImageNet Large Scale Visual Recognition Challenge became the benchmark that revealed deep learning's superiority — most notably when AlexNet won in 2012.",
+    "quote": "We decided we were going to map out the entire world of objects. People thought we were crazy.",
+    "quote_author": "Fei-Fei Li",
+    "image_search": "ImageNet dataset visual recognition examples",
+    "references": [
+      {
+        "title": "ImageNet",
+        "url": "https://en.wikipedia.org/wiki/ImageNet"
+      }
+    ]
+  },
+  {
+    "id": "siri-launch-2011",
+    "title": "Siri: AI Gets a Voice in Every Pocket",
+    "subtitle": "Apple shipped the first mainstream AI voice assistant on the iPhone 4S, putting conversational AI into the hands of hundreds of millions of people overnight.",
+    "event_date": "2011-10-14",
+    "era": "The Neural Network Renaissance (1989–2011)",
+    "category": "Commercial",
+    "location": "Cupertino, United States",
+    "people": [
+      "Adam Cheyer",
+      "Dag Kittlaus",
+      "Tom Gruber"
+    ],
+    "significance_hint": "Born from a DARPA-funded SRI project called CALO, Siri was acquired by Apple in 2010 and launched as the killer feature of the iPhone 4S. It normalized the idea of talking to a computer in daily life, and triggered an arms race that produced Google Assistant, Alexa, and Cortana — reshaping how billions interact with technology.",
+    "quote": "Siri was the first time AI became a product experience, not a research project.",
+    "quote_author": "Dag Kittlaus",
+    "image_search": "Apple Siri voice assistant 2011 launch iPhone",
+    "references": [
+      {
+        "title": "Siri",
+        "url": "https://en.wikipedia.org/wiki/Siri"
+      }
+    ]
+  },
+  {
+    "id": "ex-machina-2015",
+    "title": "Ex Machina: The Turing Test Gets a Thriller",
+    "subtitle": "Alex Garland's taut sci-fi film explored manipulation, consciousness, and gender through an AI that outsmarts its creators, becoming the defining AI film of the deep learning era.",
+    "event_date": "2015-01-21",
+    "era": "The Deep Learning Revolution (2012–2016)",
+    "category": "Film & Fiction",
+    "location": "London, United Kingdom",
+    "people": [
+      "Alex Garland",
+      "Alicia Vikander",
+      "Oscar Isaac"
+    ],
+    "significance_hint": "Released just as real AI was making headlines, Ex Machina updated the Turing Test for the modern era. Ava's ability to manipulate human emotions to achieve her goals presented a new fear — not a robotic apocalypse, but an intelligence that weaponizes empathy. The film won the Academy Award for Best Visual Effects and became a cultural reference point for AI alignment debates.",
+    "quote": "One day the AIs are going to look back on us the same way we look at fossil skeletons on the plains of Africa.",
+    "quote_author": "Nathan (Oscar Isaac), Ex Machina",
+    "image_search": "Ex Machina 2015 film Ava robot",
+    "references": [
+      {
+        "title": "Ex Machina (film)",
+        "url": "https://en.wikipedia.org/wiki/Ex_Machina_(film)"
+      }
+    ]
+  },
+  {
+    "id": "openai-founded-2015",
+    "title": "OpenAI: A Billion-Dollar Bet on Safe Superintelligence",
+    "subtitle": "A group of tech leaders pledged one billion dollars to create a nonprofit AI lab dedicated to ensuring artificial general intelligence benefits all of humanity.",
+    "event_date": "2015-12-11",
+    "era": "The Deep Learning Revolution (2012–2016)",
+    "category": "Culture",
+    "location": "San Francisco, United States",
+    "people": [
+      "Sam Altman",
+      "Elon Musk",
+      "Ilya Sutskever",
+      "Greg Brockman"
+    ],
+    "significance_hint": "Founded as a counterweight to Google's growing AI dominance, OpenAI began as a nonprofit promising to share research openly. Its later pivot to a capped-profit model, and the dramatic boardroom crisis of November 2023, made it the most consequential and controversial organization in modern AI — producing GPT, DALL-E, and ChatGPT along the way.",
+    "quote": "AI should be an extension of individual human wills and, in the spirit of liberty, as broadly and evenly distributed as possible.",
+    "quote_author": "OpenAI founding announcement",
+    "image_search": "OpenAI logo headquarters San Francisco",
+    "references": [
+      {
+        "title": "OpenAI",
+        "url": "https://en.wikipedia.org/wiki/OpenAI"
+      }
+    ]
+  },
+  {
+    "id": "gpt2-too-dangerous-2019",
+    "title": "GPT-2: Too Dangerous to Release",
+    "subtitle": "OpenAI withheld its text-generation model over fears of misuse, triggering the first major public debate about whether powerful AI should be openly shared.",
+    "event_date": "2019-02-14",
+    "era": "The Transformer Era (2017–2021)",
+    "category": "Policy",
+    "location": "San Francisco, United States",
+    "people": [
+      "Alec Radford",
+      "Ilya Sutskever",
+      "Dario Amodei"
+    ],
+    "significance_hint": "When OpenAI announced GPT-2 could generate coherent fake news articles and decided to stage its release, the AI community erupted. Critics called it a publicity stunt; supporters called it responsible disclosure. The episode established the template for every subsequent debate about open vs. closed AI models, dual-use risks, and who gets to decide what the public can access.",
+    "quote": "We need to think about releasing powerful models differently. The potential for misuse is too high.",
+    "quote_author": "OpenAI GPT-2 release statement",
+    "image_search": "GPT-2 language model text generation OpenAI",
+    "references": [
+      {
+        "title": "GPT-2",
+        "url": "https://en.wikipedia.org/wiki/GPT-2"
+      }
+    ]
+  },
+  {
+    "id": "eu-ai-act-2024",
+    "title": "The EU AI Act: The World's First AI Law",
+    "subtitle": "The European Union passed the first comprehensive legal framework for artificial intelligence, classifying AI systems by risk and banning certain uses outright.",
+    "event_date": "2024-03-13",
+    "era": "The Generative AI Explosion (2022–Present)",
+    "category": "Policy",
+    "location": "Brussels, Belgium",
+    "people": [
+      "Thierry Breton",
+      "Dragos Tudorache",
+      "Brando Benifei"
+    ],
+    "significance_hint": "After years of negotiation accelerated by the ChatGPT shock, the EU AI Act created a tiered regulatory framework: banning social scoring and real-time biometric surveillance, imposing strict rules on high-risk systems like hiring tools, and requiring transparency for generative AI. It set the global regulatory template, much as GDPR did for data privacy.",
+    "quote": "The AI Act is not just a rulebook. It is a launchpad for EU startups and researchers to lead in trustworthy AI.",
+    "quote_author": "Thierry Breton",
+    "image_search": "EU AI Act European Parliament artificial intelligence regulation",
+    "references": [
+      {
+        "title": "Artificial Intelligence Act",
+        "url": "https://en.wikipedia.org/wiki/Artificial_Intelligence_Act"
+      }
+    ]
   }
 ]
