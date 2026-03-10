@@ -20,10 +20,11 @@ references:
 ---
 
 Opening sentence capturing why this moment matters.
-**What happened:** In 1872, Samuel Butler published "Erewhon," a satirical novel that introduced one of the earliest philosophical arguments for machine consciousness and evolution. The book's title is derived from the phrase "nowhere" spelled backward, hinting at its fictional setting.
 
-**Why it matters:** Erewhon not only anticipated many themes central to modern discussions on artificial intelligence but also raised early concerns about superintelligence that are still relevant today. Butler’s foresight in exploring these ideas nearly a century before the advent of computers and AI is remarkable.
+**What happened:** In 1872, Samuel Butler published *Erewhon*, a satirical novel that explored philosophical questions about the nature of machines and their potential evolution into conscious beings. The book builds on his earlier essay "Darwin Among the Machines," which first introduced the idea that machines might evolve beyond human control. [Wikipedia — Erewhon](https://en.wikipedia.org/wiki/Erewhon)
+
+**Why it matters:** *Erewhon* is significant for being one of the earliest works to seriously consider the philosophical implications of machine consciousness and evolution, remarkably anticipating modern AI alignment concerns about superintelligence. Butler's prescient warnings about the dangers of unchecked technological advancement continue to resonate in contemporary debates over artificial intelligence ethics. [Wikipedia — Darwin Among the Machines](https://en.wikipedia.org/wiki/Darwin_Among_the_Machines)
 
 **Further reading:**
-- [Erewhon — Wikipedia](https://en.wikipedia.org/wiki/Erewhon)
-- [Darwin Among the Machines (Butler's essay)](https://en.wikipedia.org/wiki/Darwin_Among_the_Machines)
+- [Erewhon](https://en.wikipedia.org/wiki/Erewhon)
+- [Darwin Among the Machines](https://en.wikipedia.org/wiki/Darwin_among_the_Machines)
