@@ -340,3 +340,12 @@
   category: "Research"
   quote: "Sora is able to generate complex scenes with multiple characters, specific types of motion, and accurate details of the subject and background."
   quote_author: "OpenAI, Sora announcement (2024)"
+
+- id: "hinton-bengio-nobel-2024"
+  title: "Nobel Prize for AI: Hinton and Hopfield Win Physics Prize"
+  subtitle: "Geoffrey Hinton and John Hopfield win the Nobel Prize in Physics for foundational work on neural networks — the scientific establishment officially validates deep learning."
+  event_date: "2024-10-08"
+  era: "The Generative AI Explosion (2022–Present)"
+  category: "Research"
+  quote: "I am genuinely worried about the threat of very powerful AI systems doing things that are bad for us."
+  quote_author: "Geoffrey Hinton, Nobel Prize press conference (2024)"
