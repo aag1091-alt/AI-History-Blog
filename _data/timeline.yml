@@ -439,3 +439,12 @@
   category: "Film & Fiction"
   quote: "One day the AIs are going to look back on us the same way we look at fossil skeletons on the plains of Africa."
   quote_author: "Nathan (Oscar Isaac), Ex Machina"
+
+- id: "openai-founded-2015"
+  title: "OpenAI: A Billion-Dollar Bet on Safe Superintelligence"
+  subtitle: "A group of tech leaders pledged one billion dollars to create a nonprofit AI lab dedicated to ensuring artificial general intelligence benefits all of humanity."
+  event_date: "2015-12-11"
+  era: "The Deep Learning Revolution (2012–2016)"
+  category: "Culture"
+  quote: "AI should be an extension of individual human wills and, in the spirit of liberty, as broadly and evenly distributed as possible."
+  quote_author: "OpenAI founding announcement"
