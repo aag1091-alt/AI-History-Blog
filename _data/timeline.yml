@@ -259,3 +259,12 @@
   category: "Research"
   quote: "BERT is the first deeply bidirectional, unsupervised language representation, pre-trained using only a plain text corpus."
   quote_author: "Jacob Devlin et al., BERT paper (2018)"
+
+- id: "gpt-3-2020"
+  title: "GPT-3: The Model That Changed Everything"
+  subtitle: "OpenAI's GPT-3 — 175 billion parameters — writes essays, code, poetry, and answers questions with startling coherence, shocking the world."
+  event_date: "2020-05-28"
+  era: "The Transformer Era (2017–2021)"
+  category: "Research"
+  quote: "GPT-3 is so good it's actually dangerous."
+  quote_author: "Numerous AI researchers, 2020"
