@@ -394,3 +394,12 @@
   category: "Research"
   quote: "No one had ever built a robot that could drive itself through unrehearsed, unknown terrain. We didn't know if it was possible."
   quote_author: "Sebastian Thrun"
+
+- id: "imagenet-dataset-2009"
+  title: "ImageNet: The Dataset That Made Deep Learning Possible"
+  subtitle: "Fei-Fei Li organized 14 million hand-labeled images into a massive dataset, giving researchers the fuel that would ignite the deep learning revolution."
+  event_date: "2009-06-20"
+  era: "The Neural Network Renaissance (1989–2011)"
+  category: "Research"
+  quote: "We decided we were going to map out the entire world of objects. People thought we were crazy."
+  quote_author: "Fei-Fei Li"
