@@ -16,8 +16,9 @@
     "terminator-1984",
     "lecun-cnn-1989",
     "deep-blue-kasparov-1997",
-    "matrix-1999"
+    "matrix-1999",
+    "watson-jeopardy-2011"
   ],
-  "last_run": "2026-03-11T13:41:14.864494",
+  "last_run": "2026-03-11T13:49:53.723689",
   "total": 0
 }
