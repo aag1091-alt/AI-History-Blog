@@ -3,16 +3,20 @@ layout: default
 ---
 
 <div class="reading-progress" id="reading-progress"></div>
+<button class="back-to-top" id="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
 
 <script>
 (function() {
   const bar = document.getElementById('reading-progress');
+  const btn = document.getElementById('back-to-top');
   function update() {
     const doc = document.documentElement;
     const scrolled = doc.scrollTop || document.body.scrollTop;
     const total = doc.scrollHeight - doc.clientHeight;
     bar.style.width = (total > 0 ? (scrolled / total) * 100 : 0) + '%';
+    btn.classList.toggle('visible', scrolled > 400);
   }
+  btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
   window.addEventListener('scroll', update, { passive: true });
   update();
 })();
