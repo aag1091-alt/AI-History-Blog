@@ -442,6 +442,18 @@ a:hover { text-decoration: underline; }
 .filter-pill:hover { border-color: var(--accent); color: var(--accent); }
 .filter-pill.active { background: var(--accent); border-color: var(--accent); color: #fff; }
 
+/* Category-specific filter pill colors */
+.filter-pill[data-filter="Research"].active { background: var(--accent); border-color: var(--accent); }
+.filter-pill[data-filter="Film & Fiction"].active { background: var(--accent-green); border-color: var(--accent-green); }
+.filter-pill[data-filter="Commercial"].active { background: var(--accent-warm); border-color: var(--accent-warm); }
+.filter-pill[data-filter="Culture"].active { background: #d97706; border-color: #d97706; }
+.filter-pill[data-filter="Policy"].active { background: #a78bfa; border-color: #a78bfa; }
+
+.filter-pill[data-filter="Film & Fiction"]:hover { border-color: var(--accent-green); color: var(--accent-green); }
+.filter-pill[data-filter="Commercial"]:hover { border-color: var(--accent-warm); color: var(--accent-warm); }
+.filter-pill[data-filter="Culture"]:hover { border-color: #d97706; color: #d97706; }
+.filter-pill[data-filter="Policy"]:hover { border-color: #a78bfa; color: #a78bfa; }
+
 /* ─── Eras Index ─── */
 .eras-index-page { max-width: 56rem; margin: 0 auto; }
 
