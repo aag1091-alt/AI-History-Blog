@@ -196,3 +196,12 @@
   category: "Research"
   quote: "I had the idea during a bar argument. I went home and coded it in one night."
   quote_author: "Ian Goodfellow on inventing GANs"
+
+- id: "alphago-lee-sedol-2016"
+  title: "AlphaGo Defeats Lee Sedol: AI Masters Intuition"
+  subtitle: "Google DeepMind's AlphaGo defeats the world's best Go player Lee Sedol — a game thought to be beyond AI for decades."
+  event_date: "2016-03-09"
+  era: "The Deep Learning Revolution (2012–2016)"
+  category: "Research"
+  quote: "I thought AlphaGo was based on probability calculations and it was merely a machine. But when I saw this move, I changed my mind. AlphaGo is creative."
+  quote_author: "Lee Sedol, after Move 37"
