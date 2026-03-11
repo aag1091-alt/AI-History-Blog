@@ -288,6 +288,7 @@ a:hover { text-decoration: underline; }
 .post-card {
   background: var(--surface);
   border: 1px solid var(--border);
+  border-left: 3px solid transparent;
   border-radius: var(--radius);
   transition: border-color 0.15s, background 0.15s;
   display: flex;
@@ -295,7 +296,7 @@ a:hover { text-decoration: underline; }
   overflow: hidden;
 }
 
-.post-card:hover { border-color: var(--accent); background: var(--surface2); }
+.post-card:hover { border-color: var(--accent); border-left-color: var(--accent); background: var(--surface2); }
 
 .post-card-thumb {
   width: 120px;
@@ -385,7 +386,8 @@ a:hover { text-decoration: underline; }
   padding: 0.75rem 1.1rem;
   background: var(--accent-soft);
   border: 1px solid rgba(106, 142, 245, 0.25);
-  border-radius: var(--radius);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
   margin-bottom: 1.5rem;
   flex-wrap: wrap;
 }
