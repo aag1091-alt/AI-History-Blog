@@ -241,3 +241,12 @@
   category: "Research"
   quote: "GPT-3 is so good it's actually dangerous."
   quote_author: "Numerous AI researchers, 2020"
+
+- id: "alphafold-2020"
+  title: "AlphaFold: Solving Biology's 50-Year-Old Protein Problem"
+  subtitle: "DeepMind's AlphaFold predicts protein 3D structures from sequences with atomic accuracy — solving a grand challenge in biology."
+  event_date: "2020-11-30"
+  era: "The Transformer Era (2017–2021)"
+  category: "Research"
+  quote: "This is a great leap for science — one that will fundamentally change biological research."
+  quote_author: "Demis Hassabis, CEO of DeepMind"
