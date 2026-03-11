@@ -223,3 +223,12 @@
   category: "Research"
   quote: "Language models are unsupervised multitask learners."
   quote_author: "OpenAI GPT-2 paper subtitle (2019)"
+
+- id: "bert-2018"
+  title: "BERT: Bidirectional Understanding of Language"
+  subtitle: "Google releases BERT — a transformer model that reads text in both directions and sets new records on virtually every language benchmark."
+  event_date: "2018-10-11"
+  era: "The Transformer Era (2017–2021)"
+  category: "Research"
+  quote: "BERT is the first deeply bidirectional, unsupervised language representation, pre-trained using only a plain text corpus."
+  quote_author: "Jacob Devlin et al., BERT paper (2018)"
