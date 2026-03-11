@@ -81,7 +81,14 @@ document.querySelectorAll('.timeline-era-title').forEach(btn => {
     const list = btn.nextElementSibling;
     const expanded = btn.getAttribute('aria-expanded') === 'true';
     btn.setAttribute('aria-expanded', String(!expanded));
-    list.style.display = expanded ? 'none' : '';
+    if (expanded) {
+      list.classList.add('collapsing');
+      setTimeout(() => { list.style.display = 'none'; list.classList.remove('collapsing'); }, 200);
+    } else {
+      list.style.display = '';
+      list.classList.add('collapsing');
+      requestAnimationFrame(() => { list.classList.remove('collapsing'); });
+    }
   });
 });
 </script>

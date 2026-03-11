@@ -1000,6 +1000,16 @@ a.person-tag:hover {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
+  transition: opacity 0.2s ease;
+}
+
+.timeline-list[hidden] {
+  display: none;
+}
+
+.timeline-list.collapsing {
+  overflow: hidden;
+  opacity: 0;
 }
 
 /* ─── Footer ─── */
