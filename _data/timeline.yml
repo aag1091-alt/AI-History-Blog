@@ -97,3 +97,12 @@
   category: "Film & Fiction"
   quote: "I'm sorry, Dave. I'm afraid I can't do that."
   quote_author: "HAL 9000, 2001: A Space Odyssey (1968)"
+
+- id: "first-ai-winter-1973"
+  title: "The First AI Winter"
+  subtitle: "The Lighthill Report concludes AI research has failed to deliver on its promises — triggering massive funding cuts and a decade of stagnation."
+  event_date: "1973-01-01"
+  era: "AI Winters & Expert Systems (1970–1989)"
+  category: "Policy"
+  quote: "In no part of the field have the discoveries made so far produced the major impact that was then promised."
+  quote_author: "James Lighthill, Artificial Intelligence: A General Survey (1973)"
