@@ -12,7 +12,7 @@ title: Home
 
 <div class="list-controls">
   <p class="section-title" style="margin:0">Latest Milestones</p>
-  <input type="search" id="post-search" class="search-input" placeholder="Search milestones…" aria-label="Search milestones">
+  <input type="search" id="post-search" class="search-input" placeholder="Search milestones… (press /)" aria-label="Search milestones">
 </div>
 
 <div class="filter-pills" id="category-filters">
@@ -106,6 +106,19 @@ function applyFilters() {
 }
 
 search.addEventListener('input', applyFilters);
+
+document.addEventListener('keydown', function(e) {
+  if (e.key === '/' && document.activeElement !== search) {
+    e.preventDefault();
+    search.focus();
+    search.select();
+  }
+  if (e.key === 'Escape' && document.activeElement === search) {
+    search.blur();
+    search.value = '';
+    applyFilters();
+  }
+});
 
 pills.forEach(pill => {
   pill.addEventListener('click', () => {
