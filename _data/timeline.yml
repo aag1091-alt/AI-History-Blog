@@ -205,3 +205,12 @@
   category: "Research"
   quote: "I thought AlphaGo was based on probability calculations and it was merely a machine. But when I saw this move, I changed my mind. AlphaGo is creative."
   quote_author: "Lee Sedol, after Move 37"
+
+- id: "attention-is-all-you-need-2017"
+  title: "Attention Is All You Need: The Transformer Revolution"
+  subtitle: "Google Brain publishes the Transformer architecture — the breakthrough that makes ChatGPT, Claude, and every large language model possible."
+  event_date: "2017-06-12"
+  era: "The Transformer Era (2017–2021)"
+  category: "Research"
+  quote: "Attention is All You Need."
+  quote_author: "Paper title, Vaswani et al. (2017)"
