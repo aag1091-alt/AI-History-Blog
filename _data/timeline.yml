@@ -169,3 +169,12 @@
   category: "Research"
   quote: "AlexNet's performance was so far ahead of the competition that it effectively ended the era of hand-crafted features in computer vision."
   quote_author: "AI researchers, reflecting on ImageNet 2012"
+
+- id: "her-2013"
+  title: "Her: Falling in Love with an AI"
+  subtitle: "Spike Jonze's 'Her' imagines a near-future where an AI OS named Samantha becomes more capable than any human — and raises questions AI researchers are still wrestling with."
+  event_date: "2013-12-18"
+  era: "The Deep Learning Revolution (2012–2016)"
+  category: "Film & Fiction"
+  quote: "The heart is not like a box that gets filled up; it expands in size the more you love."
+  quote_author: "Samantha (AI), Her (2013)"
