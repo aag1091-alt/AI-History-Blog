@@ -16,3 +16,12 @@
   category: "Film & Fiction"
   quote: "The machines are gaining ground upon us; day by day we become more subservient to them."
   quote_author: "Samuel Butler, Erewhon (1872)"
+
+- id: "ada-lovelace-1843"
+  title: "Ada Lovelace: The First Algorithm"
+  subtitle: "Ada Lovelace writes the first algorithm intended to be processed by a machine — and questions whether machines can truly think."
+  event_date: "1843-01-01"
+  era: "Pre-History: Dreams of Artificial Life (Before 1900)"
+  category: "Research"
+  quote: "The Analytical Engine has no power of originating anything. It can only do what we know how to order it to perform."
+  quote_author: "Ada Lovelace, 1843"
