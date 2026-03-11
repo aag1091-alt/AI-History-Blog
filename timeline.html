@@ -8,14 +8,18 @@ subtitle: Every milestone, chronologically
   <div class="timeline-header">
     <h1>AI History Timeline</h1>
     <p>Every milestone — fiction, research, breakthroughs, and cultural moments — in chronological order.</p>
-    <div class="filter-pills" id="timeline-filters">
+    <div class="list-controls" style="margin-bottom:1rem">
+      <div class="filter-pills" id="timeline-filters" style="margin-bottom:0">
       <button class="filter-pill active" data-filter="">All</button>
       <button class="filter-pill" data-filter="Research">Research</button>
       <button class="filter-pill" data-filter="Film &amp; Fiction">Film &amp; Fiction</button>
       <button class="filter-pill" data-filter="Commercial">Commercial</button>
       <button class="filter-pill" data-filter="Culture">Culture</button>
       <button class="filter-pill" data-filter="Policy">Policy</button>
+      </div>
+      <input type="search" id="timeline-search" class="search-input" placeholder="Search timeline… (press /)" aria-label="Search timeline">
     </div>
+    <p id="timeline-no-results" class="no-results" style="display:none">No milestones match your search.</p>
   </div>
 
   {% assign sorted_posts = site.posts | sort: "event_date" %}
@@ -56,23 +60,53 @@ subtitle: Every milestone, chronologically
 <script>
 const pills = document.querySelectorAll('#timeline-filters .filter-pill');
 const eraBlocks = document.querySelectorAll('.timeline-era');
+const timelineSearch = document.getElementById('timeline-search');
+const timelineNoRes = document.getElementById('timeline-no-results');
+let activeFilter = '';
+
+function applyTimelineFilters() {
+  const q = timelineSearch.value.trim().toLowerCase();
+  let totalVisible = 0;
+  eraBlocks.forEach(era => {
+    const rows = era.querySelectorAll('.milestone-row');
+    let hasVisible = false;
+    rows.forEach(row => {
+      const matchF = !activeFilter || row.dataset.category === activeFilter;
+      const matchQ = !q || row.textContent.toLowerCase().includes(q);
+      const show = matchF && matchQ;
+      row.style.display = show ? '' : 'none';
+      if (show) { hasVisible = true; totalVisible++; }
+    });
+    era.style.display = hasVisible ? '' : 'none';
+    if (hasVisible && era.querySelector('.timeline-list').style.display === 'none') {
+      era.querySelector('.timeline-list').style.display = '';
+      era.querySelector('.timeline-era-title').setAttribute('aria-expanded', 'true');
+    }
+  });
+  timelineNoRes.style.display = totalVisible === 0 ? '' : 'none';
+}
+
+timelineSearch.addEventListener('input', applyTimelineFilters);
+
+document.addEventListener('keydown', function(e) {
+  if (e.key === '/' && document.activeElement !== timelineSearch) {
+    e.preventDefault();
+    timelineSearch.focus();
+    timelineSearch.select();
+  }
+  if (e.key === 'Escape' && document.activeElement === timelineSearch) {
+    timelineSearch.blur();
+    timelineSearch.value = '';
+    applyTimelineFilters();
+  }
+});
 
 pills.forEach(pill => {
   pill.addEventListener('click', () => {
     pills.forEach(p => p.classList.remove('active'));
     pill.classList.add('active');
-    const filter = pill.dataset.filter;
-
-    eraBlocks.forEach(era => {
-      const rows = era.querySelectorAll('.milestone-row');
-      let hasVisible = false;
-      rows.forEach(row => {
-        const match = !filter || row.dataset.category === filter;
-        row.style.display = match ? '' : 'none';
-        if (match) hasVisible = true;
-      });
-      era.style.display = hasVisible ? '' : 'none';
-    });
+    activeFilter = pill.dataset.filter;
+    applyTimelineFilters();
   });
 });
 
