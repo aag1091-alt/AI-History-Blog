@@ -34,8 +34,9 @@
     "gpt-4-2023",
     "claude-anthropic-2023",
     "llama-meta-2023",
-    "sora-2024"
+    "sora-2024",
+    "hinton-bengio-nobel-2024"
   ],
-  "last_run": "2026-03-11T16:52:57.166804",
+  "last_run": "2026-03-11T16:56:10.253077",
   "total": 0
 }

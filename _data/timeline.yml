@@ -322,3 +322,12 @@
   category: "Research"
   quote: "I am genuinely worried about the threat of very powerful AI systems doing things that are bad for us."
   quote_author: "Geoffrey Hinton, Nobel Prize press conference (2024)"
+
+- id: "deepseek-r1-2025"
+  title: "DeepSeek R1: China's Open Reasoning Model Shakes Silicon Valley"
+  subtitle: "Chinese startup DeepSeek releases R1 — a reasoning model matching OpenAI o1 at a fraction of the cost, wiping billions from Nvidia's market cap and reshaping AI geopolitics."
+  event_date: "2025-01-20"
+  era: "The Generative AI Explosion (2022–Present)"
+  category: "Research"
+  quote: "DeepSeek is a Sputnik moment for American AI."
+  quote_author: "Multiple US AI commentators, January 2025"
