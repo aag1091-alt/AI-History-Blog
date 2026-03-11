@@ -22,8 +22,9 @@
     "her-2013",
     "word2vec-2013",
     "gan-2014",
-    "alphago-lee-sedol-2016"
+    "alphago-lee-sedol-2016",
+    "attention-is-all-you-need-2017"
   ],
-  "last_run": "2026-03-11T15:10:40.449262",
+  "last_run": "2026-03-11T15:23:23.350190",
   "total": 0
 }

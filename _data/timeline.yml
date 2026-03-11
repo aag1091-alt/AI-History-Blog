@@ -214,3 +214,12 @@
   category: "Research"
   quote: "Attention is All You Need."
   quote_author: "Paper title, Vaswani et al. (2017)"
+
+- id: "gpt-1-openai-2018"
+  title: "GPT-1: Language Models Learn to Generalize"
+  subtitle: "OpenAI releases GPT-1 — demonstrating that a single large language model trained on unsupervised text can fine-tune to many NLP tasks."
+  event_date: "2018-06-11"
+  era: "The Transformer Era (2017–2021)"
+  category: "Research"
+  quote: "Language models are unsupervised multitask learners."
+  quote_author: "OpenAI GPT-2 paper subtitle (2019)"
