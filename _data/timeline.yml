@@ -43,3 +43,12 @@
   category: "Film & Fiction"
   quote: "There can be no understanding between the hand and the brain unless the heart acts as mediator."
   quote_author: "Fritz Lang, Metropolis (1927)"
+
+- id: "asimov-three-laws-1942"
+  title: "Asimov's Three Laws of Robotics"
+  subtitle: "Isaac Asimov publishes 'Runaround' introducing the Three Laws — the first formal ethical framework for artificial intelligence."
+  event_date: "1942-03-01"
+  era: "Early 20th Century: Robots Enter the Imagination (1900–1949)"
+  category: "Film & Fiction"
+  quote: "A robot may not injure a human being or, through inaction, allow a human being to come to harm."
+  quote_author: "Isaac Asimov, First Law of Robotics (1942)"
