@@ -2,6 +2,22 @@
 layout: default
 ---
 
+<div class="reading-progress" id="reading-progress"></div>
+
+<script>
+(function() {
+  const bar = document.getElementById('reading-progress');
+  function update() {
+    const doc = document.documentElement;
+    const scrolled = doc.scrollTop || document.body.scrollTop;
+    const total = doc.scrollHeight - doc.clientHeight;
+    bar.style.width = (total > 0 ? (scrolled / total) * 100 : 0) + '%';
+  }
+  window.addEventListener('scroll', update, { passive: true });
+  update();
+})();
+</script>
+
 <script>
 (function() {
   const key = 'ai-history-read';
