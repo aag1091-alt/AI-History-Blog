@@ -61,3 +61,12 @@
   category: "Research"
   quote: "I propose to consider the question, 'Can machines think?'"
   quote_author: "Alan Turing, Computing Machinery and Intelligence (1950)"
+
+- id: "dartmouth-conference-1956"
+  title: "The Dartmouth Conference: AI Gets Its Name"
+  subtitle: "A summer workshop at Dartmouth College officially names the field 'Artificial Intelligence' and launches it as a scientific discipline."
+  event_date: "1956-07-01"
+  era: "The Birth of AI (1950–1969)"
+  category: "Research"
+  quote: "The study is to proceed on the basis of the conjecture that every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it."
+  quote_author: "Dartmouth Conference Proposal, 1956"
