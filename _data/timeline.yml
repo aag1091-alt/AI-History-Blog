@@ -295,3 +295,12 @@
   category: "Research"
   quote: "We believe that the next few years may be critical for the future of AI and humanity."
   quote_author: "Anthropic founding team"
+
+- id: "llama-meta-2023"
+  title: "Llama: Open-Source AI Changes Everything"
+  subtitle: "Meta releases Llama — a powerful open-source language model that democratizes AI and ignites the open-source AI movement."
+  event_date: "2023-02-24"
+  era: "The Generative AI Explosion (2022–Present)"
+  category: "Research"
+  quote: "Open source AI is the path to democratizing and distributing power in AI."
+  quote_author: "Yann LeCun, Meta Chief AI Scientist"
