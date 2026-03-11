@@ -113,6 +113,7 @@ layout: default
       <a href="{{ page.previous.url | relative_url }}" class="post-nav-link post-nav-prev">
         <span class="post-nav-dir">← Earlier</span>
         <span class="post-nav-title">{{ page.previous.title }}</span>
+        <span class="post-nav-year">{{ page.previous.event_date | default: page.previous.date | date: "%Y" }}</span>
       </a>
       {% else %}
       <span></span>
@@ -122,6 +123,7 @@ layout: default
       <a href="{{ page.next.url | relative_url }}" class="post-nav-link post-nav-next">
         <span class="post-nav-dir">Later →</span>
         <span class="post-nav-title">{{ page.next.title }}</span>
+        <span class="post-nav-year">{{ page.next.event_date | default: page.next.date | date: "%Y" }}</span>
       </a>
       {% endif %}
     </div>

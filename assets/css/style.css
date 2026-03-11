@@ -1016,6 +1016,12 @@ a.person-tag:hover {
   line-height: 1.35;
 }
 
+.post-nav-year {
+  font-size: 0.72rem;
+  font-family: var(--font-mono);
+  color: var(--accent-warm);
+}
+
 .post-footer-links {
   display: flex;
   justify-content: space-between;
