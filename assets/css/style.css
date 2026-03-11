@@ -147,8 +147,15 @@ a:hover { text-decoration: underline; }
 }
 
 .site-nav { display: flex; gap: 1.2rem; }
-.site-nav a { font-size: 0.85rem; color: var(--text-muted); }
-.site-nav a:hover, .site-nav a.active { color: var(--accent); }
+.site-nav a {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+}
+.site-nav a:hover { color: var(--accent); text-decoration: none; border-bottom-color: var(--accent); opacity: 0.7; }
+.site-nav a.active { color: var(--accent); border-bottom-color: var(--accent); }
 
 .nav-random {
   font-size: 0.85rem;
@@ -1028,5 +1035,9 @@ a.person-tag:hover {
 @media (max-width: 640px) {
   .home-stats { gap: 1rem; }
   .post-title { font-size: 1.5rem; }
-.post-footer { flex-direction: column; gap: 0.75rem; }
+  .post-footer { flex-direction: column; gap: 0.75rem; }
+  .header-stats { display: none; }
+  .site-tagline { display: none; }
+  .post-card-thumb, .post-card-thumb--empty { width: 80px; min-width: 80px; }
+  .post-card-thumb img { width: 80px; }
 }
