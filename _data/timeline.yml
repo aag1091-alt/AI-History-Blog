@@ -259,3 +259,12 @@
   category: "Commercial"
   quote: "With GitHub Copilot, I don't have to think about the syntax anymore. I just think about the problem."
   quote_author: "Early GitHub Copilot user"
+
+- id: "dall-e-2-stable-diffusion-2022"
+  title: "DALL-E 2 & Stable Diffusion: AI Becomes an Artist"
+  subtitle: "OpenAI's DALL-E 2 and Stability AI's Stable Diffusion put photorealistic AI image generation in everyone's hands — triggering a creative revolution."
+  event_date: "2022-04-06"
+  era: "The Generative AI Explosion (2022–Present)"
+  category: "Commercial"
+  quote: "The question is no longer whether AI can make art. It's whether art made by AI is art."
+  quote_author: "Cultural commentary, 2022"
