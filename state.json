@@ -28,8 +28,9 @@
     "bert-2018",
     "gpt-3-2020",
     "alphafold-2020",
-    "github-copilot-2021"
+    "github-copilot-2021",
+    "dall-e-2-stable-diffusion-2022"
   ],
-  "last_run": "2026-03-11T16:04:36.351504",
+  "last_run": "2026-03-11T16:38:12.425973",
   "total": 0
 }
