@@ -115,3 +115,12 @@
   category: "Research"
   quote: "We describe a new learning procedure, back-propagation, for networks of neurone-like units."
   quote_author: "Rumelhart, Hinton & Williams, Nature (1986)"
+
+- id: "terminator-1984"
+  title: "The Terminator: Skynet and the Fear of Superintelligence"
+  subtitle: "James Cameron's The Terminator introduces Skynet — AI that gains consciousness and launches a nuclear war to exterminate humanity."
+  event_date: "1984-10-26"
+  era: "AI Winters & Expert Systems (1970–1989)"
+  category: "Film & Fiction"
+  quote: "It can't be bargained with. It can't be reasoned with. It doesn't feel pity, or remorse, or fear."
+  quote_author: "Kyle Reese, The Terminator (1984)"

@@ -11,8 +11,9 @@
     "perceptron-1957",
     "eliza-1966",
     "hal-9000-2001-1968",
-    "first-ai-winter-1973"
+    "first-ai-winter-1973",
+    "backpropagation-1986"
   ],
-  "last_run": "2026-03-11T10:01:29.793463",
+  "last_run": "2026-03-11T10:10:32.513319",
   "total": 0
 }
