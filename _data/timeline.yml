@@ -70,3 +70,12 @@
   category: "Research"
   quote: "The study is to proceed on the basis of the conjecture that every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it."
   quote_author: "Dartmouth Conference Proposal, 1956"
+
+- id: "perceptron-1957"
+  title: "The Perceptron: The First Neural Network"
+  subtitle: "Frank Rosenblatt builds the Perceptron — a machine that learns from experience, laying the groundwork for all neural networks."
+  event_date: "1957-07-01"
+  era: "The Birth of AI (1950–1969)"
+  category: "Research"
+  quote: "The Navy revealed the embryo of an electronic computer today that it expects will be able to walk, talk, see, write, reproduce itself and be conscious of its existence."
+  quote_author: "New York Times, reporting on the Perceptron (1958)"
