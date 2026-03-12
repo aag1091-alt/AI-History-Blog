@@ -349,3 +349,12 @@
   category: "Culture"
   quote: "Programs are not minds, and they are not by themselves sufficient for having minds."
   quote_author: "John Searle"
+
+- id: "lstm-networks-1997"
+  title: "LSTM: Teaching Machines to Remember"
+  subtitle: "Long Short-Term Memory networks solved the vanishing gradient problem, enabling neural networks to learn long-range dependencies in sequences for the first time."
+  event_date: "1997-11-15"
+  era: "The Neural Network Renaissance (1989–2011)"
+  category: "Research"
+  quote: "The problem of vanishing gradients had been a roadblock. LSTM was designed to overcome it by design, not by tricks."
+  quote_author: "Sepp Hochreiter"
