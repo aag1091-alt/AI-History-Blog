@@ -403,3 +403,12 @@
   category: "Culture"
   quote: "AI should be an extension of individual human wills and, in the spirit of liberty, as broadly and evenly distributed as possible."
   quote_author: "OpenAI founding announcement"
+
+- id: "gpt2-too-dangerous-2019"
+  title: "GPT-2: Too Dangerous to Release"
+  subtitle: "OpenAI withheld its text-generation model over fears of misuse, triggering the first major public debate about whether powerful AI should be openly shared."
+  event_date: "2019-02-14"
+  era: "The Transformer Era (2017–2021)"
+  category: "Policy"
+  quote: "We need to think about releasing powerful models differently. The potential for misuse is too high."
+  quote_author: "OpenAI GPT-2 release statement"
