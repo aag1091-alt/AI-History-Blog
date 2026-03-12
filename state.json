@@ -1,49 +1,226 @@
 {
-  "processed": [
-    "frankenstein-1818",
-    "erewhon-butler-1872",
-    "ada-lovelace-1843",
-    "rur-capek-1920",
-    "metropolis-1927",
-    "asimov-three-laws-1942",
-    "dartmouth-conference-1956",
-    "perceptron-1957",
-    "hal-9000-2001-1968",
-    "first-ai-winter-1973",
-    "terminator-1984",
-    "lecun-cnn-1989",
-    "deep-blue-kasparov-1997",
-    "matrix-1999",
-    "watson-jeopardy-2011",
-    "alexnet-2012",
-    "her-2013",
-    "word2vec-2013",
-    "gan-2014",
-    "alphago-lee-sedol-2016",
-    "attention-is-all-you-need-2017",
-    "gpt-1-openai-2018",
-    "bert-2018",
-    "gpt-3-2020",
-    "alphafold-2020",
-    "github-copilot-2021",
-    "dall-e-2-stable-diffusion-2022",
-    "gpt-4-2023",
-    "claude-anthropic-2023",
-    "llama-meta-2023",
-    "sora-2024",
-    "hinton-bengio-nobel-2024",
-    "deepseek-r1-2025",
-    "blade-runner-1982",
-    "chinese-room-argument-1980",
-    "lstm-networks-1997",
-    "darpa-grand-challenge-2005",
-    "imagenet-dataset-2009",
-    "siri-launch-2011",
-    "ex-machina-2015",
-    "openai-founded-2015",
-    "gpt2-too-dangerous-2019",
-    "eu-ai-act-2024"
+  "last_run": "2026-03-11T21:41:54.230186",
+  "covered": [
+    {
+      "id": "frankenstein-1818",
+      "title": "Frankenstein 1818",
+      "date": ""
+    },
+    {
+      "id": "erewhon-butler-1872",
+      "title": "Erewhon Butler 1872",
+      "date": ""
+    },
+    {
+      "id": "ada-lovelace-1843",
+      "title": "Ada Lovelace 1843",
+      "date": ""
+    },
+    {
+      "id": "rur-capek-1920",
+      "title": "Rur Capek 1920",
+      "date": ""
+    },
+    {
+      "id": "metropolis-1927",
+      "title": "Metropolis 1927",
+      "date": ""
+    },
+    {
+      "id": "asimov-three-laws-1942",
+      "title": "Asimov Three Laws 1942",
+      "date": ""
+    },
+    {
+      "id": "dartmouth-conference-1956",
+      "title": "Dartmouth Conference 1956",
+      "date": ""
+    },
+    {
+      "id": "perceptron-1957",
+      "title": "Perceptron 1957",
+      "date": ""
+    },
+    {
+      "id": "hal-9000-2001-1968",
+      "title": "Hal 9000 2001 1968",
+      "date": ""
+    },
+    {
+      "id": "first-ai-winter-1973",
+      "title": "First Ai Winter 1973",
+      "date": ""
+    },
+    {
+      "id": "terminator-1984",
+      "title": "Terminator 1984",
+      "date": ""
+    },
+    {
+      "id": "lecun-cnn-1989",
+      "title": "Lecun Cnn 1989",
+      "date": ""
+    },
+    {
+      "id": "deep-blue-kasparov-1997",
+      "title": "Deep Blue Kasparov 1997",
+      "date": ""
+    },
+    {
+      "id": "matrix-1999",
+      "title": "Matrix 1999",
+      "date": ""
+    },
+    {
+      "id": "watson-jeopardy-2011",
+      "title": "Watson Jeopardy 2011",
+      "date": ""
+    },
+    {
+      "id": "alexnet-2012",
+      "title": "Alexnet 2012",
+      "date": ""
+    },
+    {
+      "id": "her-2013",
+      "title": "Her 2013",
+      "date": ""
+    },
+    {
+      "id": "word2vec-2013",
+      "title": "Word2Vec 2013",
+      "date": ""
+    },
+    {
+      "id": "gan-2014",
+      "title": "Gan 2014",
+      "date": ""
+    },
+    {
+      "id": "alphago-lee-sedol-2016",
+      "title": "Alphago Lee Sedol 2016",
+      "date": ""
+    },
+    {
+      "id": "attention-is-all-you-need-2017",
+      "title": "Attention Is All You Need 2017",
+      "date": ""
+    },
+    {
+      "id": "gpt-1-openai-2018",
+      "title": "Gpt 1 Openai 2018",
+      "date": ""
+    },
+    {
+      "id": "bert-2018",
+      "title": "Bert 2018",
+      "date": ""
+    },
+    {
+      "id": "gpt-3-2020",
+      "title": "Gpt 3 2020",
+      "date": ""
+    },
+    {
+      "id": "alphafold-2020",
+      "title": "Alphafold 2020",
+      "date": ""
+    },
+    {
+      "id": "github-copilot-2021",
+      "title": "Github Copilot 2021",
+      "date": ""
+    },
+    {
+      "id": "dall-e-2-stable-diffusion-2022",
+      "title": "Dall E 2 Stable Diffusion 2022",
+      "date": ""
+    },
+    {
+      "id": "gpt-4-2023",
+      "title": "Gpt 4 2023",
+      "date": ""
+    },
+    {
+      "id": "claude-anthropic-2023",
+      "title": "Claude Anthropic 2023",
+      "date": ""
+    },
+    {
+      "id": "llama-meta-2023",
+      "title": "Llama Meta 2023",
+      "date": ""
+    },
+    {
+      "id": "sora-2024",
+      "title": "Sora 2024",
+      "date": ""
+    },
+    {
+      "id": "hinton-bengio-nobel-2024",
+      "title": "Hinton Bengio Nobel 2024",
+      "date": ""
+    },
+    {
+      "id": "deepseek-r1-2025",
+      "title": "Deepseek R1 2025",
+      "date": ""
+    },
+    {
+      "id": "blade-runner-1982",
+      "title": "Blade Runner 1982",
+      "date": ""
+    },
+    {
+      "id": "chinese-room-argument-1980",
+      "title": "Chinese Room Argument 1980",
+      "date": ""
+    },
+    {
+      "id": "lstm-networks-1997",
+      "title": "Lstm Networks 1997",
+      "date": ""
+    },
+    {
+      "id": "darpa-grand-challenge-2005",
+      "title": "Darpa Grand Challenge 2005",
+      "date": ""
+    },
+    {
+      "id": "imagenet-dataset-2009",
+      "title": "Imagenet Dataset 2009",
+      "date": ""
+    },
+    {
+      "id": "siri-launch-2011",
+      "title": "Siri Launch 2011",
+      "date": ""
+    },
+    {
+      "id": "ex-machina-2015",
+      "title": "Ex Machina 2015",
+      "date": ""
+    },
+    {
+      "id": "openai-founded-2015",
+      "title": "Openai Founded 2015",
+      "date": ""
+    },
+    {
+      "id": "gpt2-too-dangerous-2019",
+      "title": "Gpt2 Too Dangerous 2019",
+      "date": ""
+    },
+    {
+      "id": "eu-ai-act-2024",
+      "title": "Eu Ai Act 2024",
+      "date": ""
+    },
+    {
+      "id": "eliza-chatbot-1966",
+      "title": "ELIZA: The First Chatbot That Fooled Its Users",
+      "date": "1966"
+    }
   ],
-  "last_run": "2026-03-11T20:26:46.963815",
-  "total": 0
+  "topic": ""
 }
