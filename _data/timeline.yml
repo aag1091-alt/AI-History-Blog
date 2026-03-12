@@ -385,3 +385,12 @@
   category: "Commercial"
   quote: "Siri was the first time AI became a product experience, not a research project."
   quote_author: "Dag Kittlaus"
+
+- id: "ex-machina-2015"
+  title: "Ex Machina: The Turing Test Gets a Thriller"
+  subtitle: "Alex Garland's taut sci-fi film explored manipulation, consciousness, and gender through an AI that outsmarts its creators, becoming the defining AI film of the deep learning era."
+  event_date: "2015-01-21"
+  era: "The Deep Learning Revolution (2012–2016)"
+  category: "Film & Fiction"
+  quote: "One day the AIs are going to look back on us the same way we look at fossil skeletons on the plains of Africa."
+  quote_author: "Nathan (Oscar Isaac), Ex Machina"
