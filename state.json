@@ -39,8 +39,9 @@
     "deepseek-r1-2025",
     "blade-runner-1982",
     "chinese-room-argument-1980",
-    "lstm-networks-1997"
+    "lstm-networks-1997",
+    "darpa-grand-challenge-2005"
   ],
-  "last_run": "2026-03-11T17:07:50.961864",
+  "last_run": "2026-03-11T17:11:14.449963",
   "total": 0
 }
