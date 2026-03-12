@@ -376,3 +376,12 @@
   category: "Research"
   quote: "We decided we were going to map out the entire world of objects. People thought we were crazy."
   quote_author: "Fei-Fei Li"
+
+- id: "siri-launch-2011"
+  title: "Siri: AI Gets a Voice in Every Pocket"
+  subtitle: "Apple shipped the first mainstream AI voice assistant on the iPhone 4S, putting conversational AI into the hands of hundreds of millions of people overnight."
+  event_date: "2011-10-14"
+  era: "The Neural Network Renaissance (1989–2011)"
+  category: "Commercial"
+  quote: "Siri was the first time AI became a product experience, not a research project."
+  quote_author: "Dag Kittlaus"
