@@ -358,3 +358,12 @@
   category: "Research"
   quote: "The problem of vanishing gradients had been a roadblock. LSTM was designed to overcome it by design, not by tricks."
   quote_author: "Sepp Hochreiter"
+
+- id: "darpa-grand-challenge-2005"
+  title: "DARPA Grand Challenge: The Race That Launched Self-Driving Cars"
+  subtitle: "Stanford's Stanley autonomously navigated 132 miles of desert, proving that self-driving vehicles were possible and sparking a global industry."
+  event_date: "2005-10-08"
+  era: "The Neural Network Renaissance (1989–2011)"
+  category: "Research"
+  quote: "No one had ever built a robot that could drive itself through unrehearsed, unknown terrain. We didn't know if it was possible."
+  quote_author: "Sebastian Thrun"
