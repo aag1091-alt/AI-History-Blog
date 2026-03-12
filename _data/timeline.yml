@@ -331,3 +331,12 @@
   category: "Research"
   quote: "DeepSeek is a Sputnik moment for American AI."
   quote_author: "Multiple US AI commentators, January 2025"
+
+- id: "blade-runner-1982"
+  title: "Blade Runner: What Does It Mean to Be Human?"
+  subtitle: "Ridley Scott's neo-noir masterpiece forced audiences to confront whether artificial beings could possess souls, forever shaping how we imagine synthetic consciousness."
+  event_date: "1982-06-25"
+  era: "AI Winters & Expert Systems (1970–1989)"
+  category: "Film & Fiction"
+  quote: "All those moments will be lost in time, like tears in rain."
+  quote_author: "Roy Batty (Rutger Hauer), Blade Runner"
