@@ -583,3 +583,12 @@
   category: "Research"
   quote: "We can only see a short distance ahead, but we can see plenty there that needs to be done."
   quote_author: "Alan Turing"
+
+- id: "expert-systems-mycin-1976"
+  title: "MYCIN: When AI First Practiced Medicine"
+  subtitle: "A Stanford program diagnosed blood infections better than most doctors, forcing the world to ask who — or what — should make life-or-death decisions."
+  event_date: "1976-01-01"
+  era: "Early Expert Systems"
+  category: "Research"
+  quote: "MYCIN's performance was comparable to that of the faculty members and significantly better than that of the residents and students."
+  quote_author: "Journal of the American Medical Association evaluation, 1979"
