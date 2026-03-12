@@ -340,3 +340,12 @@
   category: "Film & Fiction"
   quote: "All those moments will be lost in time, like tears in rain."
   quote_author: "Roy Batty (Rutger Hauer), Blade Runner"
+
+- id: "chinese-room-argument-1980"
+  title: "The Chinese Room: Can Machines Truly Understand?"
+  subtitle: "Philosopher John Searle argued that no computer program can ever possess genuine understanding, igniting a debate about AI consciousness that rages to this day."
+  event_date: "1980-01-01"
+  era: "AI Winters & Expert Systems (1970–1989)"
+  category: "Culture"
+  quote: "Programs are not minds, and they are not by themselves sufficient for having minds."
+  quote_author: "John Searle"
