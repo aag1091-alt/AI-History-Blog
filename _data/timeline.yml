@@ -412,3 +412,12 @@
   category: "Policy"
   quote: "We need to think about releasing powerful models differently. The potential for misuse is too high."
   quote_author: "OpenAI GPT-2 release statement"
+
+- id: "eu-ai-act-2024"
+  title: "The EU AI Act: The World's First AI Law"
+  subtitle: "The European Union passed the first comprehensive legal framework for artificial intelligence, classifying AI systems by risk and banning certain uses outright."
+  event_date: "2024-03-13"
+  era: "The Generative AI Explosion (2022–Present)"
+  category: "Policy"
+  quote: "The AI Act is not just a rulebook. It is a launchpad for EU startups and researchers to lead in trustworthy AI."
+  quote_author: "Thierry Breton"
