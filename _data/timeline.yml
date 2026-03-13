@@ -349,3 +349,12 @@
   category: "Commercial"
   quote: "We're quite curious, really. We want to find out if someone knows something about predicting how much someone is going to love a movie based on their movie preferences."
   quote_author: "Reed Hastings"
+
+- id: "cybernetics-norbert-wiener-1948"
+  title: "The Book That Fused Minds and Machines"
+  subtitle: "Norbert Wiener published Cybernetics, coining the science of communication and control that would become AI's intellectual scaffolding."
+  event_date: "1948-10-15"
+  era: "The Theoretical Foundations (1843–1955)"
+  category: "Research"
+  quote: "The thought of every age is reflected in its technique."
+  quote_author: "Norbert Wiener"

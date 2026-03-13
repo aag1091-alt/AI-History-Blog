@@ -190,9 +190,14 @@
       "id": "bayesian-spam-filtering-paul-graham-2002",
       "title": "The Essay That Turned AI Loose on Your Inbox",
       "date": "2002"
+    },
+    {
+      "id": "netflix-prize-recommendation-2006",
+      "title": "The Million-Dollar Algorithm Contest",
+      "date": "2006"
     }
   ],
-  "last_run": "2026-03-13T00:58:48.575045",
+  "last_run": "2026-03-13T01:01:43.271116",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",
