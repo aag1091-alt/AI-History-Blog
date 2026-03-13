@@ -700,3 +700,12 @@
   category: "Culture"
   quote: "The Automaton plays with his left hand, and this is evidently not an artificial arrangement, but a peculiarity of the original construction."
   quote_author: "Edgar Allan Poe"
+
+- id: "darpa-grand-challenge-desert-failure-2004"
+  title: "The Desert Race Where Every Robot Failed"
+  subtitle: "Fifteen autonomous vehicles attempted to cross 142 miles of Mojave Desert — the farthest made it just 7.4 miles, but the spectacular failure launched the self-driving car industry."
+  event_date: "2004-03-13"
+  era: "Statistical Learning and Quiet Progress (1993–2010)"
+  category: "Robotics"
+  quote: "We didn't have a winner today, but we accomplished what we set out to do — push the state of the art and inspire a community."
+  quote_author: "Tony Tether"

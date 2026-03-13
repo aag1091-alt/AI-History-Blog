@@ -385,9 +385,14 @@
       "id": "ada-lovelace-first-program-1843",
       "title": "The Countess Who Saw the Future of Machines",
       "date": "1843"
+    },
+    {
+      "id": "eliza-effect-mit-hopfield-hidden-markov-rosenblatt-bayesian-mechanical-turk-1770",
+      "title": "The Fraud That Fooled Europe for Decades",
+      "date": "1770"
     }
   ],
-  "last_run": "2026-03-13T03:07:05.222523",
+  "last_run": "2026-03-13T03:10:34.023749",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",
