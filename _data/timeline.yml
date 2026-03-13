@@ -430,3 +430,12 @@
   category: "Research"
   quote: "This is a big deal. In some sense the problem is solved."
   quote_author: "John Moult"
+
+- id: "ai-art-auction-christies-2018"
+  title: "The Algorithm That Crashed the Art World"
+  subtitle: "An AI-generated portrait sold at Christie's for $432,500, forcing the art world to confront a new kind of creator."
+  event_date: "2018-10-25"
+  era: "The Deep Learning Revolution (2011–2019)"
+  category: "Culture"
+  quote: "It may not have been painted by a man, but it certainly isn't a random cool picture either. There is a creative process here."
+  quote_author: "Richard Lloyd, Christie's International Head of Prints and Multiples"

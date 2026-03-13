@@ -235,9 +235,14 @@
       "id": "eliza-effect-mit-hopfield-network-1982",
       "title": "The Physicist Who Gave Networks Memory",
       "date": "1982"
+    },
+    {
+      "id": "alphafold-protein-folding-2020",
+      "title": "The Algorithm That Solved Biology's 50-Year Grand Challenge",
+      "date": "2020"
     }
   ],
-  "last_run": "2026-03-13T01:33:38.175130",
+  "last_run": "2026-03-13T01:36:35.423501",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",
