@@ -475,3 +475,12 @@
   category: "Research"
   quote: "Perhaps the most difficult thing about AI is the problem of common sense. Cyc is an attempt to break through that barrier by brute force."
   quote_author: "Douglas Lenat"
+
+- id: "unimate-first-industrial-robot-1961"
+  title: "The Steel Arm That Started the Robot Age"
+  subtitle: "In 1961, a 4,000-pound mechanical arm named Unimate became the first industrial robot to work on an assembly line, forever changing manufacturing."
+  event_date: "1961-06-01"
+  era: "The Dawn of AI (1956–1969)"
+  category: "Robotics"
+  quote: "I decided that if Isaac Asimov could write about robots, I could build one."
+  quote_author: "Joseph Engelberger"
