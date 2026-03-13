@@ -305,9 +305,14 @@
       "id": "sony-aibo-robot-dog-1999",
       "title": "The Pet That Never Needed Feeding",
       "date": "1999"
+    },
+    {
+      "id": "dartmouth-workshop-birth-of-ai-1956",
+      "title": "The Summer That Named a Revolution",
+      "date": "1956"
     }
   ],
-  "last_run": "2026-03-13T02:22:34.204517",
+  "last_run": "2026-03-13T02:24:53.366139",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",

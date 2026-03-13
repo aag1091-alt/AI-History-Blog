@@ -556,3 +556,12 @@
   category: "Research"
   quote: "We propose that a 2 month, 10 man study of artificial intelligence be carried out during the summer of 1956 at Dartmouth College in Hanover, New Hampshire."
   quote_author: "John McCarthy, Marvin Minsky, Nathaniel Rochester, Claude Shannon"
+
+- id: "perceptron-rosenblatt-navy-1958"
+  title: "The Machine That Learned Like a Brain"
+  subtitle: "Frank Rosenblatt unveiled the Perceptron, the first device that could genuinely learn from experience — and the New York Times predicted it would soon walk, talk, and think."
+  event_date: "1958-07-08"
+  era: "The Dawn of AI (1956–1969)"
+  category: "Research"
+  quote: "The embryo of an electronic computer that [the Navy] expects will be able to walk, talk, see, write, reproduce itself and be conscious of its existence."
+  quote_author: "The New York Times, July 8, 1958"
