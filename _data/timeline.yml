@@ -394,3 +394,12 @@
   category: "Robotics"
   quote: "The Roomba was a success because we stopped trying to make the perfect robot and started making a robot that was good enough to be useful."
   quote_author: "Rodney Brooks"
+
+- id: "speech-recognition-hidden-markov-models-1986"
+  title: "Teaching Machines to Listen"
+  subtitle: "IBM's speech recognition team, led by Fred Jelinek, proved that statistical methods could understand human speech better than any linguistic approach — famously quipping that firing linguists improved the system."
+  event_date: "1986-03-15"
+  era: "Expert Systems and the Knowledge Boom (1980–1992)"
+  category: "Research"
+  quote: "Every time I fire a linguist, the performance of the speech recognizer goes up."
+  quote_author: "Frederick Jelinek"
