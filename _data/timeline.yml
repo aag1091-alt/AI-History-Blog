@@ -889,3 +889,12 @@
   category: "Research"
   quote: "The key insight was that knowledge is power — that a program equipped with deep knowledge of a narrow domain could outperform a general-purpose reasoner on problems in that domain."
   quote_author: "Edward Feigenbaum"
+
+- id: "gpt2-too-dangerous-to-release-2019"
+  title: "The AI Too Dangerous to Release"
+  subtitle: "OpenAI withheld its own text-generating model from the public, igniting a firestorm over who gets to decide when AI is too powerful to share."
+  event_date: "2019-02-14"
+  era: "The Deep Learning Revolution (2011–2019)"
+  category: "Policy"
+  quote: "Due to our concerns about malicious applications of the technology, we are not releasing the trained model."
+  quote_author: "OpenAI (GPT-2 announcement blog post)"

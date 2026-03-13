@@ -490,9 +490,14 @@
       "id": "shrdlu-blocks-world-winograd-1970",
       "title": "The Program That Understood a Tiny World Perfectly",
       "date": "1970"
+    },
+    {
+      "id": "dendral-first-expert-system-1965",
+      "title": "The Program That Thought Like a Chemist",
+      "date": "1965"
     }
   ],
-  "last_run": "2026-03-13T04:13:26.346173",
+  "last_run": "2026-03-13T04:15:41.515061",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",
