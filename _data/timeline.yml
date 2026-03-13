@@ -862,3 +862,12 @@
   category: "Research"
   quote: "You shall know a word by the company it keeps."
   quote_author: "J.R. Firth"
+
+- id: "deep-belief-networks-hinton-neural-revival-2006"
+  title: "The Paper That Brought Neural Networks Back from the Dead"
+  subtitle: "Geoffrey Hinton showed that deep neural networks could be trained layer by layer, reigniting a field that had been written off for decades."
+  event_date: "2006-07-01"
+  era: "Statistical Learning and Quiet Progress (1993–2010)"
+  category: "Research"
+  quote: "We discover a fast, greedy algorithm that can learn deep, directed belief networks one layer at a time, provided the top two layers form an undirected associative memory."
+  quote_author: "Geoffrey Hinton, Simon Osindero, and Yee-Whye Teh"
