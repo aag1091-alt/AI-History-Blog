@@ -637,3 +637,12 @@
   category: "Philosophy"
   quote: "I propose to consider the question, 'Can machines think?'"
   quote_author: "Alan Turing"
+
+- id: "alexnet-imagenet-breakthrough-2012"
+  title: "The GPU Gambit That Launched a Revolution"
+  subtitle: "A deep neural network obliterated the ImageNet competition by such a staggering margin that it forced an entire field to abandon its old methods overnight."
+  event_date: "2012-09-30"
+  era: "The Deep Learning Revolution (2011–2019)"
+  category: "Research"
+  quote: "It was so much better than anything else that it was not like a gentle, oh maybe deep learning is okay. It was like, whoa, what just happened?"
+  quote_author: "Jeff Dean"

@@ -350,9 +350,14 @@
       "id": "alphago-defeats-lee-sedol-2016",
       "title": "The Move That No Human Would Play",
       "date": "2016"
+    },
+    {
+      "id": "computing-machinery-intelligence-turing-1950",
+      "title": "Can a Machine Think?",
+      "date": "1950"
     }
   ],
-  "last_run": "2026-03-13T02:48:09.814066",
+  "last_run": "2026-03-13T02:50:14.844366",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",
