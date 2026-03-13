@@ -655,3 +655,12 @@
   category: "Research"
   quote: "The coolest idea in deep learning in the last 20 years."
   quote_author: "Yann LeCun"
+
+- id: "watson-jeopardy-ibm-2011"
+  title: "The Computer That Won at Word Games"
+  subtitle: "IBM's Watson defeated Jeopardy!'s two greatest champions on live television, proving machines could master the messy ambiguity of human language."
+  event_date: "2011-02-16"
+  era: "The Deep Learning Revolution (2011–2019)"
+  category: "Commercial"
+  quote: "I for one welcome our new computer overlords."
+  quote_author: "Ken Jennings"
