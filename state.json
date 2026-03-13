@@ -210,9 +210,14 @@
       "id": "expert-system-r1-digital-equipment-1986",
       "title": "The AI That Saved a Company $40 Million a Year",
       "date": "1986"
+    },
+    {
+      "id": "perceptrons-minsky-papert-1969",
+      "title": "The Book That Killed Neural Networks",
+      "date": "1969"
     }
   ],
-  "last_run": "2026-03-13T01:18:57.487794",
+  "last_run": "2026-03-13T01:23:21.628769",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",

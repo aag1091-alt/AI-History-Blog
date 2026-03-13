@@ -385,3 +385,12 @@
   category: "Research"
   quote: "The question is whether [perceptrons] have enough power to justify serious investment of intellectual effort… the answer is essentially negative."
   quote_author: "Marvin Minsky and Seymour Papert, Perceptrons (1969)"
+
+- id: "roomba-irobot-consumer-robotics-2002"
+  title: "The Robot That Vacuumed Its Way Into Millions of Homes"
+  subtitle: "iRobot's Roomba brought autonomous robotics out of labs and onto living room floors, becoming the most commercially successful home robot in history."
+  event_date: "2002-09-17"
+  era: "Statistical Learning and Quiet Progress (1993–2010)"
+  category: "Robotics"
+  quote: "The Roomba was a success because we stopped trying to make the perfect robot and started making a robot that was good enough to be useful."
+  quote_author: "Rodney Brooks"
