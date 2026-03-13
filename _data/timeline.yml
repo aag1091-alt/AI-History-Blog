@@ -187,3 +187,12 @@
   category: "Research"
   quote: "What we thought we were doing (and I think we succeeded fairly well) was treating the brain as a Turing machine."
   quote_author: "Warren McCulloch"
+
+- id: "dendral-expert-system-1965"
+  title: "The First Expert System That Out-Performed Scientists"
+  subtitle: "A Stanford program learned to identify chemical compounds better than most human chemists, proving AI could master specialized knowledge."
+  event_date: "1965-12-01"
+  era: "The Dawn of AI (1956–1969)"
+  category: "Research"
+  quote: "The important thing about DENDRAL is that it demonstrated that computers could be made to perform at the level of human experts in specialized domains — that knowledge was the key to machine intelligence."
+  quote_author: "Edward Feigenbaum"

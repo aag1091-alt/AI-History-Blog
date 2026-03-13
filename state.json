@@ -100,9 +100,14 @@
       "id": "fifth-generation-computer-project-1982",
       "title": "The Billion-Dollar Gamble That Spooked the West",
       "date": "1982"
+    },
+    {
+      "id": "mcculloch-pitts-neural-model-1943",
+      "title": "The Paper That Gave Machines Neurons",
+      "date": "1943"
     }
   ],
-  "last_run": "2026-03-12T23:52:37.616971",
+  "last_run": "2026-03-12T23:56:16.719209",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",
