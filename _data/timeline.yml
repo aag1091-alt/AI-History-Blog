@@ -709,3 +709,12 @@
   category: "Robotics"
   quote: "We didn't have a winner today, but we accomplished what we set out to do — push the state of the art and inspire a community."
   quote_author: "Tony Tether"
+
+- id: "no-hands-across-america-alvinn-1995"
+  title: "The Neural Network That Drove Across America"
+  subtitle: "A minivan steered by a neural network crossed 2,849 miles of American highway, proving self-driving cars were not science fiction."
+  event_date: "1995-07-12"
+  era: "Statistical Learning and Quiet Progress (1993–2010)"
+  category: "Engineering"
+  quote: "People thought we were crazy. But we wanted to show that neural networks could handle the real world, not just toy problems."
+  quote_author: "Dean Pomerleau"
