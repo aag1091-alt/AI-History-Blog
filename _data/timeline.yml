@@ -313,3 +313,12 @@
   category: "Research"
   quote: "Over Christmas, Allen Newell and I invented a thinking machine."
   quote_author: "Herbert A. Simon"
+
+- id: "lenet-handwritten-digits-lecun-1989"
+  title: "The Neural Network That Read Your Mail"
+  subtitle: "Yann LeCun's convolutional neural network learned to read handwritten zip codes, proving that neural networks could solve real-world problems and laying the foundation for modern computer vision."
+  event_date: "1989-12-01"
+  era: "Expert Systems and the Knowledge Boom (1980–1992)"
+  category: "Research"
+  quote: "What I really wanted to show is that you could design the architecture of a neural net so it would have some built-in knowledge of the world — in this case, knowledge about the structure of images."
+  quote_author: "Yann LeCun"

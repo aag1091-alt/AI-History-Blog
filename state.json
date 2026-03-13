@@ -170,9 +170,14 @@
       "id": "eliza-effect-mit-terry-winograd-shrdlu-1971",
       "title": "The Program That Understood a Block World",
       "date": "1971"
+    },
+    {
+      "id": "logic-theorist-newell-simon-1955",
+      "title": "The Program That Proved Theorems Before AI Had a Name",
+      "date": "1955"
     }
   ],
-  "last_run": "2026-03-13T00:44:49.347795",
+  "last_run": "2026-03-13T00:47:05.832786",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",
