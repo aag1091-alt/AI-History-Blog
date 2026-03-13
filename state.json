@@ -105,9 +105,14 @@
       "id": "mcculloch-pitts-neural-model-1943",
       "title": "The Paper That Gave Machines Neurons",
       "date": "1943"
+    },
+    {
+      "id": "dendral-expert-system-1965",
+      "title": "The First Expert System That Out-Performed Scientists",
+      "date": "1965"
     }
   ],
-  "last_run": "2026-03-12T23:56:16.719209",
+  "last_run": "2026-03-12T23:59:20.479382",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",

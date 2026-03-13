@@ -196,3 +196,12 @@
   category: "Research"
   quote: "The important thing about DENDRAL is that it demonstrated that computers could be made to perform at the level of human experts in specialized domains — that knowledge was the key to machine intelligence."
   quote_author: "Edward Feigenbaum"
+
+- id: "samuel-checkers-machine-learning-1959"
+  title: "The Program That Named Machine Learning"
+  subtitle: "Arthur Samuel's checkers-playing program learned to beat its creator, and gave an entire field its name."
+  event_date: "1959-07-03"
+  era: "The Dawn of AI (1956–1969)"
+  category: "Research"
+  quote: "Programming computers to learn from experience should eventually eliminate the need for much of this detailed programming effort."
+  quote_author: "Arthur Samuel"
