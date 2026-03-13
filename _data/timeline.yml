@@ -466,3 +466,12 @@
   category: "Research"
   quote: "The bot gets better and better every day. It's like a tidal wave that just keeps coming."
   quote_author: "Jason Les"
+
+- id: "eliza-effect-mit-hopfield-cyc-knowledge-base-1984"
+  title: "The Audacious Attempt to Encode All Human Knowledge"
+  subtitle: "Doug Lenat launched Cyc, a project to hand-code millions of common-sense facts into a machine — a decades-long bet that AI needed to know what every child knows."
+  event_date: "1984-06-01"
+  era: "Expert Systems and the Knowledge Boom (1980–1992)"
+  category: "Research"
+  quote: "Perhaps the most difficult thing about AI is the problem of common sense. Cyc is an attempt to break through that barrier by brute force."
+  quote_author: "Douglas Lenat"

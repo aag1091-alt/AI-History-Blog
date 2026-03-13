@@ -255,9 +255,14 @@
       "id": "rur-capek-robot-1921",
       "title": "The Play That Gave Robots Their Name",
       "date": "1921"
+    },
+    {
+      "id": "libratus-poker-imperfect-information-2017",
+      "title": "The Machine That Learned to Bluff",
+      "date": "2017"
     }
   ],
-  "last_run": "2026-03-13T01:49:26.480253",
+  "last_run": "2026-03-13T01:58:38.064104",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",
