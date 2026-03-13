@@ -160,9 +160,14 @@
       "id": "word2vec-mikolov-2013",
       "title": "King Minus Man Plus Woman Equals Queen",
       "date": "2013"
+    },
+    {
+      "id": "reinforcement-learning-atari-deepmind-2013",
+      "title": "The Algorithm That Mastered Atari by Itself",
+      "date": "2013"
     }
   ],
-  "last_run": "2026-03-13T00:39:14.915762",
+  "last_run": "2026-03-13T00:42:15.057508",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",

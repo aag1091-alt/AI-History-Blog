@@ -295,3 +295,12 @@
   category: "Research"
   quote: "The idea that you could take raw pixels, feed them into a neural network, and out would pop actions that would lead to superhuman performance — that was the dream of AI from the very beginning."
   quote_author: "Demis Hassabis"
+
+- id: "eliza-effect-mit-terry-winograd-shrdlu-1971"
+  title: "The Program That Understood a Block World"
+  subtitle: "Terry Winograd's SHRDLU demonstrated natural language understanding by manipulating virtual blocks — convincing researchers that true machine comprehension was just around the corner."
+  event_date: "1971-01-15"
+  era: "The First AI Winter (1970–1979)"
+  category: "Research"
+  quote: "The computer system we describe can carry on a simple dialogue in English about a small world of objects, understanding and responding to commands, statements, and questions."
+  quote_author: "Terry Winograd"
