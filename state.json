@@ -290,9 +290,14 @@
       "id": "eliza-effect-mit-hopfield-hidden-markov-speech-ibm-shoebox-1962",
       "title": "The Box That Understood Sixteen Words",
       "date": "1962"
+    },
+    {
+      "id": "eliza-effect-mit-hopfield-eurisko-heuristic-learning-1983",
+      "title": "The Program That Invented Its Own Rules",
+      "date": "1983"
     }
   ],
-  "last_run": "2026-03-13T02:12:53.478541",
+  "last_run": "2026-03-13T02:14:21.742584",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",

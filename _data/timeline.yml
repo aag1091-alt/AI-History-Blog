@@ -529,3 +529,12 @@
   category: "Research"
   quote: "When Eurisko entered the tournament, its fleet designs were so unconventional that the human players assumed they were mistakes — until the machines started winning."
   quote_author: "Douglas Lenat"
+
+- id: "siri-apple-voice-assistant-2011"
+  title: "The Voice in Your Pocket"
+  subtitle: "Apple launched Siri on the iPhone 4S, bringing AI out of research labs and into the daily lives of hundreds of millions of people."
+  event_date: "2011-10-04"
+  era: "The Deep Learning Revolution (2011–2019)"
+  category: "Commercial"
+  quote: "Siri is a humble yet ambitious project to build a virtual assistant that can help you get things done just by asking."
+  quote_author: "Dag Kittlaus"
