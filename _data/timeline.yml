@@ -304,3 +304,12 @@
   category: "Research"
   quote: "The computer system we describe can carry on a simple dialogue in English about a small world of objects, understanding and responding to commands, statements, and questions."
   quote_author: "Terry Winograd"
+
+- id: "logic-theorist-newell-simon-1955"
+  title: "The Program That Proved Theorems Before AI Had a Name"
+  subtitle: "Months before the Dartmouth Conference coined 'artificial intelligence,' the Logic Theorist became the first program to autonomously prove mathematical theorems — and one of its proofs was more elegant than the human original."
+  event_date: "1955-12-15"
+  era: "The Theoretical Foundations (1843–1955)"
+  category: "Research"
+  quote: "Over Christmas, Allen Newell and I invented a thinking machine."
+  quote_author: "Herbert A. Simon"
