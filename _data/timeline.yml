@@ -754,3 +754,12 @@
   category: "Engineering"
   quote: "I just wondered how things work, and I like to get things working."
   quote_author: "Claude Shannon"
+
+- id: "arthur-samuel-checkers-machine-learning-1959"
+  title: "The Checkers Player That Named a Revolution"
+  subtitle: "Arthur Samuel's self-improving checkers program coined the term 'machine learning' and proved a computer could surpass its own creator."
+  event_date: "1959-07-03"
+  era: "The Dawn of AI (1956–1969)"
+  category: "Research"
+  quote: "Programming computers to learn from experience should eventually eliminate the need for much of this detailed programming effort."
+  quote_author: "Arthur Samuel"
