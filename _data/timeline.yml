@@ -727,3 +727,12 @@
   category: "Commercial"
   quote: "Artificial artificial intelligence."
   quote_author: "Jeff Bezos"
+
+- id: "shakey-first-reasoning-robot-1966"
+  title: "The Robot That Stopped to Think"
+  subtitle: "SRI International built Shakey, the first mobile robot that could perceive its environment, plan a sequence of actions, and reason about how to carry them out — proving machines could operate autonomously in the real world."
+  event_date: "1966-11-01"
+  era: "The Dawn of AI (1956–1969)"
+  category: "Robotics"
+  quote: "Shakey was the first creature in the history of the planet that could reason about its own actions."
+  quote_author: "Nils Nilsson"
