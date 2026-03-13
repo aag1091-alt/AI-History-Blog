@@ -450,9 +450,14 @@
       "id": "snarc-first-neural-network-machine-minsky-1951",
       "title": "The Rat Brain Built from Bomber Parts",
       "date": "1951"
+    },
+    {
+      "id": "hal-9000-2001-space-odyssey-kubrick-1968",
+      "title": "The Computer That Terrified a Generation",
+      "date": "1968"
     }
   ],
-  "last_run": "2026-03-13T03:49:13.400744",
+  "last_run": "2026-03-13T03:51:29.138349",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",

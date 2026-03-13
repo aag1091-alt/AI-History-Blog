@@ -817,3 +817,12 @@
   category: "Film & Fiction"
   quote: "HAL was a perfectly legitimate extrapolation of existing technology. We didn't have to invent anything."
   quote_author: "Arthur C. Clarke"
+
+- id: "chatgpt-launch-fastest-growing-app-2022"
+  title: "The Chatbot That Broke the Internet"
+  subtitle: "OpenAI released ChatGPT on November 30, 2022, and it reached 100 million users in just two months, making it the fastest-growing consumer application in history."
+  event_date: "2022-11-30"
+  era: "The Age of Foundation Models (2020–Present)"
+  category: "Commercial"
+  quote: "ChatGPT is scary good. We are not far from dangerously strong AI."
+  quote_author: "Elon Musk"
