@@ -610,3 +610,12 @@
   category: "Research"
   quote: "We never told it during the training, 'This is a cat.' It basically invented the concept of a cat."
   quote_author: "Jeff Dean"
+
+- id: "lighthill-report-ai-winter-1973"
+  title: "The Report That Froze a Field"
+  subtitle: "A devastating government review by mathematician James Lighthill declared most AI research a failure, triggering funding cuts that plunged the field into its first winter."
+  event_date: "1973-04-01"
+  era: "The First AI Winter (1970–1979)"
+  category: "Policy"
+  quote: "In no part of the field have the discoveries made so far produced the major impact that was then promised."
+  quote_author: "James Lighthill"
