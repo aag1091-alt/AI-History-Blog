@@ -79,3 +79,12 @@
   category: "Research"
   quote: "I thought AlphaGo was based on probability calculation and that it was merely a machine. But when I saw this move, I changed my mind. Surely, AlphaGo is creative."
   quote_author: "Lee Sedol"
+
+- id: "hal-9000-2001-space-odyssey-1968"
+  title: "HAL 9000 and the Birth of AI's Public Imagination"
+  subtitle: "Stanley Kubrick's 2001: A Space Odyssey introduced audiences to a terrifyingly calm artificial intelligence, shaping public fears and expectations about AI for decades."
+  event_date: "1968-04-02"
+  era: "The Dawn of AI (1956–1969)"
+  category: "Film & Fiction"
+  quote: "I'm sorry, Dave. I'm afraid I can't do that."
+  quote_author: "HAL 9000, voiced by Douglas Rain"
