@@ -907,3 +907,12 @@
   category: "Research"
   quote: "What we showed was that you could take raw pixels, feed them into a neural network, and have the network learn its own features. That was the key insight — let the machine figure out the representation."
   quote_author: "Yann LeCun"
+
+- id: "on-computable-numbers-turing-machine-1936"
+  title: "The Paper That Invented the Computer Before It Existed"
+  subtitle: "A 24-year-old mathematician imagined a universal machine on paper, laying the theoretical foundation for every computer — and every AI — that would follow."
+  event_date: "1936-11-12"
+  era: "The Theoretical Foundations (1843–1955)"
+  category: "Research"
+  quote: "We may compare a man in the process of computing a real number to a machine which is only capable of a finite number of conditions."
+  quote_author: "Alan Turing"

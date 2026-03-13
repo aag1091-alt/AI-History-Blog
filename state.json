@@ -500,9 +500,14 @@
       "id": "gpt2-too-dangerous-to-release-2019",
       "title": "The AI Too Dangerous to Release",
       "date": "2019"
+    },
+    {
+      "id": "convolutional-neural-network-lecun-zip-codes-1989",
+      "title": "The Network That Learned to Read Handwriting",
+      "date": "1989"
     }
   ],
-  "last_run": "2026-03-13T04:18:24.423537",
+  "last_run": "2026-03-13T04:21:06.589426",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",
