@@ -628,3 +628,12 @@
   category: "Research"
   quote: "It's not a human move. I've never seen a human play this move. So beautiful."
   quote_author: "Fan Hui"
+
+- id: "computing-machinery-intelligence-turing-1950"
+  title: "Can a Machine Think?"
+  subtitle: "Alan Turing published the paper that reframed the oldest question in AI and gave the field its most famous test."
+  event_date: "1950-10-01"
+  era: "The Theoretical Foundations (1843–1955)"
+  category: "Philosophy"
+  quote: "I propose to consider the question, 'Can machines think?'"
+  quote_author: "Alan Turing"

@@ -345,9 +345,14 @@
       "id": "lighthill-report-ai-winter-1973",
       "title": "The Report That Froze a Field",
       "date": "1973"
+    },
+    {
+      "id": "alphago-defeats-lee-sedol-2016",
+      "title": "The Move That No Human Would Play",
+      "date": "2016"
     }
   ],
-  "last_run": "2026-03-13T02:46:06.205326",
+  "last_run": "2026-03-13T02:48:09.814066",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",
