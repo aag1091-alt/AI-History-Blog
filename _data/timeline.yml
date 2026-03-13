@@ -826,3 +826,12 @@
   category: "Commercial"
   quote: "ChatGPT is scary good. We are not far from dangerously strong AI."
   quote_author: "Elon Musk"
+
+- id: "mycin-medical-expert-system-stanford-1976"
+  title: "The Doctor Program That Outperformed Doctors"
+  subtitle: "A Stanford AI diagnosed blood infections more accurately than most physicians — then was quietly shelved because no one knew who to blame if it was wrong."
+  event_date: "1976-09-01"
+  era: "The First AI Winter (1970–1979)"
+  category: "Research"
+  quote: "The question is not whether a computer can be made to perform a task as well as a physician, but whether physicians and patients will accept its doing so."
+  quote_author: "Edward Shortliffe"

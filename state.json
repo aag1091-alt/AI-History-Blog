@@ -455,9 +455,14 @@
       "id": "hal-9000-2001-space-odyssey-kubrick-1968",
       "title": "The Computer That Terrified a Generation",
       "date": "1968"
+    },
+    {
+      "id": "chatgpt-launch-fastest-growing-app-2022",
+      "title": "The Chatbot That Broke the Internet",
+      "date": "2022"
     }
   ],
-  "last_run": "2026-03-13T03:51:29.138349",
+  "last_run": "2026-03-13T03:58:15.970571",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",
