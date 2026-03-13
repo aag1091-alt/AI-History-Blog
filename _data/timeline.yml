@@ -97,3 +97,12 @@
   category: "Research"
   quote: "We describe a new learning procedure, back-propagation, for networks of neurone-like units. The procedure repeatedly adjusts the weights of the connections in the network so as to minimize a measure of the difference between the actual output vector of the net and the desired output vector."
   quote_author: "David Rumelhart, Geoffrey Hinton, Ronald Williams"
+
+- id: "ibm-watson-jeopardy-2011"
+  title: "Watson Wins Jeopardy!"
+  subtitle: "IBM's question-answering system defeated two of the greatest Jeopardy! champions ever, proving machines could master natural language on live television."
+  event_date: "2011-02-16"
+  era: "The Deep Learning Revolution (2011–2019)"
+  category: "Commercial"
+  quote: "I for one welcome our new computer overlords."
+  quote_author: "Ken Jennings"
