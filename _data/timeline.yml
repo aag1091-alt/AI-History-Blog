@@ -592,3 +592,12 @@
   category: "Research"
   quote: "It's more powerful than previous approaches because by not using human data, or human expertise in any fashion, we've removed the constraints of human knowledge and it is able to create knowledge itself."
   quote_author: "David Silver"
+
+- id: "attention-is-all-you-need-transformer-2017"
+  title: "The Architecture That Ate AI"
+  subtitle: "A team at Google introduced the Transformer, a deceptively simple attention-based model that would become the foundation of virtually every major AI breakthrough that followed."
+  event_date: "2017-06-12"
+  era: "The Deep Learning Revolution (2011–2019)"
+  category: "Research"
+  quote: "We wanted to get rid of recurrence entirely… the key insight was that attention alone is sufficient."
+  quote_author: "Ashish Vaswani"
