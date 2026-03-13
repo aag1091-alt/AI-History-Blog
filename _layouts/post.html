@@ -24,7 +24,7 @@ layout: default
 
 <script>
 (function() {
-  const key = 'ai-history-read';
+  const key = '{{ site.data.blog.read_key | default: "history-read" }}';
   const read = JSON.parse(localStorage.getItem(key) || '[]');
   const id   = {{ page.id | jsonify }};
   if (!read.includes(id)) { read.push(id); localStorage.setItem(key, JSON.stringify(read)); }

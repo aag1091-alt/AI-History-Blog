@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div id="this-day" class="this-day-box" style="display:none">
-  <span class="this-day-label">📅 This day in AI history</span>
+  <span class="this-day-label">📅 {{ site.data.blog.this_day_label | default: "This day in history" }}</span>
   <a id="this-day-link" href="#" class="this-day-title"></a>
   <span id="this-day-year" class="this-day-year"></span>
 </div>
@@ -19,11 +19,9 @@ title: Home
 
 <div class="filter-pills" id="category-filters">
   <button class="filter-pill active" data-filter="">All</button>
-  <button class="filter-pill" data-filter="Research">Research</button>
-  <button class="filter-pill" data-filter="Film &amp; Fiction">Film &amp; Fiction</button>
-  <button class="filter-pill" data-filter="Commercial">Commercial</button>
-  <button class="filter-pill" data-filter="Culture">Culture</button>
-  <button class="filter-pill" data-filter="Policy">Policy</button>
+  {% for cat in site.data.blog.categories %}
+  <button class="filter-pill" data-filter="{{ cat }}">{{ cat }}</button>
+  {% endfor %}
 </div>
 
 <p id="no-results" class="no-results" style="display:none">No milestones match your search.</p>
@@ -248,7 +246,7 @@ title: Home
   }
 
   // ─── Read tracking ────────────────────────────────────────────────────────
-  const read = JSON.parse(localStorage.getItem('ai-history-read') || '[]');
+  const read = JSON.parse(localStorage.getItem('{{ site.data.blog.read_key | default: "history-read" }}') || '[]');
   if (read.length) {
     postCards.forEach(card => {
       if (read.includes(card.dataset.postId)) card.classList.add('post-card--read');

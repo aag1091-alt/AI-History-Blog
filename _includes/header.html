@@ -18,7 +18,7 @@
           <span class="header-stat-label">Milestones</span>
         </div>
         <div class="header-stat">
-          <span class="header-stat-number">200+</span>
+          <span class="header-stat-number">{{ site.data.blog.years_of_history | default: "100+" }}</span>
           <span class="header-stat-label">Years of history</span>
         </div>
         <div class="header-stat">
@@ -66,7 +66,7 @@ document.getElementById('theme-toggle').addEventListener('click', function() {
 });
 
 (function() {
-  const read = JSON.parse(localStorage.getItem('ai-history-read') || '[]');
+  const read = JSON.parse(localStorage.getItem('{{ site.data.blog.read_key | default: "history-read" }}') || '[]');
   if (read.length > 0) {
     document.getElementById('read-count').textContent = read.length;
     document.getElementById('read-progress-stat').style.display = '';
