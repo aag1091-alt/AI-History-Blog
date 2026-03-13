@@ -745,3 +745,12 @@
   category: "Policy"
   quote: "The Fifth Generation project is a bold and imaginative initiative. If we fail to respond, we may consign our information technology industry to a permanent second-class status."
   quote_author: "Edward Feigenbaum"
+
+- id: "shannon-theseus-maze-mouse-1950"
+  title: "The Mechanical Mouse That Learned Its Way"
+  subtitle: "Claude Shannon built an electromechanical mouse that could navigate a maze through trial and error, becoming one of the first physical demonstrations of machine learning."
+  event_date: "1950-01-01"
+  era: "The Theoretical Foundations (1843–1955)"
+  category: "Engineering"
+  quote: "I just wondered how things work, and I like to get things working."
+  quote_author: "Claude Shannon"
