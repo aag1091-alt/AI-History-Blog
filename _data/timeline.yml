@@ -493,3 +493,12 @@
   category: "Research"
   quote: "TD-Gammon's playing style has actually changed the way the best human players play the game."
   quote_author: "Gerald Tesauro"
+
+- id: "stanford-cart-autonomous-vehicle-1979"
+  title: "The Cart That Crossed a Room by Itself"
+  subtitle: "A wobbly Stanford robot took five hours to navigate a chair-filled room, becoming one of the first machines to see and move autonomously."
+  event_date: "1979-07-01"
+  era: "The First AI Winter (1970–1979)"
+  category: "Robotics"
+  quote: "It was the first time a computer-controlled vehicle negotiated a cluttered space by seeing where it was going."
+  quote_author: "Hans Moravec"

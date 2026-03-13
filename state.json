@@ -270,9 +270,14 @@
       "id": "unimate-first-industrial-robot-1961",
       "title": "The Steel Arm That Started the Robot Age",
       "date": "1961"
+    },
+    {
+      "id": "reinforcement-learning-td-gammon-tesauro-1992",
+      "title": "The Neural Network That Mastered Backgammon",
+      "date": "1992"
     }
   ],
-  "last_run": "2026-03-13T02:03:55.162891",
+  "last_run": "2026-03-13T02:06:11.869278",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",
