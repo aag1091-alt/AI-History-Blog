@@ -835,3 +835,12 @@
   category: "Research"
   quote: "The question is not whether a computer can be made to perform a task as well as a physician, but whether physicians and patients will accept its doing so."
   quote_author: "Edward Shortliffe"
+
+- id: "deepmind-atari-deep-reinforcement-learning-2015"
+  title: "The Machine That Taught Itself to Play"
+  subtitle: "A London startup's algorithm learned to master dozens of Atari games from raw pixels alone, proving machines could figure out complex tasks with no human instruction."
+  event_date: "2015-02-25"
+  era: "The Deep Learning Revolution (2011–2019)"
+  category: "Research"
+  quote: "The only successful approach to AI so far has been to try to approximate what the brain does, and we think deep reinforcement learning represents the first significant step in that direction."
+  quote_author: "Demis Hassabis"

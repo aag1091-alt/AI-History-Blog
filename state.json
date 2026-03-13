@@ -460,9 +460,14 @@
       "id": "chatgpt-launch-fastest-growing-app-2022",
       "title": "The Chatbot That Broke the Internet",
       "date": "2022"
+    },
+    {
+      "id": "mycin-medical-expert-system-stanford-1976",
+      "title": "The Doctor Program That Outperformed Doctors",
+      "date": "1976"
     }
   ],
-  "last_run": "2026-03-13T03:58:15.970571",
+  "last_run": "2026-03-13T04:00:52.121640",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",
