@@ -220,9 +220,14 @@
       "id": "roomba-irobot-consumer-robotics-2002",
       "title": "The Robot That Vacuumed Its Way Into Millions of Homes",
       "date": "2002"
+    },
+    {
+      "id": "speech-recognition-hidden-markov-models-1986",
+      "title": "Teaching Machines to Listen",
+      "date": "1986"
     }
   ],
-  "last_run": "2026-03-13T01:26:11.208565",
+  "last_run": "2026-03-13T01:28:36.879063",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",

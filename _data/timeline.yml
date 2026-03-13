@@ -403,3 +403,12 @@
   category: "Research"
   quote: "Every time I fire a linguist, the performance of the speech recognizer goes up."
   quote_author: "Frederick Jelinek"
+
+- id: "support-vector-machines-vapnik-1995"
+  title: "The Elegant Margin That Dominated Machine Learning"
+  subtitle: "Vladimir Vapnik's Support Vector Machine became the most powerful classification algorithm of its era, quietly ruling AI for over a decade before deep learning took the crown."
+  event_date: "1995-09-01"
+  era: "Statistical Learning and Quiet Progress (1993–2010)"
+  category: "Research"
+  quote: "In this business, the weights of the evidence are more important than any prior belief."
+  quote_author: "Vladimir Vapnik"
