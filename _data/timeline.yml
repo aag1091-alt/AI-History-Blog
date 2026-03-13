@@ -421,3 +421,12 @@
   category: "Research"
   quote: "I was a physicist who wandered into biology, and then wandered from biology into computation. Each time I wandered, I found problems that were interesting."
   quote_author: "John Hopfield"
+
+- id: "alphafold-protein-folding-2020"
+  title: "The Algorithm That Solved Biology's 50-Year Grand Challenge"
+  subtitle: "DeepMind's AlphaFold 2 cracked the protein folding problem with unprecedented accuracy, stunning the scientific world overnight."
+  event_date: "2020-11-30"
+  era: "The Age of Foundation Models (2020–Present)"
+  category: "Research"
+  quote: "This is a big deal. In some sense the problem is solved."
+  quote_author: "John Moult"

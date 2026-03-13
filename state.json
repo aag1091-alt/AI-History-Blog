@@ -230,9 +230,14 @@
       "id": "support-vector-machines-vapnik-1995",
       "title": "The Elegant Margin That Dominated Machine Learning",
       "date": "1995"
+    },
+    {
+      "id": "eliza-effect-mit-hopfield-network-1982",
+      "title": "The Physicist Who Gave Networks Memory",
+      "date": "1982"
     }
   ],
-  "last_run": "2026-03-13T01:31:36.889950",
+  "last_run": "2026-03-13T01:33:38.175130",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",
