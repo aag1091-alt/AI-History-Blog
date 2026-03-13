@@ -70,3 +70,12 @@
   category: "Policy"
   quote: "In no part of the field have the discoveries made so far produced the major impact that was then promised."
   quote_author: "Sir James Lighthill"
+
+- id: "alphago-lee-sedol-2016"
+  title: "The Move No Human Would Play"
+  subtitle: "DeepMind's AlphaGo defeated world champion Lee Sedol at Go, a game long considered an insurmountable challenge for machines."
+  event_date: "2016-03-09"
+  era: "The Deep Learning Revolution (2011–2019)"
+  category: "Research"
+  quote: "I thought AlphaGo was based on probability calculation and that it was merely a machine. But when I saw this move, I changed my mind. Surely, AlphaGo is creative."
+  quote_author: "Lee Sedol"
