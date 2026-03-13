@@ -1,11 +1,11 @@
-title: "AI History: Milestones That Shaped the Future"
-tagline: "From Frankenstein to ChatGPT — the story of artificial intelligence"
-description: "A chronological journey through the ideas, breakthroughs, movies, and moments that defined artificial intelligence."
+title: "The Intelligence Age: A History of AI"
+tagline: "From ancient automata to modern neural networks — the story of thinking machines"
+description: "Explore the complete history of artificial intelligence, from medieval mechanical minds to today's deep learning revolution. Discover the key breakthroughs, visionary thinkers, and cultural moments that shaped AI."
 baseurl: ""
 url: "https://aag1091-alt.github.io/AI-History-Blog"
 
 author:
-  name: AI History Project
+  name: AI History Blog
 
 markdown: kramdown
 kramdown:
