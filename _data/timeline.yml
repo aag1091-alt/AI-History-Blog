@@ -169,3 +169,12 @@
   category: "Research"
   quote: "The thing that's really surprising is not any single capability, but the fact that all these capabilities emerge from one model trained with one objective."
   quote_author: "Ilya Sutskever"
+
+- id: "fifth-generation-computer-project-1982"
+  title: "The Billion-Dollar Gamble That Spooked the West"
+  subtitle: "Japan launched a massive government-funded project to build thinking machines, triggering a global AI arms race that reshaped research funding worldwide."
+  event_date: "1982-04-14"
+  era: "Expert Systems and the Knowledge Boom (1980–1992)"
+  category: "Policy"
+  quote: "What is it that has so shaken the American, and indeed the entire Western, parsimony toward the support of computer science research? It is the Fifth Generation."
+  quote_author: "Edward Feigenbaum"
