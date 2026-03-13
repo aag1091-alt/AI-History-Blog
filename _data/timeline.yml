@@ -178,3 +178,12 @@
   category: "Policy"
   quote: "What is it that has so shaken the American, and indeed the entire Western, parsimony toward the support of computer science research? It is the Fifth Generation."
   quote_author: "Edward Feigenbaum"
+
+- id: "mcculloch-pitts-neural-model-1943"
+  title: "The Paper That Gave Machines Neurons"
+  subtitle: "Warren McCulloch and Walter Pitts published the first mathematical model of a neural network, proving that networks of simple binary neurons could compute any logical function."
+  event_date: "1943-12-01"
+  era: "The Theoretical Foundations (1843–1955)"
+  category: "Research"
+  quote: "What we thought we were doing (and I think we succeeded fairly well) was treating the brain as a Turing machine."
+  quote_author: "Warren McCulloch"
