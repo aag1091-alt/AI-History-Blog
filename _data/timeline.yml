@@ -214,3 +214,12 @@
   category: "Philosophy"
   quote: "What I had not realized is that extremely short exposures to a relatively simple computer program could induce powerful delusional thinking in quite normal people."
   quote_author: "Joseph Weizenbaum"
+
+- id: "chatgpt-launch-2022"
+  title: "The Chatbot That Broke the Internet"
+  subtitle: "OpenAI's ChatGPT reached 100 million users in two months, making AI a household word overnight."
+  event_date: "2022-11-30"
+  era: "The Age of Foundation Models (2020–Present)"
+  category: "Commercial"
+  quote: "ChatGPT is scary good. We are not far from dangerously strong AI."
+  quote_author: "Elon Musk"
