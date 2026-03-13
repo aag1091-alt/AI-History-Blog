@@ -790,3 +790,12 @@
   category: "Research"
   quote: "The network is not given any explicit information about the structure of the sentences. It must discover this structure on its own."
   quote_author: "Jeffrey Elman"
+
+- id: "imagenet-fei-fei-li-visual-database-2009"
+  title: "The Woman Who Gave Machines Eyes"
+  subtitle: "Fei-Fei Li spent three years building a database of 14 million labeled images that became the benchmark igniting the deep learning revolution."
+  event_date: "2009-03-09"
+  era: "Statistical Learning and Quiet Progress (1993–2010)"
+  category: "Research"
+  quote: "We do not need more sophisticated algorithms. We need more data."
+  quote_author: "Fei-Fei Li"
