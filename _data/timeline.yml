@@ -547,3 +547,12 @@
   category: "Robotics"
   quote: "AIBO has no direct functional benefit. What it offers is the experience of raising and living with a robot — the joy of a relationship."
   quote_author: "Doi Toshitada, AIBO project lead"
+
+- id: "dartmouth-workshop-birth-of-ai-1956"
+  title: "The Summer That Named a Revolution"
+  subtitle: "A small workshop at Dartmouth College coined the term 'artificial intelligence' and launched an entire field of research."
+  event_date: "1956-08-31"
+  era: "The Dawn of AI (1956–1969)"
+  category: "Research"
+  quote: "We propose that a 2 month, 10 man study of artificial intelligence be carried out during the summer of 1956 at Dartmouth College in Hanover, New Hampshire."
+  quote_author: "John McCarthy, Marvin Minsky, Nathaniel Rochester, Claude Shannon"
