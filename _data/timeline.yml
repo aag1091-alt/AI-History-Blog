@@ -241,3 +241,12 @@
   category: "Research"
   quote: "MYCIN's performance was comparable to that of the experts and better than that of the non-experts. The issue was never whether the program worked, but whether anyone would be allowed to use it."
   quote_author: "Bruce Buchanan"
+
+- id: "terminator-skynet-1984"
+  title: "The Machine That Made the World Fear AI"
+  subtitle: "James Cameron's The Terminator introduced Skynet to popular culture, permanently shaping public anxiety about artificial intelligence."
+  event_date: "1984-10-26"
+  era: "Expert Systems and the Knowledge Boom (1980–1992)"
+  category: "Film & Fiction"
+  quote: "I'll be back."
+  quote_author: "Arnold Schwarzenegger as the T-800"
