@@ -898,3 +898,12 @@
   category: "Policy"
   quote: "Due to our concerns about malicious applications of the technology, we are not releasing the trained model."
   quote_author: "OpenAI (GPT-2 announcement blog post)"
+
+- id: "convolutional-neural-network-lecun-zip-codes-1989"
+  title: "The Network That Learned to Read Handwriting"
+  subtitle: "Yann LeCun demonstrated that a convolutional neural network could read handwritten zip codes, launching the architecture that would later conquer computer vision."
+  event_date: "1989-12-01"
+  era: "Expert Systems and the Knowledge Boom (1980–1992)"
+  category: "Research"
+  quote: "What we showed was that you could take raw pixels, feed them into a neural network, and have the network learn its own features. That was the key insight — let the machine figure out the representation."
+  quote_author: "Yann LeCun"
