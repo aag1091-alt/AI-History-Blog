@@ -25,9 +25,14 @@
       "id": "alexnet-imagenet-2012",
       "title": "The Neural Network That Shook Computer Vision",
       "date": "2012"
+    },
+    {
+      "id": "attention-is-all-you-need-2017",
+      "title": "Attention Is All You Need",
+      "date": "2017"
     }
   ],
-  "last_run": "2026-03-12T23:04:09.369444",
+  "last_run": "2026-03-12T23:09:11.523191",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",

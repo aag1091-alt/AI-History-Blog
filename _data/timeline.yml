@@ -52,3 +52,12 @@
   category: "Research"
   quote: "We were surprised by how well it worked. We thought attention could help, but we didn't expect it to replace everything."
   quote_author: "Jakob Uszkoreit"
+
+- id: "turing-computing-machinery-intelligence-1950"
+  title: "Can a Machine Think?"
+  subtitle: "Alan Turing published the paper that gave AI its defining question — and a test that still sparks debate."
+  event_date: "1950-10-01"
+  era: "The Theoretical Foundations (1843–1955)"
+  category: "Philosophy"
+  quote: "We can only see a short distance ahead, but we can see plenty there that needs to be done."
+  quote_author: "Alan Turing"
