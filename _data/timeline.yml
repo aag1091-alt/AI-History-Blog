@@ -268,3 +268,12 @@
   category: "Research"
   quote: "You cannot answer a question about intervention with statistical data alone. You need a causal model."
   quote_author: "Judea Pearl"
+
+- id: "lisp-mccarthy-programming-language-1960"
+  title: "The Language That Gave AI Its Voice"
+  subtitle: "John McCarthy invented LISP, a radical programming language built on pure mathematics that became the lingua franca of artificial intelligence research for three decades."
+  event_date: "1960-04-01"
+  era: "The Dawn of AI (1956–1969)"
+  category: "Engineering"
+  quote: "As soon as it works, no one calls it AI anymore."
+  quote_author: "John McCarthy"

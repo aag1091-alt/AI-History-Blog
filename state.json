@@ -145,9 +145,14 @@
       "id": "imagenet-fei-fei-li-2009",
       "title": "The Woman Who Gave AI Eyes",
       "date": "2009"
+    },
+    {
+      "id": "probabilistic-reasoning-judea-pearl-1988",
+      "title": "The Book That Taught Machines to Handle Uncertainty",
+      "date": "1988"
     }
   ],
-  "last_run": "2026-03-13T00:25:02.761632",
+  "last_run": "2026-03-13T00:27:50.248094",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",
