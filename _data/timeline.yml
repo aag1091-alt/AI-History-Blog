@@ -844,3 +844,12 @@
   category: "Research"
   quote: "The only successful approach to AI so far has been to try to approximate what the brain does, and we think deep reinforcement learning represents the first significant step in that direction."
   quote_author: "Demis Hassabis"
+
+- id: "wargames-film-reagan-cybersecurity-1983"
+  title: "The Movie That Changed National Security Policy"
+  subtitle: "A Hollywood thriller about a teenage hacker and a war-playing AI so alarmed President Reagan that it sparked America's first cybersecurity directive."
+  event_date: "1983-06-03"
+  era: "Expert Systems and the Knowledge Boom (1980–1992)"
+  category: "Film & Fiction"
+  quote: "I don't have to tell you that the problem is much worse than you think."
+  quote_author: "Ronald Reagan, to Congressional leaders after being briefed on computer security vulnerabilities following the WarGames screening"
