@@ -286,3 +286,12 @@
   category: "Research"
   quote: "The word vectors capture many linguistic regularities, for example vector('King') - vector('Man') + vector('Woman') results in a vector very close to vector('Queen')."
   quote_author: "Tomas Mikolov"
+
+- id: "reinforcement-learning-atari-deepmind-2013"
+  title: "The Algorithm That Mastered Atari by Itself"
+  subtitle: "A small London startup showed that a single neural network could learn to play dozens of video games from raw pixels alone, igniting the deep reinforcement learning revolution."
+  event_date: "2013-12-19"
+  era: "The Deep Learning Revolution (2011–2019)"
+  category: "Research"
+  quote: "The idea that you could take raw pixels, feed them into a neural network, and out would pop actions that would lead to superhuman performance — that was the dream of AI from the very beginning."
+  quote_author: "Demis Hassabis"

@@ -155,9 +155,14 @@
       "id": "lisp-mccarthy-programming-language-1960",
       "title": "The Language That Gave AI Its Voice",
       "date": "1960"
+    },
+    {
+      "id": "word2vec-mikolov-2013",
+      "title": "King Minus Man Plus Woman Equals Queen",
+      "date": "2013"
     }
   ],
-  "last_run": "2026-03-13T00:35:21.930813",
+  "last_run": "2026-03-13T00:39:14.915762",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",
