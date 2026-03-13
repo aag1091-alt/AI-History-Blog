@@ -205,9 +205,14 @@
       "id": "eliza-effect-mit-marvin-minsky-society-of-mind-1986",
       "title": "The Society Inside Your Head",
       "date": "1986"
+    },
+    {
+      "id": "expert-system-r1-digital-equipment-1986",
+      "title": "The AI That Saved a Company $40 Million a Year",
+      "date": "1986"
     }
   ],
-  "last_run": "2026-03-13T01:11:12.574658",
+  "last_run": "2026-03-13T01:18:57.487794",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",

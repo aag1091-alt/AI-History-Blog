@@ -376,3 +376,12 @@
   category: "Commercial"
   quote: "R1 currently saves DEC more money annually than it cost to build and maintain over its entire lifetime."
   quote_author: "John P. McDermott"
+
+- id: "perceptrons-minsky-papert-1969"
+  title: "The Book That Killed Neural Networks"
+  subtitle: "Minsky and Papert's rigorous mathematical critique of perceptrons convinced a generation of researchers to abandon neural networks, triggering a funding drought that lasted over a decade."
+  event_date: "1969-01-15"
+  era: "The Dawn of AI (1956–1969)"
+  category: "Research"
+  quote: "The question is whether [perceptrons] have enough power to justify serious investment of intellectual effort… the answer is essentially negative."
+  quote_author: "Marvin Minsky and Seymour Papert, Perceptrons (1969)"
