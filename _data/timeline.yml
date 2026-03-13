@@ -124,3 +124,12 @@
   category: "Philosophy"
   quote: "Whatever purely formal principles you put into the computer, they will not be sufficient for understanding, since a human will be able to follow the formal principles without understanding anything."
   quote_author: "John Searle"
+
+- id: "darpa-grand-challenge-stanley-2005"
+  title: "The Robot That Conquered the Desert"
+  subtitle: "Stanford's Stanley completed a 132-mile autonomous desert race, proving self-driving vehicles were no longer science fiction."
+  event_date: "2005-10-08"
+  era: "Statistical Learning and Quiet Progress (1993–2010)"
+  category: "Robotics"
+  quote: "No one had ever built a robot that could drive 130 miles in the desert without human help. We didn't know if it was possible."
+  quote_author: "Sebastian Thrun"
