@@ -280,9 +280,14 @@
       "id": "stanford-cart-autonomous-vehicle-1979",
       "title": "The Cart That Crossed a Room by Itself",
       "date": "1979"
+    },
+    {
+      "id": "random-forest-breiman-2001",
+      "title": "The Wisdom of a Thousand Trees",
+      "date": "2001"
     }
   ],
-  "last_run": "2026-03-13T02:08:03.171241",
+  "last_run": "2026-03-13T02:10:36.169440",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",
