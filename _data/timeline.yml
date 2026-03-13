@@ -691,3 +691,12 @@
   category: "Philosophy"
   quote: "The Analytical Engine has no pretensions whatever to originate anything. It can do whatever we know how to order it to perform."
   quote_author: "Ada Lovelace"
+
+- id: "eliza-effect-mit-hopfield-hidden-markov-rosenblatt-bayesian-mechanical-turk-1770"
+  title: "The Fraud That Fooled Europe for Decades"
+  subtitle: "A chess-playing automaton amazed kings and scientists for 84 years — and the debate it sparked about machine intelligence never stopped."
+  event_date: "1770-03-01"
+  era: "Mechanical Minds and Mathematical Dreams (1308–1842)"
+  category: "Culture"
+  quote: "The Automaton plays with his left hand, and this is evidently not an artificial arrangement, but a peculiarity of the original construction."
+  quote_author: "Edgar Allan Poe"
