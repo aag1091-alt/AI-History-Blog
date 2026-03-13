@@ -457,3 +457,12 @@
   category: "Film & Fiction"
   quote: "The word Robot was not coined by me but by my brother Josef."
   quote_author: "Karel Čapek"
+
+- id: "libratus-poker-imperfect-information-2017"
+  title: "The Machine That Learned to Bluff"
+  subtitle: "An AI named Libratus defeated four of the world's best professional poker players, proving machines could master games of incomplete information and deception."
+  event_date: "2017-01-30"
+  era: "The Deep Learning Revolution (2011–2019)"
+  category: "Research"
+  quote: "The bot gets better and better every day. It's like a tidal wave that just keeps coming."
+  quote_author: "Jason Les"
