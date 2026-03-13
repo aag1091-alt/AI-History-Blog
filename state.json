@@ -430,9 +430,14 @@
       "id": "lstm-long-short-term-memory-1997",
       "title": "The Network That Learned to Remember",
       "date": "1997"
+    },
+    {
+      "id": "mcculloch-pitts-artificial-neuron-1943",
+      "title": "The Paper That Invented the Artificial Neuron",
+      "date": "1943"
     }
   ],
-  "last_run": "2026-03-13T03:35:08.602318",
+  "last_run": "2026-03-13T03:37:39.653008",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",
