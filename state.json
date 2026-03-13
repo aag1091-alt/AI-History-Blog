@@ -470,9 +470,14 @@
       "id": "deepmind-atari-deep-reinforcement-learning-2015",
       "title": "The Machine That Taught Itself to Play",
       "date": "2015"
+    },
+    {
+      "id": "wargames-film-reagan-cybersecurity-1983",
+      "title": "The Movie That Changed National Security Policy",
+      "date": "1983"
     }
   ],
-  "last_run": "2026-03-13T04:03:18.472430",
+  "last_run": "2026-03-13T04:06:29.809348",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",

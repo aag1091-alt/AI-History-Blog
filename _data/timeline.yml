@@ -853,3 +853,12 @@
   category: "Film & Fiction"
   quote: "I don't have to tell you that the problem is much worse than you think."
   quote_author: "Ronald Reagan, to Congressional leaders after being briefed on computer security vulnerabilities following the WarGames screening"
+
+- id: "word2vec-king-minus-man-plus-woman-2013"
+  title: "The Equation That Made Words Do Math"
+  subtitle: "A Google researcher discovered that neural networks could learn word meanings so precisely that 'King minus Man plus Woman equals Queen' — and it actually worked."
+  event_date: "2013-01-16"
+  era: "The Deep Learning Revolution (2011–2019)"
+  category: "Research"
+  quote: "You shall know a word by the company it keeps."
+  quote_author: "J.R. Firth"
