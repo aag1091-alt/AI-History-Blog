@@ -250,3 +250,12 @@
   category: "Film & Fiction"
   quote: "I'll be back."
   quote_author: "Arnold Schwarzenegger as the T-800"
+
+- id: "imagenet-fei-fei-li-2009"
+  title: "The Woman Who Gave AI Eyes"
+  subtitle: "Fei-Fei Li spent three years building a dataset of 14 million labeled images that most colleagues dismissed as busywork — it became the catalyst for the deep learning revolution."
+  event_date: "2009-06-20"
+  era: "Statistical Learning and Quiet Progress (1993–2010)"
+  category: "Research"
+  quote: "We do not need more clever algorithms. We need more data."
+  quote_author: "Fei-Fei Li"
