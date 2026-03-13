@@ -601,3 +601,12 @@
   category: "Research"
   quote: "We wanted to get rid of recurrence entirely… the key insight was that attention alone is sufficient."
   quote_author: "Ashish Vaswani"
+
+- id: "eliza-effect-mit-hopfield-hidden-markov-rosenblatt-bayesian-google-cat-neuron-2012"
+  title: "The Neural Network That Found Cats on the Internet"
+  subtitle: "Google's secret project used 16,000 processors to build a neural network that spontaneously learned to recognize cats from unlabeled YouTube videos — proving unsupervised deep learning could discover concepts on its own."
+  event_date: "2012-06-25"
+  era: "The Deep Learning Revolution (2011–2019)"
+  category: "Research"
+  quote: "We never told it during the training, 'This is a cat.' It basically invented the concept of a cat."
+  quote_author: "Jeff Dean"
