@@ -445,9 +445,14 @@
       "id": "imagenet-fei-fei-li-visual-database-2009",
       "title": "The Woman Who Gave Machines Eyes",
       "date": "2009"
+    },
+    {
+      "id": "snarc-first-neural-network-machine-minsky-1951",
+      "title": "The Rat Brain Built from Bomber Parts",
+      "date": "1951"
     }
   ],
-  "last_run": "2026-03-13T03:42:49.708656",
+  "last_run": "2026-03-13T03:49:13.400744",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",

@@ -808,3 +808,12 @@
   category: "Engineering"
   quote: "We were graduate students together and built a machine with 3000 vacuum tubes and a lot of surplus automatic pilot motors from a B-24 bomber. The machine could learn."
   quote_author: "Marvin Minsky"
+
+- id: "hal-9000-2001-space-odyssey-kubrick-1968"
+  title: "The Computer That Terrified a Generation"
+  subtitle: "Stanley Kubrick's 2001: A Space Odyssey introduced HAL 9000, an AI villain so convincing it shaped public fear and fascination with intelligent machines for decades."
+  event_date: "1968-04-02"
+  era: "The Dawn of AI (1956–1969)"
+  category: "Film & Fiction"
+  quote: "HAL was a perfectly legitimate extrapolation of existing technology. We didn't have to invent anything."
+  quote_author: "Arthur C. Clarke"
