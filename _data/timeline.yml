@@ -574,3 +574,12 @@
   category: "Research"
   quote: "I had not realized … that extremely short exposures to a relatively simple computer program could induce powerful delusional thinking in quite normal people."
   quote_author: "Joseph Weizenbaum"
+
+- id: "deep-blue-defeats-kasparov-1997"
+  title: "The Day a Machine Dethroned the King"
+  subtitle: "IBM's Deep Blue defeated world chess champion Garry Kasparov in a six-game match, marking the first time a computer beat a reigning champion under standard tournament conditions."
+  event_date: "1997-05-11"
+  era: "Statistical Learning and Quiet Progress (1993–2010)"
+  category: "Engineering"
+  quote: "I could feel — I could smell — a new kind of intelligence across the table."
+  quote_author: "Garry Kasparov"
