@@ -142,3 +142,12 @@
   category: "Philosophy"
   quote: "The Analytical Engine has no pretensions whatever to originate anything. It can do whatever we know how to order it to perform."
   quote_author: "Ada Lovelace"
+
+- id: "shakey-first-reasoning-robot-1969"
+  title: "The Robot That Could Reason"
+  subtitle: "SRI International unveiled Shakey, the first mobile robot to perceive its environment, plan actions, and carry them out — bridging the gap between abstract AI and physical reality."
+  event_date: "1969-11-01"
+  era: "The Dawn of AI (1956–1969)"
+  category: "Robotics"
+  quote: "Shakey was the first creature in the history of the planet that could reason about its own actions."
+  quote_author: "Nils Nilsson"
