@@ -61,3 +61,12 @@
   category: "Philosophy"
   quote: "We can only see a short distance ahead, but we can see plenty there that needs to be done."
   quote_author: "Alan Turing"
+
+- id: "lighthill-report-1973"
+  title: "The Report That Froze a Field"
+  subtitle: "Sir James Lighthill's devastating 1973 critique of AI research triggered massive funding cuts and ushered in the first AI winter."
+  event_date: "1973-04-01"
+  era: "The First AI Winter (1970–1979)"
+  category: "Policy"
+  quote: "In no part of the field have the discoveries made so far produced the major impact that was then promised."
+  quote_author: "Sir James Lighthill"
