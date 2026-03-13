@@ -1,231 +1,66 @@
 {
-  "last_run": "2026-03-11T21:47:46.549607",
-  "covered": [
+  "topic": "",
+  "covered": [],
+  "last_run": "2026-03-12T22:46:39.454922",
+  "eras": [
     {
-      "id": "frankenstein-1818",
-      "title": "Frankenstein 1818",
-      "date": ""
+      "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",
+      "short_name": "Mechanical Minds",
+      "period": "1308\u20131842",
+      "description": "From Ramon Llull's logic machines to Charles Babbage's Analytical Engine, thinkers imagined devices that could reason. Philosophers and inventors laid the conceptual groundwork for computation, asking whether thought itself could be mechanized. These early visions planted seeds that would take centuries to germinate."
     },
     {
-      "id": "erewhon-butler-1872",
-      "title": "Erewhon Butler 1872",
-      "date": ""
+      "name": "The Theoretical Foundations (1843\u20131955)",
+      "short_name": "Theoretical Foundations",
+      "period": "1843\u20131955",
+      "description": "Ada Lovelace speculated on machine intelligence, Alan Turing formalized computation and proposed his famous test, and Claude Shannon built the bridges between logic and electrical circuits. Warren McCulloch and Walter Pitts published the first mathematical model of a neural network in 1943. This era transformed the dream of thinking machines from philosophy into rigorous mathematics."
     },
     {
-      "id": "ada-lovelace-1843",
-      "title": "Ada Lovelace 1843",
-      "date": ""
+      "name": "The Dawn of AI (1956\u20131969)",
+      "short_name": "Dawn of AI",
+      "period": "1956\u20131969",
+      "description": "The 1956 Dartmouth workshop gave the field its name and its outsized ambitions. Early programs like the Logic Theorist, ELIZA, and Shakey the Robot dazzled observers and convinced researchers that human-level AI was just years away. Generous government funding flowed freely as optimism reached fever pitch."
     },
     {
-      "id": "rur-capek-1920",
-      "title": "Rur Capek 1920",
-      "date": ""
+      "name": "The First AI Winter (1970\u20131979)",
+      "short_name": "First AI Winter",
+      "period": "1970\u20131979",
+      "description": "The 1973 Lighthill Report savaged AI research in Britain, and DARPA slashed funding in the United States after promised breakthroughs failed to materialize. Early neural network approaches hit hard theoretical limits exposed by Minsky and Papert's critique of the perceptron. Researchers who remained in the field quietly shifted toward more modest, narrowly focused problems."
     },
     {
-      "id": "metropolis-1927",
-      "title": "Metropolis 1927",
-      "date": ""
+      "name": "Expert Systems and the Knowledge Boom (1980\u20131992)",
+      "short_name": "Expert Systems Boom",
+      "period": "1980\u20131992",
+      "description": "Corporate America embraced rule-based expert systems like R1/XCON and MYCIN, and Japan launched its ambitious Fifth Generation Computer project. The industry boomed past a billion dollars before collapsing when these brittle systems proved expensive to maintain and unable to learn. A second AI winter followed, but backpropagation's rediscovery by Rumelhart, Hinton, and Williams in 1986 quietly set the stage for neural networks' eventual return."
     },
     {
-      "id": "asimov-three-laws-1942",
-      "title": "Asimov Three Laws 1942",
-      "date": ""
+      "name": "Statistical Learning and Quiet Progress (1993\u20132010)",
+      "short_name": "Statistical Learning",
+      "period": "1993\u20132010",
+      "description": "AI shed its grand ambitions and rebranded around practical results \u2014 spam filters, recommendation engines, and search ranking. IBM's Deep Blue defeated Kasparov in 1997, and statistical methods like support vector machines and random forests proved their worth on real-world data. Beneath the surface, Geoffrey Hinton and a small circle of believers kept deep learning research alive during its long wilderness years."
     },
     {
-      "id": "dartmouth-conference-1956",
-      "title": "Dartmouth Conference 1956",
-      "date": ""
+      "name": "The Deep Learning Revolution (2011\u20132019)",
+      "short_name": "Deep Learning Revolution",
+      "period": "2011\u20132019",
+      "description": "AlexNet's 2012 ImageNet victory ignited an explosion in deep learning, powered by GPUs and massive datasets. DeepMind's AlphaGo stunned the world by defeating Go champion Lee Sedol in 2016, and the transformer architecture introduced in 2017 rewrote the rules for language processing. Tech giants poured billions into AI research labs, and the field attracted talent at an unprecedented scale."
     },
     {
-      "id": "perceptron-1957",
-      "title": "Perceptron 1957",
-      "date": ""
-    },
-    {
-      "id": "hal-9000-2001-1968",
-      "title": "Hal 9000 2001 1968",
-      "date": ""
-    },
-    {
-      "id": "first-ai-winter-1973",
-      "title": "First Ai Winter 1973",
-      "date": ""
-    },
-    {
-      "id": "terminator-1984",
-      "title": "Terminator 1984",
-      "date": ""
-    },
-    {
-      "id": "lecun-cnn-1989",
-      "title": "Lecun Cnn 1989",
-      "date": ""
-    },
-    {
-      "id": "deep-blue-kasparov-1997",
-      "title": "Deep Blue Kasparov 1997",
-      "date": ""
-    },
-    {
-      "id": "matrix-1999",
-      "title": "Matrix 1999",
-      "date": ""
-    },
-    {
-      "id": "watson-jeopardy-2011",
-      "title": "Watson Jeopardy 2011",
-      "date": ""
-    },
-    {
-      "id": "alexnet-2012",
-      "title": "Alexnet 2012",
-      "date": ""
-    },
-    {
-      "id": "her-2013",
-      "title": "Her 2013",
-      "date": ""
-    },
-    {
-      "id": "word2vec-2013",
-      "title": "Word2Vec 2013",
-      "date": ""
-    },
-    {
-      "id": "gan-2014",
-      "title": "Gan 2014",
-      "date": ""
-    },
-    {
-      "id": "alphago-lee-sedol-2016",
-      "title": "Alphago Lee Sedol 2016",
-      "date": ""
-    },
-    {
-      "id": "attention-is-all-you-need-2017",
-      "title": "Attention Is All You Need 2017",
-      "date": ""
-    },
-    {
-      "id": "gpt-1-openai-2018",
-      "title": "Gpt 1 Openai 2018",
-      "date": ""
-    },
-    {
-      "id": "bert-2018",
-      "title": "Bert 2018",
-      "date": ""
-    },
-    {
-      "id": "gpt-3-2020",
-      "title": "Gpt 3 2020",
-      "date": ""
-    },
-    {
-      "id": "alphafold-2020",
-      "title": "Alphafold 2020",
-      "date": ""
-    },
-    {
-      "id": "github-copilot-2021",
-      "title": "Github Copilot 2021",
-      "date": ""
-    },
-    {
-      "id": "dall-e-2-stable-diffusion-2022",
-      "title": "Dall E 2 Stable Diffusion 2022",
-      "date": ""
-    },
-    {
-      "id": "gpt-4-2023",
-      "title": "Gpt 4 2023",
-      "date": ""
-    },
-    {
-      "id": "claude-anthropic-2023",
-      "title": "Claude Anthropic 2023",
-      "date": ""
-    },
-    {
-      "id": "llama-meta-2023",
-      "title": "Llama Meta 2023",
-      "date": ""
-    },
-    {
-      "id": "sora-2024",
-      "title": "Sora 2024",
-      "date": ""
-    },
-    {
-      "id": "hinton-bengio-nobel-2024",
-      "title": "Hinton Bengio Nobel 2024",
-      "date": ""
-    },
-    {
-      "id": "deepseek-r1-2025",
-      "title": "Deepseek R1 2025",
-      "date": ""
-    },
-    {
-      "id": "blade-runner-1982",
-      "title": "Blade Runner 1982",
-      "date": ""
-    },
-    {
-      "id": "chinese-room-argument-1980",
-      "title": "Chinese Room Argument 1980",
-      "date": ""
-    },
-    {
-      "id": "lstm-networks-1997",
-      "title": "Lstm Networks 1997",
-      "date": ""
-    },
-    {
-      "id": "darpa-grand-challenge-2005",
-      "title": "Darpa Grand Challenge 2005",
-      "date": ""
-    },
-    {
-      "id": "imagenet-dataset-2009",
-      "title": "Imagenet Dataset 2009",
-      "date": ""
-    },
-    {
-      "id": "siri-launch-2011",
-      "title": "Siri Launch 2011",
-      "date": ""
-    },
-    {
-      "id": "ex-machina-2015",
-      "title": "Ex Machina 2015",
-      "date": ""
-    },
-    {
-      "id": "openai-founded-2015",
-      "title": "Openai Founded 2015",
-      "date": ""
-    },
-    {
-      "id": "gpt2-too-dangerous-2019",
-      "title": "Gpt2 Too Dangerous 2019",
-      "date": ""
-    },
-    {
-      "id": "eu-ai-act-2024",
-      "title": "Eu Ai Act 2024",
-      "date": ""
-    },
-    {
-      "id": "eliza-chatbot-1966",
-      "title": "ELIZA: The First Chatbot That Fooled Its Users",
-      "date": "1966"
-    },
-    {
-      "id": "turing-computing-machinery-intelligence-1950",
-      "title": "Turing Asks: Can Machines Think?",
-      "date": "1950"
+      "name": "The Age of Foundation Models (2020\u2013Present)",
+      "short_name": "Foundation Models",
+      "period": "2020\u2013Present",
+      "description": "GPT-3's arrival in 2020 demonstrated that scaling language models produced emergent, surprising capabilities, and ChatGPT's 2022 launch brought AI into mainstream daily life almost overnight. Foundation models reshaped industries from medicine to law while igniting urgent global debates about safety, alignment, and regulation. The question shifted from whether machines could think to what humanity should do now that they increasingly seem to."
     }
   ],
-  "topic": ""
+  "categories": [
+    "Research",
+    "Engineering",
+    "Commercial",
+    "Film & Fiction",
+    "Culture",
+    "Policy",
+    "Philosophy",
+    "Robotics"
+  ],
+  "blog_config": true
 }
