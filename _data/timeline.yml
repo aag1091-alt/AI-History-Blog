@@ -772,3 +772,12 @@
   category: "Research"
   quote: "Many tasks that are trivial for humans require the modeling of long-range dependencies. Standard recurrent nets fail at such tasks."
   quote_author: "Sepp Hochreiter"
+
+- id: "mcculloch-pitts-artificial-neuron-1943"
+  title: "The Paper That Invented the Artificial Neuron"
+  subtitle: "Two scientists fused logic and neuroscience into a mathematical model of the brain, laying the theoretical bedrock for every neural network to come."
+  event_date: "1943-12-01"
+  era: "The Theoretical Foundations (1843–1955)"
+  category: "Research"
+  quote: "Anything that can be exhaustively and unambiguously described, anything that can be completely and unambiguously put into words, is ipso facto realizable by a suitable finite neural network."
+  quote_author: "Warren McCulloch"
