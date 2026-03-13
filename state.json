@@ -295,9 +295,14 @@
       "id": "eliza-effect-mit-hopfield-eurisko-heuristic-learning-1983",
       "title": "The Program That Invented Its Own Rules",
       "date": "1983"
+    },
+    {
+      "id": "siri-apple-voice-assistant-2011",
+      "title": "The Voice in Your Pocket",
+      "date": "2011"
     }
   ],
-  "last_run": "2026-03-13T02:14:21.742584",
+  "last_run": "2026-03-13T02:18:10.596147",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",
