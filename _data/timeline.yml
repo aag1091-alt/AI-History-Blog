@@ -232,3 +232,12 @@
   category: "Research"
   quote: "The problem is that backpropagated error signals either shrink or grow exponentially. This is the fundamental deep learning problem."
   quote_author: "Sepp Hochreiter"
+
+- id: "mycin-expert-system-1976"
+  title: "The Program That Prescribed Better Than Doctors"
+  subtitle: "Stanford's MYCIN diagnosed blood infections more accurately than most physicians, yet was never allowed to treat a single patient."
+  event_date: "1976-10-01"
+  era: "The First AI Winter (1970–1979)"
+  category: "Research"
+  quote: "MYCIN's performance was comparable to that of the experts and better than that of the non-experts. The issue was never whether the program worked, but whether anyone would be allowed to use it."
+  quote_author: "Bruce Buchanan"
