@@ -925,3 +925,12 @@
   category: "Culture"
   quote: "I am very honored and proud of this unique distinction. This is historical to be the first robot in the world to be recognized with a citizenship."
   quote_author: "Sophia, at the Future Investment Initiative summit"
+
+- id: "elephants-dont-play-chess-1990"
+  title: "Elephants Don't Play Chess"
+  subtitle: "A rebel roboticist published a manifesto arguing that true intelligence doesn't come from abstract reasoning — it comes from having a body in the world."
+  event_date: "1990-06-01"
+  era: "Expert Systems and the Knowledge Boom (1980–1992)"
+  category: "Philosophy"
+  quote: "The world is its own best model."
+  quote_author: "Rodney Brooks"
