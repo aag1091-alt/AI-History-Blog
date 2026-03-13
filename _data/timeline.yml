@@ -133,3 +133,12 @@
   category: "Robotics"
   quote: "No one had ever built a robot that could drive 130 miles in the desert without human help. We didn't know if it was possible."
   quote_author: "Sebastian Thrun"
+
+- id: "ada-lovelace-note-g-1843"
+  title: "The Enchantress of Numbers"
+  subtitle: "Ada Lovelace published the first algorithm and asked whether machines could truly think — a century before anyone else."
+  event_date: "1843-10-01"
+  era: "The Theoretical Foundations (1843–1955)"
+  category: "Philosophy"
+  quote: "The Analytical Engine has no pretensions whatever to originate anything. It can do whatever we know how to order it to perform."
+  quote_author: "Ada Lovelace"
