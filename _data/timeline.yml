@@ -223,3 +223,12 @@
   category: "Commercial"
   quote: "ChatGPT is scary good. We are not far from dangerously strong AI."
   quote_author: "Elon Musk"
+
+- id: "lstm-hochreiter-schmidhuber-1997"
+  title: "The Memory That Saved Neural Networks"
+  subtitle: "Two researchers in Munich published a paper solving the vanishing gradient problem, quietly laying the foundation for every modern AI that understands sequences."
+  event_date: "1997-11-01"
+  era: "Statistical Learning and Quiet Progress (1993–2010)"
+  category: "Research"
+  quote: "The problem is that backpropagated error signals either shrink or grow exponentially. This is the fundamental deep learning problem."
+  quote_author: "Sepp Hochreiter"
