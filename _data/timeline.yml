@@ -340,3 +340,12 @@
   category: "Engineering"
   quote: "I think it's possible to stop spam, and that content-based filtering is the way to do it."
   quote_author: "Paul Graham"
+
+- id: "netflix-prize-recommendation-2006"
+  title: "The Million-Dollar Algorithm Contest"
+  subtitle: "Netflix offered a million dollars to anyone who could improve its recommendation engine by 10%, igniting a global competition that transformed machine learning."
+  event_date: "2006-10-02"
+  era: "Statistical Learning and Quiet Progress (1993–2010)"
+  category: "Commercial"
+  quote: "We're quite curious, really. We want to find out if someone knows something about predicting how much someone is going to love a movie based on their movie preferences."
+  quote_author: "Reed Hastings"
