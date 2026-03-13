@@ -110,9 +110,14 @@
       "id": "dendral-expert-system-1965",
       "title": "The First Expert System That Out-Performed Scientists",
       "date": "1965"
+    },
+    {
+      "id": "samuel-checkers-machine-learning-1959",
+      "title": "The Program That Named Machine Learning",
+      "date": "1959"
     }
   ],
-  "last_run": "2026-03-12T23:59:20.479382",
+  "last_run": "2026-03-13T00:02:10.441327",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",

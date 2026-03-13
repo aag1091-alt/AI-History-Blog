@@ -205,3 +205,12 @@
   category: "Research"
   quote: "Programming computers to learn from experience should eventually eliminate the need for much of this detailed programming effort."
   quote_author: "Arthur Samuel"
+
+- id: "eliza-effect-weizenbaum-warning-1976"
+  title: "The Creator Who Turned Against His Creation"
+  subtitle: "Joseph Weizenbaum published Computer Power and Human Reason, warning that his own ELIZA experiment revealed a dangerous human willingness to trust machines with intimate decisions."
+  event_date: "1976-01-15"
+  era: "The First AI Winter (1970–1979)"
+  category: "Philosophy"
+  quote: "What I had not realized is that extremely short exposures to a relatively simple computer program could induce powerful delusional thinking in quite normal people."
+  quote_author: "Joseph Weizenbaum"
