@@ -1,8 +1,8 @@
 <header class="site-header">
   <div class="header-inner">
     <div class="header-left">
-      <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
-      <p class="site-tagline">{{ site.tagline }}</p>
+      <a href="{{ '/' | relative_url }}" class="site-title">{{ site.data.blog.title | default: site.title }}</a>
+      <p class="site-tagline">{{ site.data.blog.tagline | default: site.tagline }}</p>
       <nav class="site-nav">
         <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
         <a href="{{ '/?view=timeline' | relative_url }}" id="nav-timeline">Timeline</a>
