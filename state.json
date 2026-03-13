@@ -370,9 +370,14 @@
       "id": "watson-jeopardy-ibm-2011",
       "title": "The Computer That Won at Word Games",
       "date": "2011"
+    },
+    {
+      "id": "eliza-effect-mit-hopfield-hidden-markov-rosenblatt-bayesian-chinese-room-argument-searle-1980",
+      "title": "The Philosopher Who Said Machines Can Never Understand",
+      "date": "1980"
     }
   ],
-  "last_run": "2026-03-13T02:59:04.742449",
+  "last_run": "2026-03-13T03:02:48.971291",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",

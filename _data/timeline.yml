@@ -673,3 +673,12 @@
   category: "Philosophy"
   quote: "Whatever purely formal principles you put into the computer, they will not be sufficient for understanding, since a human will be able to follow the formal principles without understanding anything."
   quote_author: "John Searle"
+
+- id: "eliza-effect-mit-hopfield-hidden-markov-rosenblatt-bayesian-backpropagation-rumelhart-1986"
+  title: "The Learning Algorithm That Refused to Die"
+  subtitle: "David Rumelhart's rediscovery of backpropagation finally made multi-layer neural networks trainable, igniting the connectionist revolution."
+  event_date: "1986-10-09"
+  era: "Expert Systems and the Knowledge Boom (1980–1992)"
+  category: "Research"
+  quote: "We describe a new learning procedure, back-propagation, for networks of neurone-like units. The procedure repeatedly adjusts the weights of the connections in the network so as to minimize a measure of the difference between the actual output vector of the net and the desired output vector."
+  quote_author: "David Rumelhart, Geoffrey Hinton, Ronald Williams"
