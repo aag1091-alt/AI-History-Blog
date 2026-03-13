@@ -43,3 +43,12 @@
   category: "Research"
   quote: "We achieved a winning top-5 test error rate of 15.3%, compared to 26.2% achieved by the second-best entry."
   quote_author: "Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton"
+
+- id: "attention-is-all-you-need-2017"
+  title: "Attention Is All You Need"
+  subtitle: "A team at Google Brain introduced the Transformer architecture, replacing recurrence with self-attention and quietly laying the foundation for every major AI system that followed."
+  event_date: "2017-06-12"
+  era: "The Deep Learning Revolution (2011–2019)"
+  category: "Research"
+  quote: "We were surprised by how well it worked. We thought attention could help, but we didn't expect it to replace everything."
+  quote_author: "Jakob Uszkoreit"
