@@ -10,14 +10,13 @@ title: Home
 </div>
 
 <div class="list-controls">
-  <input type="search" id="post-search" class="search-input" placeholder="Search milestones… (press /)" aria-label="Search milestones">
-</div>
-
-<div class="filter-pills" id="category-filters">
-  <button class="filter-pill active" data-filter="">All</button>
-  {% for cat in site.data.blog.categories %}
-  <button class="filter-pill" data-filter="{{ cat }}">{{ cat }}</button>
-  {% endfor %}
+  <div class="filter-pills" id="category-filters">
+    <button class="filter-pill active" data-filter="">All</button>
+    {% for cat in site.data.blog.categories %}
+    <button class="filter-pill" data-filter="{{ cat }}">{{ cat }}</button>
+    {% endfor %}
+  </div>
+  <input type="search" id="post-search" class="search-input" placeholder="Search… (press /)" aria-label="Search milestones">
 </div>
 
 <p id="no-results" class="no-results" style="display:none">No milestones match your search.</p>
