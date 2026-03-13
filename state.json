@@ -80,9 +80,14 @@
       "id": "ada-lovelace-note-g-1843",
       "title": "The Enchantress of Numbers",
       "date": "1843"
+    },
+    {
+      "id": "shakey-first-reasoning-robot-1969",
+      "title": "The Robot That Could Reason",
+      "date": "1969"
     }
   ],
-  "last_run": "2026-03-12T23:39:59.992141",
+  "last_run": "2026-03-12T23:43:26.111450",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",

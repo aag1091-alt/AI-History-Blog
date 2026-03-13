@@ -151,3 +151,12 @@
   category: "Robotics"
   quote: "Shakey was the first creature in the history of the planet that could reason about its own actions."
   quote_author: "Nils Nilsson"
+
+- id: "mechanical-turk-kempelen-1770"
+  title: "The Fraudulent Machine That Inspired Real Ones"
+  subtitle: "Wolfgang von Kempelen's chess-playing automaton fooled Europe for decades and planted the seed of machine intelligence in the public imagination."
+  event_date: "1770-03-10"
+  era: "Mechanical Minds and Mathematical Dreams (1308–1842)"
+  category: "Culture"
+  quote: "The Automaton Chess Player had excited so universal an interest, that, to a certain extent, a solution of the mystery was considered almost as a matter of course."
+  quote_author: "Edgar Allan Poe"
