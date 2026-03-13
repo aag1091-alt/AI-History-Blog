@@ -320,9 +320,14 @@
       "id": "eliza-first-chatbot-weizenbaum-1966",
       "title": "The Therapist That Was Never Alive",
       "date": "1966"
+    },
+    {
+      "id": "deep-blue-defeats-kasparov-1997",
+      "title": "The Day a Machine Dethroned the King",
+      "date": "1997"
     }
   ],
-  "last_run": "2026-03-13T02:31:41.235074",
+  "last_run": "2026-03-13T02:33:50.452067",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",

@@ -583,3 +583,12 @@
   category: "Engineering"
   quote: "I could feel — I could smell — a new kind of intelligence across the table."
   quote_author: "Garry Kasparov"
+
+- id: "eliza-effect-mit-hopfield-hidden-markov-rosenblatt-alphago-zero-self-taught-2017"
+  title: "The Machine That Became Its Own Teacher"
+  subtitle: "AlphaGo Zero mastered the ancient game of Go entirely through self-play, without any human knowledge — and surpassed all previous versions in just three days."
+  event_date: "2017-10-18"
+  era: "The Deep Learning Revolution (2011–2019)"
+  category: "Research"
+  quote: "It's more powerful than previous approaches because by not using human data, or human expertise in any fashion, we've removed the constraints of human knowledge and it is able to create knowledge itself."
+  quote_author: "David Silver"
