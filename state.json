@@ -395,9 +395,14 @@
       "id": "darpa-grand-challenge-desert-failure-2004",
       "title": "The Desert Race Where Every Robot Failed",
       "date": "2004"
+    },
+    {
+      "id": "no-hands-across-america-alvinn-1995",
+      "title": "The Neural Network That Drove Across America",
+      "date": "1995"
     }
   ],
-  "last_run": "2026-03-13T03:15:22.429040",
+  "last_run": "2026-03-13T03:17:38.678662",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",

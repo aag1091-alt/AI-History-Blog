@@ -718,3 +718,12 @@
   category: "Engineering"
   quote: "People thought we were crazy. But we wanted to show that neural networks could handle the real world, not just toy problems."
   quote_author: "Dean Pomerleau"
+
+- id: "eliza-effect-mit-hopfield-hidden-markov-rosenblatt-bayesian-amazon-mechanical-turk-crowdsourcing-ai-2005"
+  title: "The Hidden Humans Behind the Machine"
+  subtitle: "Amazon launched Mechanical Turk, a service that quietly put humans inside the loop of AI systems and forced the field to confront who really does the work."
+  event_date: "2005-11-02"
+  era: "Statistical Learning and Quiet Progress (1993–2010)"
+  category: "Commercial"
+  quote: "Artificial artificial intelligence."
+  quote_author: "Jeff Bezos"
