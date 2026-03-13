@@ -619,3 +619,12 @@
   category: "Policy"
   quote: "In no part of the field have the discoveries made so far produced the major impact that was then promised."
   quote_author: "James Lighthill"
+
+- id: "alphago-defeats-lee-sedol-2016"
+  title: "The Move That No Human Would Play"
+  subtitle: "DeepMind's AlphaGo stunned the world by defeating Go champion Lee Sedol, making a mysterious move that redefined what machines could create."
+  event_date: "2016-03-09"
+  era: "The Deep Learning Revolution (2011–2019)"
+  category: "Research"
+  quote: "It's not a human move. I've never seen a human play this move. So beautiful."
+  quote_author: "Fan Hui"
