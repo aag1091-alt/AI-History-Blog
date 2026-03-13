@@ -5,7 +5,6 @@
       <p class="site-tagline">{{ site.data.blog.tagline | default: site.tagline }}</p>
       <nav class="site-nav">
         <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
-        <a href="{{ '/?view=timeline' | relative_url }}" id="nav-timeline">Timeline</a>
         <a href="{{ '/eras' | relative_url }}" {% if page.url contains 'eras' %}class="active"{% endif %}>Eras</a>
         <a href="{{ '/people' | relative_url }}" {% if page.url contains 'people' %}class="active"{% endif %}>People</a>
         <button class="nav-random" id="nav-random" title="Go to a random milestone">⚄ Random</button>
@@ -40,21 +39,6 @@
   const saved = localStorage.getItem('theme') || 'light';
   document.body.className = 'theme-' + saved;
   document.getElementById('theme-toggle').textContent = saved === 'dark' ? '☀️' : '🌙';
-})();
-
-// Set active nav state, including Timeline view param
-(function() {
-  const p = new URLSearchParams(location.search);
-  const isHome = location.pathname === '{{ '/' | relative_url }}' || location.pathname === '';
-  const isTimeline = isHome && p.get('view') === 'timeline';
-  const navTimeline = document.getElementById('nav-timeline');
-  if (navTimeline && isTimeline) navTimeline.classList.add('active');
-  // Remove active from Home link when timeline view is active
-  if (isTimeline) {
-    document.querySelectorAll('.site-nav a').forEach(a => {
-      if (a !== navTimeline) a.classList.remove('active');
-    });
-  }
 })();
 
 document.getElementById('theme-toggle').addEventListener('click', function() {
