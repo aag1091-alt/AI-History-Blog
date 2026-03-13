@@ -115,3 +115,12 @@
   category: "Research"
   quote: "The most interesting idea in the last ten years in machine learning."
   quote_author: "Yann LeCun"
+
+- id: "chinese-room-searle-1980"
+  title: "The Room That Understood Nothing"
+  subtitle: "Philosopher John Searle argued that no computer could ever truly understand language, igniting a debate that still rages today."
+  event_date: "1980-01-01"
+  era: "The First AI Winter (1970–1979)"
+  category: "Philosophy"
+  quote: "Whatever purely formal principles you put into the computer, they will not be sufficient for understanding, since a human will be able to follow the formal principles without understanding anything."
+  quote_author: "John Searle"
