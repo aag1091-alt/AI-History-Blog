@@ -180,9 +180,14 @@
       "id": "lenet-handwritten-digits-lecun-1989",
       "title": "The Neural Network That Read Your Mail",
       "date": "1989"
+    },
+    {
+      "id": "gpt-2-too-dangerous-to-release-2019",
+      "title": "The Model Too Dangerous to Release",
+      "date": "2019"
     }
   ],
-  "last_run": "2026-03-13T00:52:39.670922",
+  "last_run": "2026-03-13T00:56:24.867785",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",

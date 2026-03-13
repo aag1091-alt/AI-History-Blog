@@ -331,3 +331,12 @@
   category: "Policy"
   quote: "Due to concerns about large language models being used to generate deceptive, biased, or abusive language at scale, we are only releasing a much smaller version of GPT-2."
   quote_author: "OpenAI"
+
+- id: "bayesian-spam-filtering-paul-graham-2002"
+  title: "The Essay That Turned AI Loose on Your Inbox"
+  subtitle: "Paul Graham's 'A Plan for Spam' showed that a simple Bayesian classifier could catch junk email with stunning accuracy, bringing machine learning into the daily lives of millions."
+  event_date: "2002-08-01"
+  era: "Statistical Learning and Quiet Progress (1993–2010)"
+  category: "Engineering"
+  quote: "I think it's possible to stop spam, and that content-based filtering is the way to do it."
+  quote_author: "Paul Graham"
