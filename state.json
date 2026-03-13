@@ -175,9 +175,14 @@
       "id": "logic-theorist-newell-simon-1955",
       "title": "The Program That Proved Theorems Before AI Had a Name",
       "date": "1955"
+    },
+    {
+      "id": "lenet-handwritten-digits-lecun-1989",
+      "title": "The Neural Network That Read Your Mail",
+      "date": "1989"
     }
   ],
-  "last_run": "2026-03-13T00:47:05.832786",
+  "last_run": "2026-03-13T00:52:39.670922",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",
