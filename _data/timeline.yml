@@ -646,3 +646,12 @@
   category: "Research"
   quote: "It was so much better than anything else that it was not like a gentle, oh maybe deep learning is okay. It was like, whoa, what just happened?"
   quote_author: "Jeff Dean"
+
+- id: "generative-adversarial-networks-goodfellow-2014"
+  title: "The Idea Born in a Bar"
+  subtitle: "A PhD student's late-night argument at a Montreal pub led to generative adversarial networks, the breakthrough that taught machines to create."
+  event_date: "2014-06-10"
+  era: "The Deep Learning Revolution (2011–2019)"
+  category: "Research"
+  quote: "The coolest idea in deep learning in the last 20 years."
+  quote_author: "Yann LeCun"

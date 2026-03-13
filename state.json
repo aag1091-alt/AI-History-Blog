@@ -355,9 +355,14 @@
       "id": "computing-machinery-intelligence-turing-1950",
       "title": "Can a Machine Think?",
       "date": "1950"
+    },
+    {
+      "id": "alexnet-imagenet-breakthrough-2012",
+      "title": "The GPU Gambit That Launched a Revolution",
+      "date": "2012"
     }
   ],
-  "last_run": "2026-03-13T02:50:14.844366",
+  "last_run": "2026-03-13T02:53:15.275778",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",
