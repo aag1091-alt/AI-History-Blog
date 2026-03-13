@@ -448,3 +448,12 @@
   category: "Research"
   quote: "The Boltzmann machine learning algorithm is the first example of a learning algorithm that can discover features that are not explicit in the input."
   quote_author: "Geoffrey Hinton"
+
+- id: "rur-capek-robot-1921"
+  title: "The Play That Gave Robots Their Name"
+  subtitle: "Karel Čapek's R.U.R. premiered in Prague, introducing the word 'robot' to every language on Earth."
+  event_date: "1921-01-25"
+  era: "The Theoretical Foundations (1843–1955)"
+  category: "Film & Fiction"
+  quote: "The word Robot was not coined by me but by my brother Josef."
+  quote_author: "Karel Čapek"

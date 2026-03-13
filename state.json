@@ -245,9 +245,14 @@
       "id": "ai-art-auction-christies-2018",
       "title": "The Algorithm That Crashed the Art World",
       "date": "2018"
+    },
+    {
+      "id": "eliza-effect-mit-hopfield-boltzmann-machine-1985",
+      "title": "The Machine That Learned by Dreaming",
+      "date": "1985"
     }
   ],
-  "last_run": "2026-03-13T01:41:33.759237",
+  "last_run": "2026-03-13T01:46:08.705635",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",
