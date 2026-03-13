@@ -880,3 +880,12 @@
   category: "Research"
   quote: "In some ways the program was too successful. It gave the impression that the problems of language understanding had been solved, when in fact they had barely been touched."
   quote_author: "Terry Winograd"
+
+- id: "dendral-first-expert-system-1965"
+  title: "The Program That Thought Like a Chemist"
+  subtitle: "Stanford researchers built the first expert system, proving machines could rival specialists by encoding scientific knowledge as rules."
+  event_date: "1965-09-01"
+  era: "The Dawn of AI (1956–1969)"
+  category: "Research"
+  quote: "The key insight was that knowledge is power — that a program equipped with deep knowledge of a narrow domain could outperform a general-purpose reasoner on problems in that domain."
+  quote_author: "Edward Feigenbaum"
