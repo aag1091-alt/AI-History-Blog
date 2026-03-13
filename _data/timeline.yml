@@ -34,3 +34,12 @@
   category: "Culture"
   quote: "I could feel — I could smell — a new kind of intelligence across the table."
   quote_author: "Garry Kasparov"
+
+- id: "alexnet-imagenet-2012"
+  title: "The Neural Network That Shook Computer Vision"
+  subtitle: "In 2012, a deep convolutional neural network called AlexNet crushed the ImageNet competition by such a wide margin that it reignited the entire field of neural network research."
+  event_date: "2012-09-30"
+  era: "The Deep Learning Revolution (2011–2019)"
+  category: "Research"
+  quote: "We achieved a winning top-5 test error rate of 15.3%, compared to 26.2% achieved by the second-best entry."
+  quote_author: "Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton"
