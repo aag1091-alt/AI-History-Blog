@@ -412,3 +412,12 @@
   category: "Research"
   quote: "In this business, the weights of the evidence are more important than any prior belief."
   quote_author: "Vladimir Vapnik"
+
+- id: "eliza-effect-mit-hopfield-network-1982"
+  title: "The Physicist Who Gave Networks Memory"
+  subtitle: "John Hopfield showed that a neural network could store and retrieve patterns like a physical system reaching equilibrium, reviving connectionism from its decade-long exile."
+  event_date: "1982-04-01"
+  era: "Expert Systems and the Knowledge Boom (1980–1992)"
+  category: "Research"
+  quote: "I was a physicist who wandered into biology, and then wandered from biology into computation. Each time I wandered, I found problems that were interesting."
+  quote_author: "John Hopfield"
