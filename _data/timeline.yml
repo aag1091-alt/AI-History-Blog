@@ -277,3 +277,12 @@
   category: "Engineering"
   quote: "As soon as it works, no one calls it AI anymore."
   quote_author: "John McCarthy"
+
+- id: "word2vec-mikolov-2013"
+  title: "King Minus Man Plus Woman Equals Queen"
+  subtitle: "A deceptively simple algorithm revealed that words have geometry, launching the era of word embeddings and transforming how machines understand language."
+  event_date: "2013-01-16"
+  era: "The Deep Learning Revolution (2011–2019)"
+  category: "Research"
+  quote: "The word vectors capture many linguistic regularities, for example vector('King') - vector('Man') + vector('Woman') results in a vector very close to vector('Queen')."
+  quote_author: "Tomas Mikolov"
