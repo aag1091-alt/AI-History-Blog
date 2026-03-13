@@ -140,9 +140,14 @@
       "id": "terminator-skynet-1984",
       "title": "The Machine That Made the World Fear AI",
       "date": "1984"
+    },
+    {
+      "id": "imagenet-fei-fei-li-2009",
+      "title": "The Woman Who Gave AI Eyes",
+      "date": "2009"
     }
   ],
-  "last_run": "2026-03-13T00:20:10.927036",
+  "last_run": "2026-03-13T00:25:02.761632",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",

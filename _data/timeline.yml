@@ -259,3 +259,12 @@
   category: "Research"
   quote: "We do not need more clever algorithms. We need more data."
   quote_author: "Fei-Fei Li"
+
+- id: "probabilistic-reasoning-judea-pearl-1988"
+  title: "The Book That Taught Machines to Handle Uncertainty"
+  subtitle: "Judea Pearl's Probabilistic Reasoning in Intelligent Systems replaced brittle logic with the mathematics of belief, quietly reshaping AI from the inside out."
+  event_date: "1988-01-15"
+  era: "Expert Systems and the Knowledge Boom (1980–1992)"
+  category: "Research"
+  quote: "You cannot answer a question about intervention with statistical data alone. You need a causal model."
+  quote_author: "Judea Pearl"
