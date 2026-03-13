@@ -799,3 +799,12 @@
   category: "Research"
   quote: "We do not need more sophisticated algorithms. We need more data."
   quote_author: "Fei-Fei Li"
+
+- id: "snarc-first-neural-network-machine-minsky-1951"
+  title: "The Rat Brain Built from Bomber Parts"
+  subtitle: "Two Princeton graduate students wired together 3,000 vacuum tubes and surplus autopilot components from B-24 bombers to build the first machine that learned like a network of neurons."
+  event_date: "1951-08-01"
+  era: "The Theoretical Foundations (1843–1955)"
+  category: "Engineering"
+  quote: "We were graduate students together and built a machine with 3000 vacuum tubes and a lot of surplus automatic pilot motors from a B-24 bomber. The machine could learn."
+  quote_author: "Marvin Minsky"
