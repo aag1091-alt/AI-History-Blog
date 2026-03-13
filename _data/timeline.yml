@@ -682,3 +682,12 @@
   category: "Research"
   quote: "We describe a new learning procedure, back-propagation, for networks of neurone-like units. The procedure repeatedly adjusts the weights of the connections in the network so as to minimize a measure of the difference between the actual output vector of the net and the desired output vector."
   quote_author: "David Rumelhart, Geoffrey Hinton, Ronald Williams"
+
+- id: "ada-lovelace-first-program-1843"
+  title: "The Countess Who Saw the Future of Machines"
+  subtitle: "Ada Lovelace published the first computer program and foresaw that machines might one day compose music — then warned they could never truly think."
+  event_date: "1843-10-01"
+  era: "The Theoretical Foundations (1843–1955)"
+  category: "Philosophy"
+  quote: "The Analytical Engine has no pretensions whatever to originate anything. It can do whatever we know how to order it to perform."
+  quote_author: "Ada Lovelace"

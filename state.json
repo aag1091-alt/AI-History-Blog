@@ -375,9 +375,14 @@
       "id": "eliza-effect-mit-hopfield-hidden-markov-rosenblatt-bayesian-chinese-room-argument-searle-1980",
       "title": "The Philosopher Who Said Machines Can Never Understand",
       "date": "1980"
+    },
+    {
+      "id": "eliza-effect-mit-hopfield-hidden-markov-rosenblatt-bayesian-backpropagation-rumelhart-1986",
+      "title": "The Learning Algorithm That Refused to Die",
+      "date": "1986"
     }
   ],
-  "last_run": "2026-03-13T03:02:48.971291",
+  "last_run": "2026-03-13T03:05:22.957154",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",
