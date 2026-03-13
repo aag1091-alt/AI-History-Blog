@@ -160,3 +160,12 @@
   category: "Culture"
   quote: "The Automaton Chess Player had excited so universal an interest, that, to a certain extent, a solution of the mystery was considered almost as a matter of course."
   quote_author: "Edgar Allan Poe"
+
+- id: "gpt-3-language-model-2020"
+  title: "The 175 Billion Parameter Surprise"
+  subtitle: "OpenAI's GPT-3 demonstrated that scaling up language models could produce emergent abilities no one explicitly programmed, igniting the foundation model era."
+  event_date: "2020-06-11"
+  era: "The Age of Foundation Models (2020–Present)"
+  category: "Research"
+  quote: "The thing that's really surprising is not any single capability, but the fact that all these capabilities emerge from one model trained with one objective."
+  quote_author: "Ilya Sutskever"
