@@ -736,3 +736,12 @@
   category: "Robotics"
   quote: "Shakey was the first creature in the history of the planet that could reason about its own actions."
   quote_author: "Nils Nilsson"
+
+- id: "eliza-effect-mit-hopfield-hidden-markov-rosenblatt-bayesian-expert-systems-ai-winter-japan-fifth-generation-1982"
+  title: "The Billion-Dollar Gamble That Terrified the West"
+  subtitle: "Japan launched the Fifth Generation Computer Project, a ten-year national effort to build machines that could think, triggering a global AI arms race."
+  event_date: "1982-04-14"
+  era: "Expert Systems and the Knowledge Boom (1980–1992)"
+  category: "Policy"
+  quote: "The Fifth Generation project is a bold and imaginative initiative. If we fail to respond, we may consign our information technology industry to a permanent second-class status."
+  quote_author: "Edward Feigenbaum"
