@@ -55,9 +55,14 @@
       "id": "backpropagation-rumelhart-hinton-1986",
       "title": "Learning in Reverse: The Backpropagation Breakthrough",
       "date": "1986"
+    },
+    {
+      "id": "ibm-watson-jeopardy-2011",
+      "title": "Watson Wins Jeopardy!",
+      "date": "2011"
     }
   ],
-  "last_run": "2026-03-12T23:23:53.080433",
+  "last_run": "2026-03-12T23:26:33.360365",
   "eras": [
     {
       "name": "Mechanical Minds and Mathematical Dreams (1308\u20131842)",

@@ -106,3 +106,12 @@
   category: "Commercial"
   quote: "I for one welcome our new computer overlords."
   quote_author: "Ken Jennings"
+
+- id: "generative-adversarial-networks-2014"
+  title: "The Idea Born in a Bar: Generative Adversarial Networks"
+  subtitle: "Ian Goodfellow sketched out a radical new framework for teaching machines to create, launching the era of AI-generated imagery."
+  event_date: "2014-06-10"
+  era: "The Deep Learning Revolution (2011–2019)"
+  category: "Research"
+  quote: "The most interesting idea in the last ten years in machine learning."
+  quote_author: "Yann LeCun"
