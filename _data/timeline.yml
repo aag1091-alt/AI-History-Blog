@@ -763,3 +763,12 @@
   category: "Research"
   quote: "Programming computers to learn from experience should eventually eliminate the need for much of this detailed programming effort."
   quote_author: "Arthur Samuel"
+
+- id: "lstm-long-short-term-memory-1997"
+  title: "The Network That Learned to Remember"
+  subtitle: "Two researchers in Munich solved the vanishing gradient problem with a gated memory cell, quietly laying the groundwork for every modern AI that understands sequences."
+  event_date: "1997-11-15"
+  era: "Statistical Learning and Quiet Progress (1993–2010)"
+  category: "Research"
+  quote: "Many tasks that are trivial for humans require the modeling of long-range dependencies. Standard recurrent nets fail at such tasks."
+  quote_author: "Sepp Hochreiter"
